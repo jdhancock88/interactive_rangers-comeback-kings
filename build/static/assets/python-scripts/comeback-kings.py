@@ -8,7 +8,7 @@ import json
 # game logs are supplied via csv by baseball-reference: http://www.baseball-reference.com/teams/TEX/2016-schedule-scores.shtml
 
 # opening up the csv and saving the contents into a DictReader
-game_log_csv = open('csv/game-log.csv', 'rb')
+game_log_csv = open('/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/csv/game-log.csv', 'rb')
 game_logs = csv.DictReader(game_log_csv)
 
 # placeholder list that will hold our formatted data
@@ -56,12 +56,12 @@ for game in game_logs:
     current_game = {
         "game-number": game["Gm#"],
         "opponent": game["Opp"],
-        "win-loss": game["W/L"][0],
-        "walk-off": walk_off,
-        "one-run-win": one_run_win,
-        "game-date": game["Date"],
+        "win_loss": game["W/L"][0],
+        "walk_off": walk_off,
+        "one_run_win": one_run_win,
+        "game_date": game["Date"],
         "runs": game["R"],
-        "runs-against": game["RA"],
+        "runs_against": game["RA"],
         "comeback": ninth_comeback
     }
 
@@ -70,7 +70,7 @@ for game in game_logs:
 
 
 # open up the file we'll dump our data into
-game_log_dict = open("json/rangers-game-logs.json", "w")
+game_log_dict = open("/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/json/rangers-game-logs.json", "w")
 
 # dump our data, with some prettified parameters
 json.dump(rang_game_log, game_log_dict, sort_keys=True, indent=4)
@@ -87,7 +87,7 @@ game_log_dict.close()
 
 # opening up the player_batting csv and saving it to a dict reader. Note: this
 # data was gathered by hand
-player_batting_csv = open("csv/ninth-comebacks.csv", "rb")
+player_batting_csv = open("/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/csv/ninth-comebacks.csv", "rb")
 player_batting = csv.DictReader(player_batting_csv)
 
 # placeholder lists for our final batting data and player names. We'll use the player
@@ -113,9 +113,9 @@ for player in player_batting:
         batting_data[i]["rbis"] += int(player["RBI"])
         batting_data[i]["doubles"] += int(player["D"])
         batting_data[i]["triples"] += int(player["T"])
-        batting_data[i]["home-runs"] += int(player["HR"])
-        batting_data[i]["base-on-balls"] += int(player["BB"])
-        batting_data[i]["plate-apps"] += 1
+        batting_data[i]["home_runs"] += int(player["HR"])
+        batting_data[i]["base_on_balls"] += int(player["BB"])
+        batting_data[i]["plate_apps"] += 1
     else:
 
         # if the player's name is not in the players list, this is the first time
@@ -130,9 +130,9 @@ for player in player_batting:
             "rbis":  int(player["RBI"]),
             "doubles":  int(player["D"]),
             "triples":  int(player["T"]),
-            "home-runs":  int(player["HR"]),
-            "base-on-balls":  int(player["BB"]),
-            "plate-apps":  1
+            "home_runs":  int(player["HR"]),
+            "base_on_balls":  int(player["BB"]),
+            "plate_apps":  1
         }
 
         # add that player's dicitionary to batting_data
@@ -140,7 +140,7 @@ for player in player_batting:
 
 
 # open up the file we'll dump our data into
-player_batting_dict = open("json/player-batting.json", "w")
+player_batting_dict = open("/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/json/player-batting.json", "w")
 
 # dump our data
 json.dump(batting_data, player_batting_dict, sort_keys=True, indent=4)

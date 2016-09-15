@@ -26,7 +26,13 @@ $(document).ready(function() {
 			.data(data);
 
 			gameLogs.enter().append("span")
-				.attr("class", "game-log");
+				.attr("class", function(d) {
+					if (d.one_run_win === true) {
+						return ("game-log one-run");
+					} else {
+						return ("game-log");
+					}
+				});
 	}
 
 });

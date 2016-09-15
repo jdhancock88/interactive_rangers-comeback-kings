@@ -1,2 +1,2 @@
-$(document).ready(function(){function e(e){console.log(e);var t=d3.select("#game-log-chart").selectAll(".game-log").data(e);t.enter().append("span").attr("class","game-log")}var t=new Date,a=t.getFullYear();$(".copyright").text(a),$.getJSON("/assets/python-scripts/json/rangers-game-logs.json",function(t){e(t)})});
+$(document).ready(function(){function e(e){console.log(e);var n=d3.select("#game-log-chart").selectAll(".game-log").data(e);n.enter().append("span").attr("class",function(e){return e.one_run_win===!0?"game-log one-run":"game-log"})}var n=new Date,t=n.getFullYear();$(".copyright").text(t),$.getJSON("/assets/python-scripts/json/rangers-game-logs.json",function(n){e(n)})});
 //# sourceMappingURL=scripts-bundle.js.map
