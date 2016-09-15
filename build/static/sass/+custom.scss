@@ -1,0 +1,26 @@
+//  _____           _                    _____ _         _
+// /  __ \         | |                  /  ___| |       | |
+// | /  \/_   _ ___| |_ ___  _ __ ___   \ `--.| |_ _   _| | ___  ___
+// | |   | | | / __| __/ _ \| '_ ` _ \   `--. \ __| | | | |/ _ \/ __|
+// | \__/\ |_| \__ \ || (_) | | | | | | /\__/ / |_| |_| | |  __/\__ \
+//  \____/\__,_|___/\__\___/|_| |_| |_| \____/ \__|\__, |_|\___||___/
+//                                                  __/ |
+//                                                 |___/
+
+@import 'variables';
+@import 'mixins';
+
+#game-log-chart {
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.game-log {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: $black215;
+}
