@@ -16,13 +16,18 @@ $(document).ready(function() {
 
 
 	$.getJSON("/assets/python-scripts/json/rangers-game-logs.json", function(data) {
-		drawGameLogs(data);
+		drawGameLogs(data, "#tex-game-log-chart");
 	});
 
-	function drawGameLogs(data) {
+	$.getJSON("/assets/python-scripts/json/team-skeds/ANA-game-logs.json", function(data) {
+		drawGameLogs(data, "#opp-game-log-chart");
+	});
+
+	function drawGameLogs(data, target) {
+		d3.select(target).html("");
 
 		console.log(data);
-		var gameLogs = d3.select("#game-log-chart").selectAll(".game-log")
+		var gameLogs = d3.select(target).selectAll(".game-log")
 			.data(data);
 
 			gameLogs.enter().append("span")
@@ -34,5 +39,17 @@ $(document).ready(function() {
 					}
 				});
 	}
+
+
+	$("#opp-game-logs").change(function() {
+		var selectedTeam = $(this).children("option:selected").attr("data-team");
+		console.log(selectedTeam);
+
+		$.getJSON("/assets/python-scripts/json/team-skeds/"+selectedTeam+"-game-logs.json", function(data) {
+			drawGameLogs(data, "#opp-game-log-chart");
+		});
+
+	});
+
 
 });
