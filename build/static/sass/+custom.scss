@@ -10,21 +10,87 @@
 @import 'variables';
 @import 'mixins';
 
-#game-log-chart {
-    display: block;
-    max-width: 650px;
+#game-log-charts {
+    max-width: 900px;
     margin: 0 auto;
 }
 
+.game-log-chart {
+    float: left;
+    width: 48%;
+    &:last-of-type {
+        float: right;
+    }
+}
+
+.chart {
+    font-family: $sans;
+    h4, h5, h6 {
+        font-weight: bold;
+    }
+    .chatter {
+        @include type(1.4rem, 1.8rem, 1.8rem);
+    }
+    .source {
+        text-align: right;
+    }
+}
+
+.key {
+    @include type(1.3rem, 1.8rem, 0);
+    div {
+        display: inline-block;
+        margin-left: 20px;
+    }
+}
+
+.key-label {
+    margin-right: 10px;
+    &:last-of-type {
+        margin-right: 0;
+    }
+    &:before {
+        @include psuedoElement(1.3rem, 1.3rem);
+        top: .2rem;
+        display: inline-block;
+        background-color: $black215;
+        margin-right: 5px;
+    }
+}
+
+#one-run-win:before {
+    background-color: $chartRed;
+}
+#one-run-loss:before {
+    background-color: $chartBlue;
+}
+
+#opponents-selector:before {
+    display: inline-block;
+    content: "Choose opponent: "
+}
+
+.charts {
+    margin-top: 4.8rem;
+}
+
 .game-log {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     margin-right: 5px;
     margin-bottom: 5px;
     display: inline-block;
     background-color: $black215;
 }
 
-.one-run {
+.one-run-win {
     background-color: $chartRed;
+}
+
+.one-run-loss {
+    background-color: $chartBlue;
+}
+
+.source {
+    clear: both;
 }

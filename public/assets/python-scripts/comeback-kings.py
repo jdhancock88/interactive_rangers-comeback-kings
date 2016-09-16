@@ -29,6 +29,7 @@ for game in game_logs:
     # set variables for walk_off wins, one_run_wins and ninth_inning_comebacks
     walk_off = False
     one_run_win = False
+    one_run_loss = False
     ninth_comeback = False
 
     # if the game's w/l column contains "W-wo", it's a walk-off win; set that variable to true
@@ -52,6 +53,9 @@ for game in game_logs:
     if runs - runs_against == 1:
         one_run_win = True;
 
+    if runs_against - runs == 1:
+        one_run_loss = True;
+
     # set up the dictionary for the current game in the list
     current_game = {
         "game-number": game["Gm#"],
@@ -59,6 +63,7 @@ for game in game_logs:
         "win_loss": game["W/L"][0],
         "walk_off": walk_off,
         "one_run_win": one_run_win,
+        "one_run_loss": one_run_loss,
         "game_date": game["Date"],
         "runs": game["R"],
         "runs_against": game["RA"],

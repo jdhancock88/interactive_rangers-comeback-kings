@@ -11,15 +11,11 @@ $(document).ready(function() {
 	$('.copyright').text(year);
 
 
-	// some code blocks require javascript to function, like slideshows, synopsis blocks, etc
-	// you can find that code here: https://github.com/DallasMorningNews/generator-dmninteractives/wiki/Cookbook
-
-
 	$.getJSON("/assets/python-scripts/json/rangers-game-logs.json", function(data) {
 		drawGameLogs(data, "#tex-game-log-chart");
 	});
 
-	$.getJSON("/assets/python-scripts/json/team-skeds/ANA-game-logs.json", function(data) {
+	$.getJSON("/assets/python-scripts/json/team-skeds/LAA-game-logs.json", function(data) {
 		drawGameLogs(data, "#opp-game-log-chart");
 	});
 
@@ -33,7 +29,9 @@ $(document).ready(function() {
 			gameLogs.enter().append("span")
 				.attr("class", function(d) {
 					if (d.one_run_win === true) {
-						return ("game-log one-run");
+						return ("game-log one-run-win");
+					} else if (d.one_run_loss === true) {
+						return ("game-log one-run-loss");
 					} else {
 						return ("game-log");
 					}
@@ -41,9 +39,13 @@ $(document).ready(function() {
 	}
 
 
-	$("#opp-game-logs").change(function() {
+	$("#opponents-selector select").change(function() {
 		var selectedTeam = $(this).children("option:selected").attr("data-team");
 		console.log(selectedTeam);
+
+		var mascot = $(this).children("option:selected").text();
+
+		$("#opp-game-logs h5").text(mascot);
 
 		$.getJSON("/assets/python-scripts/json/team-skeds/"+selectedTeam+"-game-logs.json", function(data) {
 			drawGameLogs(data, "#opp-game-log-chart");
