@@ -1593,5 +1593,49 @@
         "runs_against": "7", 
         "walk_off": false, 
         "win_loss": "L"
+    }, 
+    {
+        "game-number": "146", 
+        "game_date": "Friday, Sep 16", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "PIT", 
+        "runs": "7", 
+        "runs_against": "9", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "147", 
+        "game_date": "Saturday, Sep 17 (1)", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "PIT", 
+        "runs": "4", 
+        "runs_against": "10", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "148", 
+        "game_date": "Saturday, Sep 17 (2)", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "PIT", 
+        "runs": "3", 
+        "runs_against": "7", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "149", 
+        "game_date": "Sunday, Sep 18", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "PIT", 
+        "runs": "7", 
+        "runs_against": "4", 
+        "walk_off": false, 
+        "win_loss": "W"
     }
 ]

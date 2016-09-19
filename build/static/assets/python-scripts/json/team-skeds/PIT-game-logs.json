@@ -1593,5 +1593,49 @@
         "runs_against": "2", 
         "walk_off": false, 
         "win_loss": "W"
+    }, 
+    {
+        "game-number": "146", 
+        "game_date": "Friday, Sep 16", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "CIN", 
+        "runs": "9", 
+        "runs_against": "7", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "147", 
+        "game_date": "Saturday, Sep 17 (1)", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "CIN", 
+        "runs": "10", 
+        "runs_against": "4", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "148", 
+        "game_date": "Saturday, Sep 17 (2)", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "CIN", 
+        "runs": "7", 
+        "runs_against": "3", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "149", 
+        "game_date": "Sunday, Sep 18", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "CIN", 
+        "runs": "4", 
+        "runs_against": "7", 
+        "walk_off": false, 
+        "win_loss": "L"
     }
 ]

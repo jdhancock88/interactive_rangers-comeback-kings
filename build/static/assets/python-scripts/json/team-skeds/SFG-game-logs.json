@@ -1604,5 +1604,38 @@
         "runs_against": "2", 
         "walk_off": false, 
         "win_loss": "W"
+    }, 
+    {
+        "game-number": "147", 
+        "game_date": "Friday, Sep 16", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "STL", 
+        "runs": "8", 
+        "runs_against": "2", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "148", 
+        "game_date": "Saturday, Sep 17", 
+        "one_run_loss": true, 
+        "one_run_win": false, 
+        "opponent": "STL", 
+        "runs": "2", 
+        "runs_against": "3", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "149", 
+        "game_date": "Sunday, Sep 18", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "STL", 
+        "runs": "0", 
+        "runs_against": "3", 
+        "walk_off": false, 
+        "win_loss": "L"
     }
 ]

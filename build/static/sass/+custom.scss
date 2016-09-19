@@ -10,11 +10,6 @@
 @import 'variables';
 @import 'mixins';
 
-#game-log-charts {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 .game-log-chart {
     float: left;
     width: 48%;
@@ -24,6 +19,8 @@
 }
 
 .chart {
+    max-width: 900px;
+    margin: 0 auto;
     font-family: $sans;
     h4, h5, h6 {
         font-weight: bold;
@@ -33,6 +30,11 @@
     }
     .source {
         text-align: right;
+    }
+    h6 {
+        @include type(1.4rem, 1.8rem, .6rem);
+        text-transform: uppercase;
+        margin-top: 1.2rem;
     }
 }
 
@@ -71,7 +73,7 @@
 }
 
 .charts {
-    margin-top: 4.8rem;
+    margin-top: 2.4rem;
 }
 
 .game-log {

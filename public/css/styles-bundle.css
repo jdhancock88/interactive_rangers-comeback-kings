@@ -908,10 +908,6 @@ XIX. ADS
     margin: 2.4rem 0;
     padding: 2.4rem 0; } }
 
-#game-log-charts {
-  max-width: 900px;
-  margin: 0 auto; }
-
 .game-log-chart {
   float: left;
   width: 48%; }
@@ -919,6 +915,8 @@ XIX. ADS
     float: right; }
 
 .chart {
+  max-width: 900px;
+  margin: 0 auto;
   font-family: "Gotham A", "Gotham B", Arial, sans-serif; }
   .chart h4, .chart h5, .chart h6 {
     font-weight: bold; }
@@ -928,6 +926,12 @@ XIX. ADS
     margin-bottom: 1.8rem; }
   .chart .source {
     text-align: right; }
+  .chart h6 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+    margin-top: 1.2rem; }
 
 .key {
   font-size: 1.3rem;
@@ -963,7 +967,7 @@ XIX. ADS
   content: "Choose opponent: "; }
 
 .charts {
-  margin-top: 4.8rem; }
+  margin-top: 2.4rem; }
 
 .game-log {
   width: 15px;

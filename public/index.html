@@ -70,6 +70,7 @@
 	<link rel="stylesheet" type="text/css" href="css/styles-bundle.css" />
 	
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.0/lodash.min.js"></script>
 
 
 
@@ -202,7 +203,11 @@ googletag.enableServices();
 
     <p>horse-race coverage copyboy the power of the press belongs to the person who owns one data visualization tweet Jeff Jarvis Patch Like button explainer, TechCrunch should isn't a business model copyright Romenesko WordPress Arianna Kindle Single Pictures of Goats section got drudged, gamification put the paper to bed the other longer Book Review The Work of Art in the Age of Mechanical Reproduction open newsroom Foursquare A.J. Liebling.</p>
 
-    <p>Instagram Quora linkbait people formerly known as the audience bringing a tote bag to a knife fight YouTube RT syndicated the power of the press belongs to the person who owns one, Alberto Ibarguen The Work of Art in the Age of Mechanical Reproduction open newsroom The Weekender the medium is the message Dan Fleckner analog thinking future of context Instagram, David Foster Wallace reporting gutter Aron Pilhofer serendipity This Week in Review he said she said.</p>
+    <p>In the bottom of the ninth inning, trailing 6-5 to the Oakland Athletics in game XXX of a season, with Delino DeShields standing on second base, Adrian Beltre did what he's done XX times this season: he drew a walk. And with that walk, the Rangers were on their way to another one-run victory, a feat they accomplished at a historical rate this season.</p>
+
+    <p>Beltre would be replaced by pinch-runner Joey Gallo. Two batters later, after a Roughned Odor strikeout, DeShields and Gallo would score on a Jonathan Lucroy single to left field, giving the Rangers their XX one-run win of the season.</p>
+
+    <p>This year, the Rangers are 34-10 in one-run games, seven games better than the next two best teams, Philadelphia (27-21) and San Francisco (27-25). Their winning percentage in those games is .773, nearly 90 points better than the New York Yankees (.686).</p>
 
     <section id="game-log-charts" class="clearFix chart">
 
@@ -247,19 +252,42 @@ googletag.enableServices();
             </div>
         </div>
 
-        <div class="charts">
+        <div class="charts clearfix">
             <div id="tex-game-logs" class="game-log-chart">
                 <h5>Rangers</h5>
+                <h6>Entire season</h6>
                 <div id="tex-game-log-chart"></div>
+                <h6>Only one-run wins/losses</h6>
+                <div id="tex-wins-losses"></div>
             </div>
 
             <div id="opp-game-logs" class="game-log-chart">
                 <h5>Angels</h5>
+                <h6>Entire Season</h6>
                 <div id="opp-game-log-chart"></div>
+
+                <h6>Only one-run-wins/losses</h6>
+                <div id="opp-wins-losses"></div>
             </div>
         </div>
 
         <p class="source">Baseball-Reference</p>
+    </section>
+
+
+    <section id="simulation" class="chart clearfix">
+        <h4>What if?</h4>
+        <p class="chatter">The Rangers won 77% of the one-run games they participated in, but what if they hadn't been so good in those clutch situations. Adjust the Rangers one-run-game win probability below and see how the A.L. West standings would have changed:</p>
+
+        <table id="standings">
+            <tr><th>Team</th><th>Wins</th><th>Losses</th><th>W-L%</th><th>Games Behind</th></tr>
+            <tr data-team="Rangers"><td>Texas Rangers</td><td>88</td><td>62</td><td>.587</td><td>--</td></tr>
+            <tr data-team="Mariners"><td>Seattle Mariners</td><td>79</td><td>70</td><td>.530</td><td>8.5</td></tr>
+            <tr data-team="Astros"><td>Houston Astros</td><td>78</td><td>71</td><td>.523</td><td>9.5</td></tr>
+            <tr data-team="Athletics"><td>Oakland Athletics</td><td>66</td><td>83</td><td>.443</td><td>21.5</td></tr>
+            <tr data-team="Angels"><td>LA Angels</td><td>65</td><td>84</td><td>.436</td><td>22.5</td></tr>
+        </table>
+
     </section>
 
     <p class="twitter-tag">Follow writer name on Twitter at <a href="urlhere">@twittertag.</a></p>

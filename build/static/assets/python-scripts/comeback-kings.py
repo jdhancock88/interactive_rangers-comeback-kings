@@ -16,7 +16,7 @@ rang_game_log = []
 
 # comeback games. These are the game numbers of games where the Rangers won despite
 # starting the ninth inning losing. unfortunately, these have to be sussed out by hand
-comeback_games = ["62", "69", "77", "100", "113", "133", "146"]
+comeback_games = ["62", "69", "77", "100", "113", "133", "146", "148"]
 
 # let's go through each game in the game log and format the data
 for game in game_logs:

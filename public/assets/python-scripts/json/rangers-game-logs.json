@@ -1762,5 +1762,41 @@
         "runs_against": "8", 
         "walk_off": false, 
         "win_loss": "L"
+    }, 
+    {
+        "comeback": true, 
+        "game-number": "148", 
+        "game_date": "Friday Sep 16", 
+        "one_run_loss": false, 
+        "one_run_win": true, 
+        "opponent": "OAK", 
+        "runs": "7", 
+        "runs_against": "6", 
+        "walk_off": true, 
+        "win_loss": "W"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "149", 
+        "game_date": "Saturday Sep 17", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "OAK", 
+        "runs": "2", 
+        "runs_against": "11", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "150", 
+        "game_date": "Sunday Sep 18", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "OAK", 
+        "runs": "2", 
+        "runs_against": "5", 
+        "walk_off": false, 
+        "win_loss": "L"
     }
 ]
