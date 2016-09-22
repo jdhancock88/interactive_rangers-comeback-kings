@@ -52,7 +52,7 @@
 				families: ["Gotham A", "Gotham B"],
 			},
 	      	google: { //change custom to google: if using google cdn font
-	        	families: ['PT+Serif'],
+	        	families: ['PT+Serif']
 	      	}
 	    });
 
@@ -66,7 +66,6 @@
 
 </script>
 
-	<link rel="stylesheet" type="text/css" href="css/dependency-bundle.css" />
 	<link rel="stylesheet" type="text/css" href="css/styles-bundle.css" />
 	
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
@@ -279,13 +278,23 @@ googletag.enableServices();
         <h4>What if?</h4>
         <p class="chatter">The Rangers won 77% of the one-run games they participated in, but what if they hadn't been so good in those clutch situations. Adjust the Rangers one-run-game win probability below and see how the A.L. West standings would have changed:</p>
 
+
+        <div id="simChart" class="clearfix">
+            <h6>One-run games</h6>
+            <div class="chartBody"></div>
+            <div id="slider"></div>
+            <button id="simButton">Run simulation</button>
+        </div>
+
+
+
         <table id="standings">
-            <tr><th>Team</th><th>Wins</th><th>Losses</th><th>W-L%</th><th>Games Behind</th></tr>
-            <tr data-team="Rangers"><td>Texas Rangers</td><td>88</td><td>62</td><td>.587</td><td>--</td></tr>
-            <tr data-team="Mariners"><td>Seattle Mariners</td><td>79</td><td>70</td><td>.530</td><td>8.5</td></tr>
-            <tr data-team="Astros"><td>Houston Astros</td><td>78</td><td>71</td><td>.523</td><td>9.5</td></tr>
-            <tr data-team="Athletics"><td>Oakland Athletics</td><td>66</td><td>83</td><td>.443</td><td>21.5</td></tr>
-            <tr data-team="Angels"><td>LA Angels</td><td>65</td><td>84</td><td>.436</td><td>22.5</td></tr>
+            <tr><th>Team</th><th>W</th><th>L</th><th>W-L%</th><th>GB</th></tr>
+            <tr data-team="Rangers" id="rangers-row"><td>Texas Rangers</td><td>88</td><td>62</td><td>.587</td><td>--</td></tr>
+            <tr data-team="Mariners" id="mariners-row"><td>Seattle Mariners</td><td>79</td><td>70</td><td>.530</td><td>8.5</td></tr>
+            <tr data-team="Astros" id="astros-row"><td>Houston Astros</td><td>78</td><td>71</td><td>.523</td><td>9.5</td></tr>
+            <tr data-team="Athletics" id="athletics-row"><td>Oakland Athletics</td><td>66</td><td>83</td><td>.443</td><td>21.5</td></tr>
+            <tr data-team="Angels" id="angels-row"><td>LA Angels</td><td>65</td><td>84</td><td>.436</td><td>22.5</td></tr>
         </table>
 
     </section>
@@ -344,7 +353,6 @@ googletag.enableServices();
 		<p>©<span class="copyright"></span>, The Dallas Morning News Inc. All Rights Reserved.</p>
 	</footer>
 
-  	<script src="js/dependency-bundle.js"></script>
 	<script type="text/javascript" src="js/scripts-bundle.js"></script>
 
 	
