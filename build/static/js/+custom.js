@@ -112,7 +112,7 @@ $(document).ready(function() {
 
 	// ****** CLICKING THE SIM BUTTON ******
 
-	$("#simButton").click(function() {
+	$("#sim-button").click(function() {
 		console.log("test");
 
 		// resets standings to actual finish
@@ -124,7 +124,7 @@ $(document).ready(function() {
 			{"team": "angels","abbr": "LAA","wins": 65,"losses": 84}
 		];
 
-		$("#simButton").hide();
+		$("#sim-button").hide();
 		// hands off the standigs, gamelogs, and threshold to the simulation
 		runSim(standings, simData, sliderValue);
 	});
@@ -134,7 +134,7 @@ $(document).ready(function() {
 
 	function runSim(standings, simData, rate) {
 
-		$("#simChart .chartBody").html("");
+		$("#sim-chart .chart-body").html("");
 
 		// clear our oneRunners, opponent and teamIndex variables
 		var oneRunners = [];
@@ -237,9 +237,9 @@ $(document).ready(function() {
 			setTimeout(function(x) {
 				return function() {
 					if (winsLosses[x] === "win") {
-						$("#simChart").append("<span class='game-log one-run-win'></span>");
+						$("#sim-chart .chart-body").append("<span class='game-log one-run-win'></span>");
 					} else {
-						$("#simChart").append("<span class='game-log one-run-loss'></span>");
+						$("#sim-chart .chart-body").append("<span class='game-log one-run-loss'></span>");
 					}
 
 					if (x === winsLosses.length - 1) {
@@ -272,6 +272,8 @@ $(document).ready(function() {
 							$("#" + v.team + "-row").css("top", "calc(29px * " + (k + 1) + ")");
 
 						});
+
+						$("#sim-button").text("Re-run simulation").show();
 					}
 				};
 			}(i), 200*i);
@@ -318,9 +320,8 @@ $(document).ready(function() {
 		max: 100,
 		value: 50,
 		change: function() {
-			console.log("test");
 			sliderValue = $("#slider").slider("value");
-			console.log($("#slider").slider("value"));
+			$("#slider-value").text(sliderValue + "%").css("left", sliderValue + "%");
 		}
 	});
 

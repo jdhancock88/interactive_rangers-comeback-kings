@@ -97,9 +97,12 @@
     clear: both;
 }
 
-#simChart {
+#sim-chart {
     width: 48%;
     float: left;
+    .chart-body {
+        margin-bottom: 1.2rem;
+    }
 }
 
 #standings {
@@ -182,7 +185,7 @@
 }
 
 #slider {
-    margin-bottom: 2.4rem;
+    margin: 1.2rem 0;
     cursor: pointer;
 }
 .ui-widget.ui-widget-content {
@@ -201,13 +204,18 @@
     box-shadow: 1px 1px 2px rgba(33,33,33,.15), -1px -1px 2px rgba(33,33,33,.15), 1px -1px 2px rgba(33,33,33,.15), -1px 1px 2px rgba(33,33,33,.15);
     outline: none !important;
     position: relative;
-    &:after {
-        position: absolute;
-        bottom: -20px;
-        font-size: 14px;
-        left: -4px;
-        font-weight: bold;
-        font-family: $sans;
-        content: "1790";
-    }
+}
+
+#slider-value {
+    display: block;
+    width: 20px;
+    font-weight: bold;
+    font-family: $sans;
+    font-size: 14px;
+    position: relative;
+    left: 50%;
+    margin-left: -8px;
+    @include transition(all, .1s, ease-out);
+    margin-bottom: 1.2rem;
+
 }
