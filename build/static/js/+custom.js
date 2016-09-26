@@ -83,6 +83,11 @@ $(document).ready(function() {
 					} else {
 						return ("game-log");
 					}
+				})
+				.text(function(d) {
+					if (d.one_run_win === true || d.one_run_loss === true) {
+						return (d.win_loss);
+					}
 				});
 	}
 
@@ -95,11 +100,11 @@ $(document).ready(function() {
 		$(target).empty();
 
 		for (i=0; i<data.wins; i++) {
-			$(target).append("<span class='game-log one-run-win'></span>");
+			$(target).append("<span class='game-log one-run-win'>W</span>");
 		}
 
 		for (i=0; i<data.losses; i++) {
-			$(target).append("<span class='game-log one-run-loss'></span>");
+			$(target).append("<span class='game-log one-run-loss'>L</span>");
 		}
 
 	}
@@ -237,9 +242,9 @@ $(document).ready(function() {
 			setTimeout(function(x) {
 				return function() {
 					if (winsLosses[x] === "win") {
-						$("#sim-chart .chart-body").append("<span class='game-log one-run-win'></span>");
+						$("#sim-chart .chart-body").append("<span class='game-log one-run-win'>W</span>");
 					} else {
-						$("#sim-chart .chart-body").append("<span class='game-log one-run-loss'></span>");
+						$("#sim-chart .chart-body").append("<span class='game-log one-run-loss'>L</span>");
 					}
 
 					if (x === winsLosses.length - 1) {

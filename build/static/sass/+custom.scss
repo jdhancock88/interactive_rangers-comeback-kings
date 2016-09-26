@@ -24,6 +24,7 @@
     font-family: $sans;
     h4, h5, h6 {
         font-weight: bold;
+        clear: left;
     }
     .chatter {
         @include type(1.4rem, 1.8rem, 1.8rem);
@@ -81,16 +82,26 @@
     height: 15px;
     margin-right: 5px;
     margin-bottom: 5px;
-    display: inline-block;
+    display: block;
+    float: left;
     background-color: $black215;
+    text-align: center;
+    font-family: $sans;
+    color: white;
+    line-height: 15px;
+    color: $black50;
+    font-weight: bold;
+
 }
 
 .one-run-win {
     background-color: $chartRed;
+    color: white;
 }
 
 .one-run-loss {
     background-color: $chartBlue;
+    color: white;
 }
 
 .source {
@@ -179,6 +190,7 @@
     text-transform: uppercase;
     @include transition(all, .25s, ease-out);
     cursor: pointer;
+    clear: left;
     &:hover {
         background-color: darken($dmnblue, 5%);
     }

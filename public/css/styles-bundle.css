@@ -2714,7 +2714,8 @@ XIX. ADS
   margin: 0 auto;
   font-family: "Gotham A", "Gotham B", Arial, sans-serif; }
   .chart h4, .chart h5, .chart h6 {
-    font-weight: bold; }
+    font-weight: bold;
+    clear: left; }
   .chart .chatter {
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -2769,14 +2770,23 @@ XIX. ADS
   height: 15px;
   margin-right: 5px;
   margin-bottom: 5px;
-  display: inline-block;
-  background-color: #d7d7d7; }
+  display: block;
+  float: left;
+  background-color: #d7d7d7;
+  text-align: center;
+  font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+  color: white;
+  line-height: 15px;
+  color: #323232;
+  font-weight: bold; }
 
 .one-run-win {
-  background-color: #e34e36; }
+  background-color: #e34e36;
+  color: white; }
 
 .one-run-loss {
-  background-color: #329ce8; }
+  background-color: #329ce8;
+  color: white; }
 
 .source {
   clear: both; }
@@ -2853,7 +2863,8 @@ XIX. ADS
   -moz-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
-  cursor: pointer; }
+  cursor: pointer;
+  clear: left; }
   .content-well button:hover {
     background-color: #0175ba; }
 
