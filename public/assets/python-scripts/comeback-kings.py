@@ -58,6 +58,7 @@ for game in game_logs:
 
     # set up the dictionary for the current game in the list
     current_game = {
+        "team": "TEX",
         "game-number": game["Gm#"],
         "opponent": game["Opp"],
         "win_loss": game["W/L"][0],

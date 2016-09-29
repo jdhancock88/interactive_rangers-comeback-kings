@@ -9,12 +9,21 @@
 
 @import 'variables';
 @import 'mixins';
-
+body {
+    position: relative;
+}
 .game-log-chart {
     float: left;
     width: 48%;
     &:nth-of-type(even) {
         float: right;
+    }
+    @media (max-width: 600px) {
+        float: none;
+        width: 100%;
+        margin-bottom: 2.4rem;
+        padding-bottom: 2.4rem;
+        border-bottom: 1px solid $black235;
     }
 }
 
@@ -33,6 +42,13 @@
     }
     .source {
         text-align: right;
+        margin-bottom: 1.2rem;
+    }
+    h5 {
+        clear: none;
+        display: block;
+        border-bottom: 1px solid $black121;
+        margin-bottom: 2.4rem;
     }
     h6 {
         @include type(1.4rem, 1.8rem, .6rem);
@@ -42,6 +58,8 @@
 
 .key {
     @include type(1.3rem, 1.7rem, 0);
+    font-weight: bold;
+    color: $black50;
     div {
         display: inline-block;
         margin-left: 20px;
@@ -58,7 +76,7 @@
         text-align: center;
         display: inline-block;
         background-color: $black215;
-        margin-right: 5px;
+        margin-right: 3px;
     }
 }
 
@@ -75,11 +93,6 @@
     font-size: .9rem;
     color: white;
     font-weight: bold;
-}
-
-#opponents-selector:before {
-    display: inline-block;
-    content: "Choose opponent: "
 }
 
 #ninth-inning-wins {
@@ -105,6 +118,12 @@
     color: $black50;
     font-weight: bold;
     font-size: .9rem;
+    @media (max-width: 800px) {
+        width: 13px;
+        height: 13px;
+        font-size: .8rem;
+        line-height: 13px;
+    }
 }
 
 .one-run-win {
@@ -122,7 +141,7 @@
 }
 
 .chart-block {
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.2rem;
 }
 
 #sim-chart {
@@ -145,16 +164,16 @@
         text-align: left;
         display: inline-block;
         &:first-of-type {
-            width: 40%;
+            width: 48%;
         }
         &:nth-of-type(2) {
-            width: 15%;
+            width: 12%;
         }
         &:nth-of-type(3) {
-            width: 15%;
+            width: 12%;
         }
         &:nth-of-type(4) {
-            width: 20%;
+            width: 18%;
         }
         &:nth-of-type(5) {
             width: 10%;
@@ -162,6 +181,7 @@
     }
     th {
         font-weight: bold;
+        border-bottom: 1px solid $black50;
     }
     tr {
         border-bottom: 1px solid $black215;
@@ -171,9 +191,6 @@
         @include transition(all, .5s, ease-out);
         &:first-of-type{
             position: relative;
-        }
-        &:last-of-type {
-            border-bottom: none;
         }
     }
     #rangers-row {
@@ -217,35 +234,60 @@
     margin: 1.2rem 0;
     cursor: pointer;
 }
-.ui-widget.ui-widget-content {
-    min-height: 15px;
-    background-color: $black215;
-    border: none !important;
-    border-radius: 15px;
-}
-
-.ui-slider-handle {
-    width: 25px !important;
-    height: 25px !important;
-    border-radius: 50% !important;
-    top: -5px !important;
-    background-color: white !important;
-    box-shadow: 1px 1px 2px rgba(33,33,33,.15), -1px -1px 2px rgba(33,33,33,.15), 1px -1px 2px rgba(33,33,33,.15), -1px 1px 2px rgba(33,33,33,.15);
-    outline: none !important;
-    position: relative;
-}
 
 #slider-value {
     display: block;
-    width: 20px;
+    width: 50px;
     font-weight: bold;
     font-family: $sans;
-    font-size: 14px;
+    font-size: 12px;
     position: relative;
     left: 50%;
-    margin-left: -8px;
+    margin-left: -25px;
+    text-align: center;
     @include transition(all, .1s, ease-out);
     margin-bottom: 1.2rem;
+}
+
+
+#late-and-close-charts {
+    .key {
+        margin-bottom: 2.4rem;
+    }
+    .key-label:before {
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(100,100,100);
+        opacity: .4;
+    }
+    #ranger-player:before {
+        background-color: $chartRed;
+        opacity: .75;
+    }
+    #group-average:before {
+        width: 20px;
+        height: 3px;
+        background-color: $black66;
+        opacity: 1;
+        border-radius: 0;
+        position: relative;
+        top: -3px;
+    }
+}
+
+@media (max-width: 700px) {
+    #sim-chart, #standings {
+        width: 100%;
+        float: none;
+    }
+    #sim-chart {
+        margin-bottom: 2.4rem;
+    }
+    #sim-button {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 
@@ -254,6 +296,13 @@
     max-width: 700px;
     display: block;
     float: left;
+    &:before {
+        content: "Hitters";
+        font-family: $sans;
+        font-weight: bold;
+        @include type(1.4rem, 1.8rem, 0.6rem);
+        text-transform: uppercase;
+    }
 }
 
 #late-and-close-pitching {
@@ -261,6 +310,20 @@
     max-width: 700px;
     display: block;
     float: right;
+    &:before {
+        content: "Pitchers";
+        font-family: $sans;
+        font-weight: bold;
+        @include type(1.4rem, 1.8rem, 0.6rem);
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width: 800px) {
+    #late-and-close-pitching, #late-and-close-hitting {
+        width: 100%;
+        float: none;
+    }
 }
 
 .axis path, .axis line {
@@ -275,19 +338,88 @@
 }
 
 .dot {
-    fill: $black121;
+    fill: rgb(100,100,100);
     opacity: .3;
 }
 .ranger {
-    fill: $chartBlue;
+    fill: $chartRed;
     opacity: .75;
+    stroke: white;
+    stroke-width: 2;
 }
 .axis-label {
     font-family: $sans;
     text-transform: uppercase;
+    font-size: 1.1rem;
 }
 .ranger-label {
     font-weight: bold;
     font-family: $sans;
     font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.nerd-box {
+    @include type(1.1rem, 1.5rem, 0);
+}
+
+#tool-tip {
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(50,50,50,.7);
+    top: auto;
+    left: auto;
+    right: auto;
+    font-family: $sans;
+    @include type(1.2rem, 1.5rem, 0);
+    z-index: 20;
+    width: 180px;
+}
+
+.no-show {
+    display: none;
+}
+
+.non-mobile-text {
+    @media (max-width: 700px) {
+        display: none;
+    }
+}
+.custom-list-block {
+    position: relative;
+}
+.list-selection {
+    display: inline-block;
+    padding: 0 5px;
+}
+.custom-list {
+    position: absolute;
+    top: 0px;
+    max-height: 300px;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    li {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        font-weight: bold;
+        padding: .8rem 0;
+        border-bottom: 1px solid $black215;
+        &:first-of-type {
+            padding: 0 0 .8rem;
+        }
+    }
+}
+.fa-chevron-down {
+    display: inline-block;
+    float: left;
+    font-size: 1.6rem !important;
+    line-height: 2rem !important;
+    color: $chartRed;
+    margin-right: 5px;
+}
+
+#late-selector {
+    margin-bottom: 2.4rem;
+    display: inline-block;
 }

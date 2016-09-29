@@ -7,6 +7,7 @@
         "opponent": "MIA", 
         "runs": "8", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -18,6 +19,7 @@
         "opponent": "MIA", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -29,6 +31,7 @@
         "opponent": "NYY", 
         "runs": "4", 
         "runs_against": "0", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -40,6 +43,7 @@
         "opponent": "NYY", 
         "runs": "4", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -51,6 +55,7 @@
         "opponent": "PIT", 
         "runs": "4", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -62,6 +67,7 @@
         "opponent": "PIT", 
         "runs": "8", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -73,6 +79,7 @@
         "opponent": "PIT", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -84,6 +91,7 @@
         "opponent": "PIT", 
         "runs": "7", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -95,6 +103,7 @@
         "opponent": "HOU", 
         "runs": "0", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -106,6 +115,7 @@
         "opponent": "HOU", 
         "runs": "5", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -117,6 +127,7 @@
         "opponent": "HOU", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -128,6 +139,7 @@
         "opponent": "KCR", 
         "runs": "6", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -139,6 +151,7 @@
         "opponent": "KCR", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -150,6 +163,7 @@
         "opponent": "KCR", 
         "runs": "0", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -161,6 +175,7 @@
         "opponent": "CLE", 
         "runs": "1", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -172,6 +187,7 @@
         "opponent": "CLE", 
         "runs": "1", 
         "runs_against": "10", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -183,6 +199,7 @@
         "opponent": "CLE", 
         "runs": "3", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -194,6 +211,7 @@
         "opponent": "OAK", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -205,6 +223,7 @@
         "opponent": "OAK", 
         "runs": "1", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -216,6 +235,7 @@
         "opponent": "OAK", 
         "runs": "9", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -227,6 +247,7 @@
         "opponent": "OAK", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -238,6 +259,7 @@
         "opponent": "MIN", 
         "runs": "9", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -249,6 +271,7 @@
         "opponent": "MIN", 
         "runs": "4", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -260,6 +283,7 @@
         "opponent": "MIN", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -271,6 +295,7 @@
         "opponent": "CLE", 
         "runs": "3", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -282,6 +307,7 @@
         "opponent": "CLE", 
         "runs": "0", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -293,6 +319,7 @@
         "opponent": "CLE", 
         "runs": "4", 
         "runs_against": "9", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -304,6 +331,7 @@
         "opponent": "TEX", 
         "runs": "1", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -315,6 +343,7 @@
         "opponent": "TEX", 
         "runs": "5", 
         "runs_against": "10", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -326,6 +355,7 @@
         "opponent": "TEX", 
         "runs": "3", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -337,6 +367,7 @@
         "opponent": "WSN", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -348,6 +379,7 @@
         "opponent": "WSN", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -359,6 +391,7 @@
         "opponent": "WSN", 
         "runs": "2", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -370,6 +403,7 @@
         "opponent": "BAL", 
         "runs": "5", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -381,6 +415,7 @@
         "opponent": "BAL", 
         "runs": "0", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -392,6 +427,7 @@
         "opponent": "BAL", 
         "runs": "3", 
         "runs_against": "9", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -403,6 +439,7 @@
         "opponent": "BAL", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -414,6 +451,7 @@
         "opponent": "MIN", 
         "runs": "10", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -425,6 +463,7 @@
         "opponent": "MIN", 
         "runs": "7", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -436,6 +475,7 @@
         "opponent": "MIN", 
         "runs": "6", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -447,6 +487,7 @@
         "opponent": "TBR", 
         "runs": "5", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -458,6 +499,7 @@
         "opponent": "TBR", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -469,6 +511,7 @@
         "opponent": "TBR", 
         "runs": "9", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -480,6 +523,7 @@
         "opponent": "PHI", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -491,6 +535,7 @@
         "opponent": "PHI", 
         "runs": "3", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -502,6 +547,7 @@
         "opponent": "PHI", 
         "runs": "5", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -513,6 +559,7 @@
         "opponent": "OAK", 
         "runs": "4", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -524,6 +571,7 @@
         "opponent": "OAK", 
         "runs": "3", 
         "runs_against": "12", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -535,6 +583,7 @@
         "opponent": "OAK", 
         "runs": "2", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -546,6 +595,7 @@
         "opponent": "LAA", 
         "runs": "1", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -557,6 +607,7 @@
         "opponent": "LAA", 
         "runs": "9", 
         "runs_against": "11", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -568,6 +619,7 @@
         "opponent": "LAA", 
         "runs": "3", 
         "runs_against": "0", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -579,6 +631,7 @@
         "opponent": "NYY", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -590,6 +643,7 @@
         "opponent": "CHW", 
         "runs": "10", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -601,6 +655,7 @@
         "opponent": "CHW", 
         "runs": "7", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -612,6 +667,7 @@
         "opponent": "CHW", 
         "runs": "5", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -623,6 +679,7 @@
         "opponent": "TOR", 
         "runs": "11", 
         "runs_against": "0", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -634,6 +691,7 @@
         "opponent": "TOR", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -645,6 +703,7 @@
         "opponent": "TOR", 
         "runs": "2", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -656,6 +715,7 @@
         "opponent": "NYY", 
         "runs": "0", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -667,6 +727,7 @@
         "opponent": "NYY", 
         "runs": "6", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -678,6 +739,7 @@
         "opponent": "NYY", 
         "runs": "4", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -689,6 +751,7 @@
         "opponent": "CHW", 
         "runs": "9", 
         "runs_against": "10", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -700,6 +763,7 @@
         "opponent": "CHW", 
         "runs": "11", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -711,6 +775,7 @@
         "opponent": "CHW", 
         "runs": "3", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -722,6 +787,7 @@
         "opponent": "KCR", 
         "runs": "10", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -733,6 +799,7 @@
         "opponent": "KCR", 
         "runs": "3", 
         "runs_against": "10", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -744,6 +811,7 @@
         "opponent": "KCR", 
         "runs": "5", 
         "runs_against": "16", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -755,6 +823,7 @@
         "opponent": "KCR", 
         "runs": "1", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -766,6 +835,7 @@
         "opponent": "SEA", 
         "runs": "8", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -777,6 +847,7 @@
         "opponent": "SEA", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -788,6 +859,7 @@
         "opponent": "SEA", 
         "runs": "5", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -799,6 +871,7 @@
         "opponent": "SEA", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -810,6 +883,7 @@
         "opponent": "CLE", 
         "runs": "5", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -821,6 +895,7 @@
         "opponent": "CLE", 
         "runs": "0", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -832,6 +907,7 @@
         "opponent": "CLE", 
         "runs": "3", 
         "runs_against": "9", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -843,6 +919,7 @@
         "opponent": "MIA", 
         "runs": "7", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -854,6 +931,7 @@
         "opponent": "MIA", 
         "runs": "10", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -865,6 +943,7 @@
         "opponent": "TBR", 
         "runs": "10", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -876,6 +955,7 @@
         "opponent": "TBR", 
         "runs": "10", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -887,6 +967,7 @@
         "opponent": "TBR", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -898,6 +979,7 @@
         "opponent": "TBR", 
         "runs": "5", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -909,6 +991,7 @@
         "opponent": "CLE", 
         "runs": "3", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -920,6 +1003,7 @@
         "opponent": "CLE", 
         "runs": "1", 
         "runs_against": "12", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -931,6 +1015,7 @@
         "opponent": "CLE", 
         "runs": "12", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -942,6 +1027,7 @@
         "opponent": "TOR", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -953,6 +1039,7 @@
         "opponent": "TOR", 
         "runs": "0", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -964,6 +1051,7 @@
         "opponent": "TOR", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -975,6 +1063,7 @@
         "opponent": "TOR", 
         "runs": "1", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -986,6 +1075,7 @@
         "opponent": "KCR", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -997,6 +1087,7 @@
         "opponent": "KCR", 
         "runs": "4", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1008,6 +1099,7 @@
         "opponent": "KCR", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1019,6 +1111,7 @@
         "opponent": "MIN", 
         "runs": "1", 
         "runs_against": "0", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1030,6 +1123,7 @@
         "opponent": "MIN", 
         "runs": "2", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1041,6 +1135,7 @@
         "opponent": "MIN", 
         "runs": "1", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1052,6 +1147,7 @@
         "opponent": "CHW", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1063,6 +1159,7 @@
         "opponent": "CHW", 
         "runs": "7", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1074,6 +1171,7 @@
         "opponent": "CHW", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1085,6 +1183,7 @@
         "opponent": "CHW", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1096,6 +1195,7 @@
         "opponent": "BOS", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1107,6 +1207,7 @@
         "opponent": "BOS", 
         "runs": "9", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1118,6 +1219,7 @@
         "opponent": "BOS", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1129,6 +1231,7 @@
         "opponent": "HOU", 
         "runs": "14", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1140,6 +1243,7 @@
         "opponent": "HOU", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1151,6 +1255,7 @@
         "opponent": "HOU", 
         "runs": "11", 
         "runs_against": "0", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1162,6 +1267,7 @@
         "opponent": "CHW", 
         "runs": "11", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1173,6 +1279,7 @@
         "opponent": "CHW", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1184,6 +1291,7 @@
         "opponent": "CHW", 
         "runs": "3", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1195,6 +1303,7 @@
         "opponent": "NYM", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1206,6 +1315,7 @@
         "opponent": "NYM", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1217,6 +1327,7 @@
         "opponent": "NYM", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1228,6 +1339,7 @@
         "opponent": "SEA", 
         "runs": "0", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1239,6 +1351,7 @@
         "opponent": "SEA", 
         "runs": "5", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1250,6 +1363,7 @@
         "opponent": "SEA", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1261,6 +1375,7 @@
         "opponent": "TEX", 
         "runs": "5", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1272,6 +1387,7 @@
         "opponent": "TEX", 
         "runs": "2", 
         "runs_against": "0", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1283,6 +1399,7 @@
         "opponent": "TEX", 
         "runs": "7", 
         "runs_against": "0", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1294,6 +1411,7 @@
         "opponent": "KCR", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1305,6 +1423,7 @@
         "opponent": "KCR", 
         "runs": "1", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1316,6 +1435,7 @@
         "opponent": "KCR", 
         "runs": "1", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1327,6 +1447,7 @@
         "opponent": "BOS", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1338,6 +1459,7 @@
         "opponent": "BOS", 
         "runs": "2", 
         "runs_against": "10", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1349,6 +1471,7 @@
         "opponent": "BOS", 
         "runs": "2", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1360,6 +1483,7 @@
         "opponent": "BOS", 
         "runs": "10", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1371,6 +1495,7 @@
         "opponent": "MIN", 
         "runs": "8", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1382,6 +1507,7 @@
         "opponent": "MIN", 
         "runs": "9", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1393,6 +1519,7 @@
         "opponent": "MIN", 
         "runs": "8", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1404,6 +1531,7 @@
         "opponent": "LAA", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1415,6 +1543,7 @@
         "opponent": "LAA", 
         "runs": "2", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1426,6 +1555,7 @@
         "opponent": "LAA", 
         "runs": "0", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1437,6 +1567,7 @@
         "opponent": "CHW", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1448,6 +1579,7 @@
         "opponent": "CHW", 
         "runs": "8", 
         "runs_against": "4", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1459,6 +1591,7 @@
         "opponent": "CHW", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1470,6 +1603,7 @@
         "opponent": "KCR", 
         "runs": "7", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1481,6 +1615,7 @@
         "opponent": "KCR", 
         "runs": "2", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1492,6 +1627,7 @@
         "opponent": "KCR", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1503,6 +1639,7 @@
         "opponent": "CHW", 
         "runs": "5", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1514,6 +1651,7 @@
         "opponent": "CHW", 
         "runs": "0", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1525,6 +1663,7 @@
         "opponent": "CHW", 
         "runs": "4", 
         "runs_against": "7", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1536,6 +1675,7 @@
         "opponent": "BAL", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1547,6 +1687,7 @@
         "opponent": "BAL", 
         "runs": "3", 
         "runs_against": "11", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1558,6 +1699,7 @@
         "opponent": "BAL", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1569,6 +1711,7 @@
         "opponent": "MIN", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1580,6 +1723,7 @@
         "opponent": "MIN", 
         "runs": "1", 
         "runs_against": "8", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1591,6 +1735,7 @@
         "opponent": "MIN", 
         "runs": "9", 
         "runs_against": "6", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1602,6 +1747,7 @@
         "opponent": "MIN", 
         "runs": "1", 
         "runs_against": "5", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1613,6 +1759,7 @@
         "opponent": "CLE", 
         "runs": "4", 
         "runs_against": "11", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1624,6 +1771,7 @@
         "opponent": "CLE", 
         "runs": "0", 
         "runs_against": "1", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1635,6 +1783,115 @@
         "opponent": "CLE", 
         "runs": "9", 
         "runs_against": "5", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "150", 
+        "game_date": "Tuesday, Sep 20", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIN", 
+        "runs": "8", 
+        "runs_against": "1", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "151", 
+        "game_date": "Thursday, Sep 22 (1)", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIN", 
+        "runs": "9", 
+        "runs_against": "2", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "152", 
+        "game_date": "Thursday, Sep 22 (2)", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIN", 
+        "runs": "4", 
+        "runs_against": "2", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "153", 
+        "game_date": "Friday, Sep 23", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "KCR", 
+        "runs": "8", 
+        "runs_against": "3", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "154", 
+        "game_date": "Saturday, Sep 24", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "KCR", 
+        "runs": "4", 
+        "runs_against": "7", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "155", 
+        "game_date": "Sunday, Sep 25", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "KCR", 
+        "runs": "9", 
+        "runs_against": "12", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "156", 
+        "game_date": "Monday, Sep 26", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "CLE", 
+        "runs": "4", 
+        "runs_against": "7", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "157", 
+        "game_date": "Tuesday, Sep 27", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "CLE", 
+        "runs": "12", 
+        "runs_against": "0", 
+        "team": "DET", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "158", 
+        "game_date": "Wednesday, Sep 28", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "CLE", 
+        "runs": "6", 
+        "runs_against": "3", 
+        "team": "DET", 
         "walk_off": false, 
         "win_loss": "W"
     }

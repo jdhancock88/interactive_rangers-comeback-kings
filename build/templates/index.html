@@ -33,6 +33,7 @@
 
 
 {%block custom_head%}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.0/lodash.min.js"></script>
 {%endblock%}
@@ -142,13 +143,113 @@ googletag.enableServices();
     <section id="game-log-charts" class="clearFix chart">
 
         <h4>One-run wins by team</h4>
-        <p class="chatter"> The Rangers lead the league in one-run wins this season with XX, and wins when trailing at the beginning of the ninth innin with 8. In the chart below, each square represents one game in a team’s season. Compare the Rangers record of one-run games in 2016 to any other team in the league:</p>
+        <p class="chatter"> The Rangers lead the league in one-run wins this season with XX, and wins when trailing at the beginning of the ninth innin with 8. In the chart below, each square represents one game in a team’s season. Compare the Rangers record of one-run games in 2016 to any other team in the league. <span class="non-mobile-text">Mouse over the squares to see the date and score of each game: </span></p>
 
         <div class="key">
             <span class="key-label" id="one-run-win">One-run win</span>
             <span class="key-label" id="one-run-loss">One-run loss</span>
-            <div id="opponents-selector">
+        </div>
+
+        <div class="charts clearfix">
+            <div id="tex-game-logs" class="game-log-chart">
+                <h5>Rangers</h5>
+                <h6>Entire season</h6>
+                <div id="tex-game-log-chart" class="clearfix chart-block"></div>
+                <h6>Only one-run wins/losses</h6>
+                <div id="tex-wins-losses" class="clearfix chart-block"></div>
+                <h6>Wins when behind to start the 9th</h6>
+                <div id="tex-ninth-wins" class="clearfix chart-block"></div>
+
+            </div>
+
+            <div id="opp-game-logs" class="game-log-chart">
+                <div class="custom-list-block">
+                    <h5 class="list-selection" id="opponents-selector"><i class="fa fa-chevron-down"></i><span class="team">Angels</span></h5>
+                    <ul class="custom-list no-show">
+                        <li data-team="LAA">Angels</li>
+                        <li data-team="HOU">Astros</li>
+                        <li data-team="OAK">Athletics</li>
+                        <li data-team="TOR">Blue Jays</li>
+                        <li data-team="ATL">Braves</li>
+                        <li data-team="MIL">Brewers</li>
+                        <li data-team="STL">Cardinals</li>
+                        <li data-team="CHC">Cubs</li>
+                        <li data-team="ARI">Diamondbacks</li>
+                        <li data-team="LAD">Dodgers</li>
+                        <li data-team="SFG">Giants</li>
+                        <li data-team="CLE">Indians</li>
+                        <li data-team="SEA">Mariners</li>
+                        <li data-team="MIA">Marlins</li>
+                        <li data-team="NYM">Mets</li>
+                        <li data-team="WSN">Nationals</li>
+                        <li data-team="BAL">Orioles</li>
+                        <li data-team="SDP">Padres</li>
+                        <li data-team="PHI">Phillies</li>
+                        <li data-team="PIT">Pirates</li>
+                        <li data-team="TBR">Rays</li>
+                        <li data-team="BOS">Red Sox</li>
+                        <li data-team="CIN">Reds</li>
+                        <li data-team="COL">Rockies</li>
+                        <li data-team="KCR">Royals</li>
+                        <li data-team="DET">Tigers</li>
+                        <li data-team="MIN">Twins</li>
+                        <li data-team="NYY">Yankees</li>
+                        <li data-team="CHW">White Sox</li>
+                    </ul>
+                </div>
+                <h6>Entire Season</h6>
+                <div id="opp-game-log-chart" class="clearfix chart-block"></div>
+
+                <h6>Only one-run-wins/losses</h6>
+                <div id="opp-wins-losses" class="clearfix chart-block"></div>
+                <h6>Wins when behind to start the 9th</h6>
+                <div id="opp-ninth-wins" class="clearfix chart-block"></div>
+
+            </div>
+        </div>
+
+        <p class="source">Source: <a href="http://www.baseball-reference.com/" target="_blank">Baseball-Reference.com</a></p>
+    </section>
+
+
+    <section id="simulation" class="chart clearfix">
+        <h4>What if?</h4>
+        <p class="chatter">The Rangers won 77% of the one-run games they participated in, but what if they hadn't been so good in those clutch situations? Adjust the Rangers chance to win those one-run-games with the slider below and run the simulation to see how the A.L. West standings would have changed:</p>
+
+        <div id="sim-chart" class="clearfix">
+            <h6>Win-probability in one-run games</h6>
+            <div id="slider"></div>
+            <span id="slider-value">50%</span>
+            <div class="chart-body clearfix"></div>
+            <button id="sim-button">Run simulation</button>
+        </div>
+
+
+
+        <table id="standings">
+            <tr><th>Team</th><th>W</th><th>L</th><th>W-L%</th><th>GB</th></tr>
+            <tr data-team="Rangers" id="rangers-row"><td>Texas Rangers</td><td>88</td><td>62</td><td>.587</td><td>--</td></tr>
+            <tr data-team="Mariners" id="mariners-row"><td>Seattle Mariners</td><td>79</td><td>70</td><td>.530</td><td>8.5</td></tr>
+            <tr data-team="Astros" id="astros-row"><td>Houston Astros</td><td>78</td><td>71</td><td>.523</td><td>9.5</td></tr>
+            <tr data-team="Athletics" id="athletics-row"><td>Oakland Athletics</td><td>66</td><td>83</td><td>.443</td><td>21.5</td></tr>
+            <tr data-team="Angels" id="angels-row"><td>LA Angels</td><td>65</td><td>84</td><td>.436</td><td>22.5</td></tr>
+        </table>
+
+    </section>
+
+    <section id="late-and-close-charts" class="chart clearfix">
+
+        <h4>Good in the clutch</h4>
+        <p class="chatter">One reason the Rangers have been so good in one-run games lies in the fact they have players that excel in late-game situations when the score is close. The two charts below plot how players across the league perform in these situations. Players that fall in the shaded area, such as Adrian Beltre, Roughned Odor, Matt Bush and Sam Dyson, are outperforming the group average.</p>
+
+        <div class="key">
+            <span class="key-label" id="non-ranger-player">Non Ranger</span>
+            <span class="key-label" id="ranger-player">Ranger</span>
+            <span class="key-label" id="group-average">Group average</span>
+
+            <!-- <div id="late-selector">
                 <select>
+                    <option data-team="ALL">All teams</option>
                     <option data-team="LAA">Angels</option>
                     <option data-team="HOU">Astros</option>
                     <option data-team="OAK">Athletics</option>
@@ -179,112 +280,51 @@ googletag.enableServices();
                     <option data-team="NYY">Yankees</option>
                     <option data-team="CHW">White Sox</option>
                 </select>
-            </div>
+            </div> -->
         </div>
 
-        <div class="charts clearfix">
-            <div id="tex-game-logs" class="game-log-chart">
-                <h5>Rangers</h5>
-                <h6>Entire season</h6>
-                <div id="tex-game-log-chart" class="clearfix chart-block"></div>
-                <h6>Only one-run wins/losses</h6>
-                <div id="tex-wins-losses" class="clearfix chart-block"></div>
-            </div>
-
-            <div id="opp-game-logs" class="game-log-chart">
-                <h5>Angels</h5>
-                <h6>Entire Season</h6>
-                <div id="opp-game-log-chart" class="clearfix chart-block"></div>
-
-                <h6>Only one-run-wins/losses</h6>
-                <div id="opp-wins-losses" class="clearfix chart-block"></div>
-            </div>
-
-            <div id="ninth-inning-wins" class="charts clearfix">
-                <div class="game-log-chart">
-                    <h6>Wins when behind to start the 9th inning</h6>
-                    <div id="tex-ninth-wins" class="clearfix chart-block"></div>
-                </div>
-
-                <div class="game-log-chart">
-                    <h6>Wins when behind to start the 9th inning</h6>
-                    <div id="opp-ninth-wins" class="clearfix chart-block"></div>
-                </div>
-            </div>
+        <div class="custom-list-block">
+            <h5 class="list-selection" id="late-selector"><i class="fa fa-chevron-down"></i><span class="late-team">All teams</span></h5>
+            <ul class="custom-list no-show">
+                <li class="late-li" data-team="ALL">All teams</li>
+                <li class="late-li" data-team="LAA">Angels</li>
+                <li class="late-li" data-team="HOU">Astros</li>
+                <li class="late-li" data-team="OAK">Athletics</li>
+                <li class="late-li" data-team="TOR">Blue Jays</li>
+                <li class="late-li" data-team="ATL">Braves</li>
+                <li class="late-li" data-team="MIL">Brewers</li>
+                <li class="late-li" data-team="STL">Cardinals</li>
+                <li class="late-li" data-team="CHC">Cubs</li>
+                <li class="late-li" data-team="ARI">Diamondbacks</li>
+                <li class="late-li" data-team="LAD">Dodgers</li>
+                <li class="late-li" data-team="SFG">Giants</li>
+                <li class="late-li" data-team="CLE">Indians</li>
+                <li class="late-li" data-team="SEA">Mariners</li>
+                <li class="late-li" data-team="MIA">Marlins</li>
+                <li class="late-li" data-team="NYM">Mets</li>
+                <li class="late-li" data-team="WSN">Nationals</li>
+                <li class="late-li" data-team="BAL">Orioles</li>
+                <li class="late-li" data-team="SDP">Padres</li>
+                <li class="late-li" data-team="PHI">Phillies</li>
+                <li class="late-li" data-team="PIT">Pirates</li>
+                <li class="late-li" data-team="TBR">Rays</li>
+                <li class="late-li" data-team="BOS">Red Sox</li>
+                <li class="late-li" data-team="CIN">Reds</li>
+                <li class="late-li" data-team="COL">Rockies</li>
+                <li class="late-li" data-team="KCR">Royals</li>
+                <li class="late-li" data-team="DET">Tigers</li>
+                <li class="late-li" data-team="MIN">Twins</li>
+                <li class="late-li" data-team="NYY">Yankees</li>
+                <li class="late-li" data-team="CHW">White Sox</li>
+            </ul>
         </div>
-
-        <p class="source">Baseball-Reference</p>
-    </section>
-
-
-    <section id="simulation" class="chart clearfix">
-        <h4>What if?</h4>
-        <p class="chatter">The Rangers won 77% of the one-run games they participated in, but what if they hadn't been so good in those clutch situations? Adjust the Rangers chance to win those one-run-games with the slider below and run the simulation to see how the A.L. West standings would have changed:</p>
-
-
-        <div id="sim-chart" class="clearfix">
-            <h6>Win-probability in one-run games</h6>
-            <div id="slider"></div>
-            <span id="slider-value">50%</span>
-            <div class="chart-body clearfix"></div>
-            <button id="sim-button">Run simulation</button>
-        </div>
-
-
-
-        <table id="standings">
-            <tr><th>Team</th><th>W</th><th>L</th><th>W-L%</th><th>GB</th></tr>
-            <tr data-team="Rangers" id="rangers-row"><td>Texas Rangers</td><td>88</td><td>62</td><td>.587</td><td>--</td></tr>
-            <tr data-team="Mariners" id="mariners-row"><td>Seattle Mariners</td><td>79</td><td>70</td><td>.530</td><td>8.5</td></tr>
-            <tr data-team="Astros" id="astros-row"><td>Houston Astros</td><td>78</td><td>71</td><td>.523</td><td>9.5</td></tr>
-            <tr data-team="Athletics" id="athletics-row"><td>Oakland Athletics</td><td>66</td><td>83</td><td>.443</td><td>21.5</td></tr>
-            <tr data-team="Angels" id="angels-row"><td>LA Angels</td><td>65</td><td>84</td><td>.436</td><td>22.5</td></tr>
-        </table>
-
-    </section>
-
-    <section id="late-and-close-charts" class="chart clearfix">
-
-        <h4>Late and Close charts</h4>
-        <p class="chatter">Intro text for late and close charts</p>
 
         <div id="late-and-close-hitting"></div>
         <div id="late-and-close-pitching"></div>
 
-        <div id="late-selector">
-            <select>
-                <option data-team="ALL">All teams</option>
-                <option data-team="LAA">Angels</option>
-                <option data-team="HOU">Astros</option>
-                <option data-team="OAK">Athletics</option>
-                <option data-team="TOR">Blue Jays</option>
-                <option data-team="ATL">Braves</option>
-                <option data-team="MIL">Brewers</option>
-                <option data-team="STL">Cardinals</option>
-                <option data-team="CHC">Cubs</option>
-                <option data-team="ARI">Diamondbacks</option>
-                <option data-team="LAD">Dodgers</option>
-                <option data-team="SFG">Giants</option>
-                <option data-team="CLE">Indians</option>
-                <option data-team="SEA">Mariners</option>
-                <option data-team="MIA">Marlins</option>
-                <option data-team="NYM">Mets</option>
-                <option data-team="WSN">Nationals</option>
-                <option data-team="BAL">Orioles</option>
-                <option data-team="SDP">Padres</option>
-                <option data-team="PHI">Phillies</option>
-                <option data-team="PIT">Pirates</option>
-                <option data-team="TBR">Rays</option>
-                <option data-team="BOS">Red Sox</option>
-                <option data-team="CIN">Reds</option>
-                <option data-team="COL">Rockies</option>
-                <option data-team="KCR">Royals</option>
-                <option data-team="DET">Tigers</option>
-                <option data-team="MIN">Twins</option>
-                <option data-team="NYY">Yankees</option>
-                <option data-team="CHW">White Sox</option>
-            </select>
-        </div>
+        <p class="source">Source: <a href="http://www.baseball-reference.com/" target="_blank">Baseball-Reference.com</a></p>
+
+        <p class="nerd-box"><strong>Note: </strong>Baseball-Reference defines “late and close” situations as the batting team tied, leading by one, or having the tying run at least on deck in the seventh inning or later. To be included in the charts above, hitters must have a minimum of 200 plate appearances on the season and 50 “late and close” plate appearances. Pitchers must have a minimum of 30 innings pitched on the season and 10 “late and close” innings pitched. Group averages for batting average and earned run average are determined by calculating the group’s overall statistic in each category.</p>
 
     </section>
 

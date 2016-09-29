@@ -8,6 +8,7 @@
         "opponent": "SEA", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -20,6 +21,7 @@
         "opponent": "SEA", 
         "runs": "2", 
         "runs_against": "10", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -32,6 +34,7 @@
         "opponent": "SEA", 
         "runs": "5", 
         "runs_against": "9", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -44,6 +47,7 @@
         "opponent": "LAA", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -56,6 +60,7 @@
         "opponent": "LAA", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -68,6 +73,7 @@
         "opponent": "LAA", 
         "runs": "4", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -80,6 +86,7 @@
         "opponent": "LAA", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -92,6 +99,7 @@
         "opponent": "SEA", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -104,6 +112,7 @@
         "opponent": "SEA", 
         "runs": "8", 
         "runs_against": "0", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -116,6 +125,7 @@
         "opponent": "SEA", 
         "runs": "2", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -128,6 +138,7 @@
         "opponent": "BAL", 
         "runs": "6", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -140,6 +151,7 @@
         "opponent": "BAL", 
         "runs": "5", 
         "runs_against": "11", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -152,6 +164,7 @@
         "opponent": "BAL", 
         "runs": "8", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -164,6 +177,7 @@
         "opponent": "HOU", 
         "runs": "7", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -176,6 +190,7 @@
         "opponent": "HOU", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -188,6 +203,7 @@
         "opponent": "HOU", 
         "runs": "7", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -200,6 +216,7 @@
         "opponent": "CHW", 
         "runs": "0", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -212,6 +229,7 @@
         "opponent": "CHW", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -224,6 +242,7 @@
         "opponent": "CHW", 
         "runs": "1", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -236,6 +255,7 @@
         "opponent": "NYY", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -248,6 +268,7 @@
         "opponent": "NYY", 
         "runs": "10", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -260,6 +281,7 @@
         "opponent": "NYY", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -272,6 +294,7 @@
         "opponent": "LAA", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -284,6 +307,7 @@
         "opponent": "LAA", 
         "runs": "7", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -296,6 +320,7 @@
         "opponent": "LAA", 
         "runs": "6", 
         "runs_against": "9", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -308,6 +333,7 @@
         "opponent": "TOR", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -320,6 +346,7 @@
         "opponent": "TOR", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -332,6 +359,7 @@
         "opponent": "TOR", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -344,6 +372,7 @@
         "opponent": "TOR", 
         "runs": "2", 
         "runs_against": "12", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -356,6 +385,7 @@
         "opponent": "DET", 
         "runs": "5", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -368,6 +398,7 @@
         "opponent": "DET", 
         "runs": "10", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -380,6 +411,7 @@
         "opponent": "DET", 
         "runs": "8", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -392,6 +424,7 @@
         "opponent": "CHW", 
         "runs": "4", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -404,6 +437,7 @@
         "opponent": "CHW", 
         "runs": "13", 
         "runs_against": "11", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -416,6 +450,7 @@
         "opponent": "CHW", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -428,6 +463,7 @@
         "opponent": "TOR", 
         "runs": "0", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -440,6 +476,7 @@
         "opponent": "TOR", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -452,6 +489,7 @@
         "opponent": "TOR", 
         "runs": "7", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -464,6 +502,7 @@
         "opponent": "OAK", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -476,6 +515,7 @@
         "opponent": "OAK", 
         "runs": "5", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -488,6 +528,7 @@
         "opponent": "OAK", 
         "runs": "1", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -500,6 +541,7 @@
         "opponent": "HOU", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -512,6 +554,7 @@
         "opponent": "HOU", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -524,6 +567,7 @@
         "opponent": "HOU", 
         "runs": "9", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -536,6 +580,7 @@
         "opponent": "LAA", 
         "runs": "0", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -548,6 +593,7 @@
         "opponent": "LAA", 
         "runs": "4", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -560,6 +606,7 @@
         "opponent": "LAA", 
         "runs": "15", 
         "runs_against": "9", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -572,6 +619,7 @@
         "opponent": "PIT", 
         "runs": "1", 
         "runs_against": "9", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -584,6 +632,7 @@
         "opponent": "PIT", 
         "runs": "5", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -596,6 +645,7 @@
         "opponent": "PIT", 
         "runs": "6", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -608,6 +658,7 @@
         "opponent": "CLE", 
         "runs": "9", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -620,6 +671,7 @@
         "opponent": "CLE", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -632,6 +684,7 @@
         "opponent": "CLE", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -644,6 +697,7 @@
         "opponent": "SEA", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -656,6 +710,7 @@
         "opponent": "SEA", 
         "runs": "10", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -668,6 +723,7 @@
         "opponent": "SEA", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -680,6 +736,7 @@
         "opponent": "HOU", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -692,6 +749,7 @@
         "opponent": "HOU", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -704,6 +762,7 @@
         "opponent": "HOU", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -716,6 +775,7 @@
         "opponent": "HOU", 
         "runs": "5", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -728,6 +788,7 @@
         "opponent": "SEA", 
         "runs": "5", 
         "runs_against": "7", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -740,6 +801,7 @@
         "opponent": "SEA", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -752,6 +814,7 @@
         "opponent": "SEA", 
         "runs": "6", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -764,6 +827,7 @@
         "opponent": "OAK", 
         "runs": "5", 
         "runs_against": "14", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -776,6 +840,7 @@
         "opponent": "OAK", 
         "runs": "10", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -788,6 +853,7 @@
         "opponent": "OAK", 
         "runs": "7", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -800,6 +866,7 @@
         "opponent": "OAK", 
         "runs": "5", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -812,6 +879,7 @@
         "opponent": "STL", 
         "runs": "1", 
         "runs_against": "0", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -824,6 +892,7 @@
         "opponent": "STL", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -836,6 +905,7 @@
         "opponent": "STL", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -848,6 +918,7 @@
         "opponent": "BAL", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -860,6 +931,7 @@
         "opponent": "CIN", 
         "runs": "2", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -872,6 +944,7 @@
         "opponent": "CIN", 
         "runs": "6", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -884,6 +957,7 @@
         "opponent": "BOS", 
         "runs": "7", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -896,6 +970,7 @@
         "opponent": "BOS", 
         "runs": "10", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -908,6 +983,7 @@
         "opponent": "BOS", 
         "runs": "6", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -920,6 +996,7 @@
         "opponent": "NYY", 
         "runs": "9", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -932,6 +1009,7 @@
         "opponent": "NYY", 
         "runs": "7", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -944,6 +1022,7 @@
         "opponent": "NYY", 
         "runs": "7", 
         "runs_against": "9", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -956,6 +1035,7 @@
         "opponent": "NYY", 
         "runs": "1", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -968,6 +1048,7 @@
         "opponent": "MIN", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -980,6 +1061,7 @@
         "opponent": "MIN", 
         "runs": "5", 
         "runs_against": "17", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -992,6 +1074,7 @@
         "opponent": "MIN", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1004,6 +1087,7 @@
         "opponent": "BOS", 
         "runs": "5", 
         "runs_against": "12", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1016,6 +1100,7 @@
         "opponent": "BOS", 
         "runs": "7", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1028,6 +1113,7 @@
         "opponent": "BOS", 
         "runs": "6", 
         "runs_against": "11", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1040,6 +1126,7 @@
         "opponent": "MIN", 
         "runs": "1", 
         "runs_against": "10", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1052,6 +1139,7 @@
         "opponent": "MIN", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1064,6 +1152,7 @@
         "opponent": "MIN", 
         "runs": "6", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1076,6 +1165,7 @@
         "opponent": "MIN", 
         "runs": "5", 
         "runs_against": "15", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1088,6 +1178,7 @@
         "opponent": "CHC", 
         "runs": "0", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1100,6 +1191,7 @@
         "opponent": "CHC", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1112,6 +1204,7 @@
         "opponent": "CHC", 
         "runs": "4", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1124,6 +1217,7 @@
         "opponent": "LAA", 
         "runs": "5", 
         "runs_against": "9", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1136,6 +1230,7 @@
         "opponent": "LAA", 
         "runs": "6", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1148,6 +1243,7 @@
         "opponent": "LAA", 
         "runs": "4", 
         "runs_against": "7", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1160,6 +1256,7 @@
         "opponent": "KCR", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1172,6 +1269,7 @@
         "opponent": "KCR", 
         "runs": "7", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1184,6 +1282,7 @@
         "opponent": "KCR", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1196,6 +1295,7 @@
         "opponent": "OAK", 
         "runs": "7", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1208,6 +1308,7 @@
         "opponent": "OAK", 
         "runs": "3", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1220,6 +1321,7 @@
         "opponent": "OAK", 
         "runs": "4", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1232,6 +1334,7 @@
         "opponent": "KCR", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1244,6 +1347,7 @@
         "opponent": "KCR", 
         "runs": "8", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1256,6 +1360,7 @@
         "opponent": "KCR", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1268,6 +1373,7 @@
         "opponent": "KCR", 
         "runs": "5", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1280,6 +1386,7 @@
         "opponent": "BAL", 
         "runs": "1", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1292,6 +1399,7 @@
         "opponent": "BAL", 
         "runs": "2", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1304,6 +1412,7 @@
         "opponent": "BAL", 
         "runs": "5", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1316,6 +1425,7 @@
         "opponent": "HOU", 
         "runs": "0", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1328,6 +1438,7 @@
         "opponent": "HOU", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1340,6 +1451,7 @@
         "opponent": "HOU", 
         "runs": "5", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1352,6 +1464,7 @@
         "opponent": "COL", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1364,6 +1477,7 @@
         "opponent": "COL", 
         "runs": "7", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1376,6 +1490,7 @@
         "opponent": "COL", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1388,6 +1503,7 @@
         "opponent": "COL", 
         "runs": "9", 
         "runs_against": "12", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1400,6 +1516,7 @@
         "opponent": "DET", 
         "runs": "8", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1412,6 +1529,7 @@
         "opponent": "DET", 
         "runs": "0", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1424,6 +1542,7 @@
         "opponent": "DET", 
         "runs": "0", 
         "runs_against": "7", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1436,6 +1555,7 @@
         "opponent": "OAK", 
         "runs": "5", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1448,6 +1568,7 @@
         "opponent": "OAK", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1460,6 +1581,7 @@
         "opponent": "OAK", 
         "runs": "6", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1472,6 +1594,7 @@
         "opponent": "TBR", 
         "runs": "6", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1484,6 +1607,7 @@
         "opponent": "TBR", 
         "runs": "2", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1496,6 +1620,7 @@
         "opponent": "TBR", 
         "runs": "4", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1508,6 +1633,7 @@
         "opponent": "CIN", 
         "runs": "0", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1520,6 +1646,7 @@
         "opponent": "CIN", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1532,6 +1659,7 @@
         "opponent": "CLE", 
         "runs": "9", 
         "runs_against": "0", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1544,6 +1672,7 @@
         "opponent": "CLE", 
         "runs": "1", 
         "runs_against": "12", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1556,6 +1685,7 @@
         "opponent": "CLE", 
         "runs": "7", 
         "runs_against": "0", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1568,6 +1698,7 @@
         "opponent": "CLE", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1580,6 +1711,7 @@
         "opponent": "SEA", 
         "runs": "6", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1592,6 +1724,7 @@
         "opponent": "SEA", 
         "runs": "8", 
         "runs_against": "7", 
+        "team": "TEX", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1604,6 +1737,7 @@
         "opponent": "SEA", 
         "runs": "14", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1616,6 +1750,7 @@
         "opponent": "HOU", 
         "runs": "10", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1628,6 +1763,7 @@
         "opponent": "HOU", 
         "runs": "12", 
         "runs_against": "4", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1640,6 +1776,7 @@
         "opponent": "HOU", 
         "runs": "6", 
         "runs_against": "7", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1652,6 +1789,7 @@
         "opponent": "SEA", 
         "runs": "6", 
         "runs_against": "14", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1664,6 +1802,7 @@
         "opponent": "SEA", 
         "runs": "10", 
         "runs_against": "7", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1676,6 +1815,7 @@
         "opponent": "SEA", 
         "runs": "3", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1688,6 +1828,7 @@
         "opponent": "SEA", 
         "runs": "3", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1700,6 +1841,7 @@
         "opponent": "LAA", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1712,6 +1854,7 @@
         "opponent": "LAA", 
         "runs": "8", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1724,6 +1867,7 @@
         "opponent": "LAA", 
         "runs": "2", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1736,6 +1880,7 @@
         "opponent": "HOU", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1748,6 +1893,7 @@
         "opponent": "HOU", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1760,6 +1906,7 @@
         "opponent": "HOU", 
         "runs": "4", 
         "runs_against": "8", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1772,6 +1919,7 @@
         "opponent": "OAK", 
         "runs": "7", 
         "runs_against": "6", 
+        "team": "TEX", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1784,6 +1932,7 @@
         "opponent": "OAK", 
         "runs": "2", 
         "runs_against": "11", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1796,7 +1945,125 @@
         "opponent": "OAK", 
         "runs": "2", 
         "runs_against": "5", 
+        "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "151", 
+        "game_date": "Monday Sep 19", 
+        "one_run_loss": false, 
+        "one_run_win": true, 
+        "opponent": "LAA", 
+        "runs": "3", 
+        "runs_against": "2", 
+        "team": "TEX", 
+        "walk_off": true, 
+        "win_loss": "W"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "152", 
+        "game_date": "Tuesday Sep 20", 
+        "one_run_loss": false, 
+        "one_run_win": true, 
+        "opponent": "LAA", 
+        "runs": "5", 
+        "runs_against": "4", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "153", 
+        "game_date": "Wednesday Sep 21", 
+        "one_run_loss": true, 
+        "one_run_win": false, 
+        "opponent": "LAA", 
+        "runs": "4", 
+        "runs_against": "5", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "154", 
+        "game_date": "Friday Sep 23", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "OAK", 
+        "runs": "3", 
+        "runs_against": "0", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "155", 
+        "game_date": "Saturday Sep 24", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "OAK", 
+        "runs": "5", 
+        "runs_against": "0", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "156", 
+        "game_date": "Sunday Sep 25", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "OAK", 
+        "runs": "1", 
+        "runs_against": "7", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "157", 
+        "game_date": "Monday Sep 26", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIL", 
+        "runs": "3", 
+        "runs_against": "8", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "158", 
+        "game_date": "Tuesday Sep 27", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIL", 
+        "runs": "6", 
+        "runs_against": "4", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "159", 
+        "game_date": "Wednesday Sep 28", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIL", 
+        "runs": "8", 
+        "runs_against": "5", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "W"
     }
 ]

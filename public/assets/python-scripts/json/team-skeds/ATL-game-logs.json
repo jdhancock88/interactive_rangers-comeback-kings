@@ -7,6 +7,7 @@
         "opponent": "WSN", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -18,6 +19,7 @@
         "opponent": "WSN", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -29,6 +31,7 @@
         "opponent": "STL", 
         "runs": "4", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -40,6 +43,7 @@
         "opponent": "STL", 
         "runs": "2", 
         "runs_against": "12", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -51,6 +55,7 @@
         "opponent": "STL", 
         "runs": "7", 
         "runs_against": "12", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -62,6 +67,7 @@
         "opponent": "WSN", 
         "runs": "4", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -73,6 +79,7 @@
         "opponent": "WSN", 
         "runs": "1", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -84,6 +91,7 @@
         "opponent": "WSN", 
         "runs": "0", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -95,6 +103,7 @@
         "opponent": "WSN", 
         "runs": "2", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -106,6 +115,7 @@
         "opponent": "MIA", 
         "runs": "6", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -117,6 +127,7 @@
         "opponent": "MIA", 
         "runs": "6", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -128,6 +139,7 @@
         "opponent": "MIA", 
         "runs": "6", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -139,6 +151,7 @@
         "opponent": "LAD", 
         "runs": "8", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -150,6 +163,7 @@
         "opponent": "LAD", 
         "runs": "3", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -161,6 +175,7 @@
         "opponent": "LAD", 
         "runs": "1", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -172,6 +187,7 @@
         "opponent": "NYM", 
         "runs": "3", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -183,6 +199,7 @@
         "opponent": "NYM", 
         "runs": "2", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -194,6 +211,7 @@
         "opponent": "NYM", 
         "runs": "2", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -205,6 +223,7 @@
         "opponent": "BOS", 
         "runs": "0", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -216,6 +235,7 @@
         "opponent": "BOS", 
         "runs": "4", 
         "runs_against": "11", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -227,6 +247,7 @@
         "opponent": "BOS", 
         "runs": "4", 
         "runs_against": "9", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -238,6 +259,7 @@
         "opponent": "BOS", 
         "runs": "5", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -249,6 +271,7 @@
         "opponent": "CHC", 
         "runs": "1", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -260,6 +283,7 @@
         "opponent": "CHC", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -271,6 +295,7 @@
         "opponent": "NYM", 
         "runs": "1", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -282,6 +307,7 @@
         "opponent": "NYM", 
         "runs": "3", 
         "runs_against": "0", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -293,6 +319,7 @@
         "opponent": "NYM", 
         "runs": "0", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -304,6 +331,7 @@
         "opponent": "ARI", 
         "runs": "2", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -315,6 +343,7 @@
         "opponent": "ARI", 
         "runs": "2", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -326,6 +355,7 @@
         "opponent": "ARI", 
         "runs": "3", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -337,6 +367,7 @@
         "opponent": "PHI", 
         "runs": "2", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -348,6 +379,7 @@
         "opponent": "PHI", 
         "runs": "5", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -359,6 +391,7 @@
         "opponent": "PHI", 
         "runs": "4", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -370,6 +403,7 @@
         "opponent": "KCR", 
         "runs": "1", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -381,6 +415,7 @@
         "opponent": "KCR", 
         "runs": "5", 
         "runs_against": "0", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -392,6 +427,7 @@
         "opponent": "KCR", 
         "runs": "2", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -403,6 +439,7 @@
         "opponent": "PIT", 
         "runs": "5", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -414,6 +451,7 @@
         "opponent": "PIT", 
         "runs": "9", 
         "runs_against": "12", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -425,6 +463,7 @@
         "opponent": "PIT", 
         "runs": "3", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -436,6 +475,7 @@
         "opponent": "PIT", 
         "runs": "2", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -447,6 +487,7 @@
         "opponent": "PHI", 
         "runs": "7", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -458,6 +499,7 @@
         "opponent": "PHI", 
         "runs": "2", 
         "runs_against": "0", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -469,6 +511,7 @@
         "opponent": "PHI", 
         "runs": "0", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -480,6 +523,7 @@
         "opponent": "MIL", 
         "runs": "1", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -491,6 +535,7 @@
         "opponent": "MIL", 
         "runs": "2", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -502,6 +547,7 @@
         "opponent": "MIL", 
         "runs": "2", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -513,6 +559,7 @@
         "opponent": "MIA", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -524,6 +571,7 @@
         "opponent": "MIA", 
         "runs": "7", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -535,6 +583,7 @@
         "opponent": "MIA", 
         "runs": "3", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -546,6 +595,7 @@
         "opponent": "SFG", 
         "runs": "5", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -557,6 +607,7 @@
         "opponent": "SFG", 
         "runs": "0", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -568,6 +619,7 @@
         "opponent": "SFG", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -579,6 +631,7 @@
         "opponent": "SFG", 
         "runs": "0", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -590,6 +643,7 @@
         "opponent": "LAD", 
         "runs": "2", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -601,6 +655,7 @@
         "opponent": "LAD", 
         "runs": "0", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -612,6 +667,7 @@
         "opponent": "LAD", 
         "runs": "6", 
         "runs_against": "12", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -623,6 +679,7 @@
         "opponent": "SDP", 
         "runs": "2", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -634,6 +691,7 @@
         "opponent": "SDP", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -645,6 +703,7 @@
         "opponent": "SDP", 
         "runs": "4", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -656,6 +715,7 @@
         "opponent": "CHC", 
         "runs": "5", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -667,6 +727,7 @@
         "opponent": "CHC", 
         "runs": "2", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -678,6 +739,7 @@
         "opponent": "CHC", 
         "runs": "2", 
         "runs_against": "13", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -689,6 +751,7 @@
         "opponent": "CIN", 
         "runs": "8", 
         "runs_against": "9", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -700,6 +763,7 @@
         "opponent": "CIN", 
         "runs": "1", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -711,6 +775,7 @@
         "opponent": "CIN", 
         "runs": "9", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -722,6 +787,7 @@
         "opponent": "CIN", 
         "runs": "7", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -733,6 +799,7 @@
         "opponent": "NYM", 
         "runs": "5", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -744,6 +811,7 @@
         "opponent": "NYM", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -755,6 +823,7 @@
         "opponent": "NYM", 
         "runs": "6", 
         "runs_against": "0", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -766,6 +835,7 @@
         "opponent": "MIA", 
         "runs": "3", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -777,6 +847,7 @@
         "opponent": "MIA", 
         "runs": "0", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -788,6 +859,7 @@
         "opponent": "NYM", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -799,6 +871,7 @@
         "opponent": "NYM", 
         "runs": "6", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -810,6 +883,7 @@
         "opponent": "NYM", 
         "runs": "0", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -821,6 +895,7 @@
         "opponent": "NYM", 
         "runs": "5", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -832,6 +907,7 @@
         "opponent": "CLE", 
         "runs": "3", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -843,6 +919,7 @@
         "opponent": "CLE", 
         "runs": "3", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -854,6 +931,7 @@
         "opponent": "CLE", 
         "runs": "0", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -865,6 +943,7 @@
         "opponent": "MIA", 
         "runs": "8", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -876,6 +955,7 @@
         "opponent": "MIA", 
         "runs": "5", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -887,6 +967,7 @@
         "opponent": "MIA", 
         "runs": "9", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -898,6 +979,7 @@
         "opponent": "MIA", 
         "runs": "2", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -909,6 +991,7 @@
         "opponent": "PHI", 
         "runs": "2", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -920,6 +1003,7 @@
         "opponent": "PHI", 
         "runs": "1", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -931,6 +1015,7 @@
         "opponent": "PHI", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -942,6 +1027,7 @@
         "opponent": "CHC", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -953,6 +1039,7 @@
         "opponent": "CHW", 
         "runs": "11", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -964,6 +1051,7 @@
         "opponent": "CHW", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -975,6 +1063,7 @@
         "opponent": "CHW", 
         "runs": "2", 
         "runs_against": "0", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -986,6 +1075,7 @@
         "opponent": "COL", 
         "runs": "2", 
         "runs_against": "11", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -997,6 +1087,7 @@
         "opponent": "COL", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1008,6 +1099,7 @@
         "opponent": "COL", 
         "runs": "1", 
         "runs_against": "0", 
+        "team": "ATL", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1019,6 +1111,7 @@
         "opponent": "CIN", 
         "runs": "2", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1030,6 +1123,7 @@
         "opponent": "CIN", 
         "runs": "5", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1041,6 +1135,7 @@
         "opponent": "CIN", 
         "runs": "3", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1052,6 +1147,7 @@
         "opponent": "COL", 
         "runs": "3", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1063,6 +1159,7 @@
         "opponent": "COL", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1074,6 +1171,7 @@
         "opponent": "COL", 
         "runs": "4", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1085,6 +1183,7 @@
         "opponent": "COL", 
         "runs": "2", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1096,6 +1195,7 @@
         "opponent": "MIN", 
         "runs": "2", 
         "runs_against": "0", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1107,6 +1207,7 @@
         "opponent": "MIN", 
         "runs": "9", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1118,6 +1219,7 @@
         "opponent": "PHI", 
         "runs": "5", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1129,6 +1231,7 @@
         "opponent": "PHI", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1140,6 +1243,7 @@
         "opponent": "PHI", 
         "runs": "5", 
         "runs_against": "9", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1151,6 +1255,7 @@
         "opponent": "PHI", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1162,6 +1267,7 @@
         "opponent": "PIT", 
         "runs": "3", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1173,6 +1279,7 @@
         "opponent": "PIT", 
         "runs": "8", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1184,6 +1291,7 @@
         "opponent": "PIT", 
         "runs": "5", 
         "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1195,6 +1303,7 @@
         "opponent": "STL", 
         "runs": "0", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1206,6 +1315,7 @@
         "opponent": "STL", 
         "runs": "13", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1217,6 +1327,7 @@
         "opponent": "STL", 
         "runs": "6", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1228,6 +1339,7 @@
         "opponent": "MIL", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1239,6 +1351,7 @@
         "opponent": "MIL", 
         "runs": "2", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1250,6 +1363,7 @@
         "opponent": "MIL", 
         "runs": "3", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1261,6 +1375,7 @@
         "opponent": "MIL", 
         "runs": "3", 
         "runs_against": "11", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1272,6 +1387,7 @@
         "opponent": "WSN", 
         "runs": "8", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1283,6 +1399,7 @@
         "opponent": "WSN", 
         "runs": "6", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1294,6 +1411,7 @@
         "opponent": "WSN", 
         "runs": "1", 
         "runs_against": "9", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1305,6 +1423,7 @@
         "opponent": "MIN", 
         "runs": "2", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1316,6 +1435,7 @@
         "opponent": "MIN", 
         "runs": "3", 
         "runs_against": "10", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1327,6 +1447,7 @@
         "opponent": "WSN", 
         "runs": "2", 
         "runs_against": "8", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1338,6 +1459,7 @@
         "opponent": "WSN", 
         "runs": "6", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1349,6 +1471,7 @@
         "opponent": "WSN", 
         "runs": "9", 
         "runs_against": "11", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1360,6 +1483,7 @@
         "opponent": "WSN", 
         "runs": "7", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1371,6 +1495,7 @@
         "opponent": "ARI", 
         "runs": "8", 
         "runs_against": "9", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1382,6 +1507,7 @@
         "opponent": "ARI", 
         "runs": "7", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1393,6 +1519,7 @@
         "opponent": "ARI", 
         "runs": "9", 
         "runs_against": "10", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1404,6 +1531,7 @@
         "opponent": "ARI", 
         "runs": "3", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1415,6 +1543,7 @@
         "opponent": "SFG", 
         "runs": "0", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1426,6 +1555,7 @@
         "opponent": "SFG", 
         "runs": "3", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1437,6 +1567,7 @@
         "opponent": "SFG", 
         "runs": "4", 
         "runs_against": "13", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1448,6 +1579,7 @@
         "opponent": "SDP", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1459,6 +1591,7 @@
         "opponent": "SDP", 
         "runs": "8", 
         "runs_against": "1", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1470,6 +1603,7 @@
         "opponent": "SDP", 
         "runs": "9", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1481,6 +1615,7 @@
         "opponent": "PHI", 
         "runs": "8", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1492,6 +1627,7 @@
         "opponent": "PHI", 
         "runs": "6", 
         "runs_against": "4", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1503,6 +1639,7 @@
         "opponent": "PHI", 
         "runs": "2", 
         "runs_against": "0", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1514,6 +1651,7 @@
         "opponent": "WSN", 
         "runs": "4", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1525,6 +1663,7 @@
         "opponent": "WSN", 
         "runs": "7", 
         "runs_against": "9", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1536,6 +1675,7 @@
         "opponent": "WSN", 
         "runs": "4", 
         "runs_against": "5", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1547,6 +1687,7 @@
         "opponent": "NYM", 
         "runs": "4", 
         "runs_against": "6", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1558,6 +1699,7 @@
         "opponent": "NYM", 
         "runs": "4", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": true, 
         "win_loss": "W"
     }, 
@@ -1569,6 +1711,7 @@
         "opponent": "NYM", 
         "runs": "3", 
         "runs_against": "10", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1580,6 +1723,7 @@
         "opponent": "MIA", 
         "runs": "12", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1591,6 +1735,7 @@
         "opponent": "MIA", 
         "runs": "5", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1602,6 +1747,7 @@
         "opponent": "MIA", 
         "runs": "5", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1613,6 +1759,7 @@
         "opponent": "WSN", 
         "runs": "2", 
         "runs_against": "7", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "L"
     }, 
@@ -1624,6 +1771,7 @@
         "opponent": "WSN", 
         "runs": "7", 
         "runs_against": "3", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }, 
@@ -1635,6 +1783,103 @@
         "opponent": "WSN", 
         "runs": "6", 
         "runs_against": "2", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "150", 
+        "game_date": "Monday, Sep 19", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "NYM", 
+        "runs": "7", 
+        "runs_against": "3", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "151", 
+        "game_date": "Tuesday, Sep 20", 
+        "one_run_loss": false, 
+        "one_run_win": true, 
+        "opponent": "NYM", 
+        "runs": "5", 
+        "runs_against": "4", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "152", 
+        "game_date": "Wednesday, Sep 21", 
+        "one_run_loss": false, 
+        "one_run_win": true, 
+        "opponent": "NYM", 
+        "runs": "4", 
+        "runs_against": "3", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "153", 
+        "game_date": "Thursday, Sep 22", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIA", 
+        "runs": "6", 
+        "runs_against": "3", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "154", 
+        "game_date": "Friday, Sep 23", 
+        "one_run_loss": false, 
+        "one_run_win": true, 
+        "opponent": "MIA", 
+        "runs": "3", 
+        "runs_against": "2", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "155", 
+        "game_date": "Saturday, Sep 24", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIA", 
+        "runs": "4", 
+        "runs_against": "6", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "156", 
+        "game_date": "Tuesday, Sep 27", 
+        "one_run_loss": false, 
+        "one_run_win": true, 
+        "opponent": "PHI", 
+        "runs": "7", 
+        "runs_against": "6", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "157", 
+        "game_date": "Wednesday, Sep 28", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "PHI", 
+        "runs": "12", 
+        "runs_against": "2", 
+        "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
     }

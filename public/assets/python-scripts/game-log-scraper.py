@@ -47,6 +47,7 @@ for team in teams:
 
             # set up the dictionary for the current game in the list
             current_game = {
+                "team": team,
                 "game-number": cells[1].text,
                 "opponent": cells[6].text,
                 "win_loss": cells[7].text[0],
