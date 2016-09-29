@@ -2706,12 +2706,14 @@ XIX. ADS
 .game-log-chart {
   float: left;
   width: 48%; }
-  .game-log-chart:last-of-type {
+  .game-log-chart:nth-of-type(even) {
     float: right; }
 
 .chart {
   max-width: 900px;
   margin: 0 auto;
+  padding: 4.8rem 0;
+  border-bottom: 1px solid #d7d7d7;
   font-family: "Gotham A", "Gotham B", Arial, sans-serif; }
   .chart h4, .chart h5, .chart h6 {
     font-weight: bold;
@@ -2726,12 +2728,11 @@ XIX. ADS
     font-size: 1.4rem;
     line-height: 1.8rem;
     margin-bottom: 0.6rem;
-    text-transform: uppercase;
-    margin-top: 1.2rem; }
+    text-transform: uppercase; }
 
 .key {
   font-size: 1.3rem;
-  line-height: 1.8rem;
+  line-height: 1.7rem;
   margin-bottom: 0; }
   .key div {
     display: inline-block;
@@ -2744,30 +2745,41 @@ XIX. ADS
   .key-label:before {
     content: "";
     display: block;
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 17px;
+    height: 17px;
     position: relative;
-    top: .2rem;
+    text-align: center;
     display: inline-block;
     background-color: #d7d7d7;
     margin-right: 5px; }
 
 #one-run-win:before {
-  background-color: #e34e36; }
+  background-color: #e34e36;
+  content: "W";
+  font-size: .9rem;
+  color: white;
+  font-weight: bold; }
 
 #one-run-loss:before {
-  background-color: #329ce8; }
+  background-color: #329ce8;
+  content: "L";
+  font-size: .9rem;
+  color: white;
+  font-weight: bold; }
 
 #opponents-selector:before {
   display: inline-block;
   content: "Choose opponent: "; }
 
+#ninth-inning-wins {
+  clear: both; }
+
 .charts {
   margin-top: 2.4rem; }
 
 .game-log {
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   margin-right: 5px;
   margin-bottom: 5px;
   display: block;
@@ -2776,9 +2788,10 @@ XIX. ADS
   text-align: center;
   font-family: "Gotham A", "Gotham B", Arial, sans-serif;
   color: white;
-  line-height: 15px;
+  line-height: 17px;
   color: #323232;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: .9rem; }
 
 .one-run-win {
   background-color: #e34e36;
@@ -2790,6 +2803,9 @@ XIX. ADS
 
 .source {
   clear: both; }
+
+.chart-block {
+  margin-bottom: 2.4rem; }
 
 #sim-chart {
   width: 48%;
@@ -2902,3 +2918,41 @@ XIX. ADS
   -o-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
   margin-bottom: 1.2rem; }
+
+#late-and-close-hitting {
+  width: 48%;
+  max-width: 700px;
+  display: block;
+  float: left; }
+
+#late-and-close-pitching {
+  width: 48%;
+  max-width: 700px;
+  display: block;
+  float: right; }
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #d7d7d7;
+  shape-rendering: crispEdges; }
+
+.axis text {
+  font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+  font-size: 11px; }
+
+.dot {
+  fill: #797979;
+  opacity: .3; }
+
+.ranger {
+  fill: #329ce8;
+  opacity: .75; }
+
+.axis-label {
+  font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+  text-transform: uppercase; }
+
+.ranger-label {
+  font-weight: bold;
+  font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+  font-size: 1.1rem; }

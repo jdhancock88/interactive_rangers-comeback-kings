@@ -14,6 +14,9 @@ $(document).ready(function() {
 
 	var sliderValue = 50;
 
+	var ninthData;
+
+
 	////////////////////////////////////////////////////////////////////////////
 	///// INITIAL DATA DRAW AND FORMATTING /////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////
@@ -56,10 +59,16 @@ $(document).ready(function() {
 			}
 		});
 
-
 		drawGameLogs(data, "#opp-game-log-chart");
 		drawWinsLosses(oppWL, "#opp-wins-losses");
 
+	});
+
+	$.getJSON("/assets/python-scripts/json/ninthInning.json", function(data) {
+		ninthData = data;
+
+		drawNinthWins("LAA", "#opp-ninth-wins");
+		drawNinthWins("TEX", "#tex-ninth-wins");
 	});
 
 
@@ -108,6 +117,36 @@ $(document).ready(function() {
 		}
 
 	}
+
+	////////////////////////////////////////////////////////////////////////////
+	///// DRAWING THE ONE-RUNS WINS AND LOSSES /////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////
+
+	function drawNinthWins(team, target) {
+
+		// empty out the html from the target element
+		$(target).empty();
+
+		// we'll use this wins variable to draw out the appropriate number of
+		// spans for each team's ninth-inning comeback wins
+
+		var wins = 0;
+
+		// iterate over the ninth-inning comeback data and find the supplied team
+		// setting the wins variable equal to that team's number of wins
+		$.each(ninthData, function(k,v) {
+			if (v.id === team) {
+				wins = ninthData[k].behindWins;
+			}
+		});
+
+		// draw the spans for the graphic
+		for (i=0; i<wins; i++) {
+			$(target).append("<span class='game-log one-run-win'>W</span>");
+		}
+	}
+
+
 
 
 
@@ -281,7 +320,7 @@ $(document).ready(function() {
 						$("#sim-button").text("Re-run simulation").show();
 					}
 				};
-			}(i), 200*i);
+			}(i), 100*i);
 		}
 	}
 
@@ -317,8 +356,13 @@ $(document).ready(function() {
 
 		});
 
+		drawNinthWins(selectedTeam, "#opp-ninth-wins");
+
 	});
 
+	////////////////////////////////////////////////////////////////////////////
+	///// SETTING UP THE SLIDER ELEMENT ////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////
 
 	$("#slider").slider({
 		animate: "fast",
@@ -330,5 +374,532 @@ $(document).ready(function() {
 		}
 	});
 
+
+
+
+
+
+
+
+
+	////////////////////////////////////////////////////////////////////////////
+	///// DRAWING THE LATE AND CLOSE SCATTER PLOTS /////////////////////////////
+	////////////////////////////////////////////////////////////////////////////
+
+	var hittingFormat = d3.format(".03f");
+	var pitchingFormat = d3.format(".02f");
+
+
+	function drawLC(leagueHittingData, rangersHittingData, allHittingData, hittingAverages, hittingTarget, leaguePitchingData, rangersPitchingData, allPitchingData, pitchingAverages, pitchingTarget) {
+
+		var margin = {
+		  top: 10,
+		  right: 10,
+		  bottom: 50,
+		  left: 50
+		};
+
+		// our target divs for our charts are the same dimentions, so we can just
+		// use one of them to set width, height and halfpoints for both
+		var width = $(hittingTarget).width() - margin.left - margin.right;
+		var height = $(hittingTarget).width() * 0.67;
+
+		var halfpoint = (width - margin.left - margin.right) / 2;
+
+
+		////////////////////////////////////////////////////////////////////////
+		///// SCALES AND AXIS FOR HITTERS //////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////
+
+		// SCALES FOR HITTING CHART
+
+		var xScaleHitting = d3.scaleLinear()
+			.domain ([d3.min(allHittingData, function(d){return d.lc_plate_app;}), d3.max(allHittingData, function(d) {return d.lc_plate_app;})])
+			.range([0, width]);
+
+		var yScaleHitting = d3.scaleLinear()
+			.domain ([0, d3.max(allHittingData, function(d) {
+				return d.lc_batting_average;
+			})])
+			.range([height, 0]);
+
+
+		// AXIS FOR HITTERS
+
+		var xAxisHitting = d3.axisBottom(xScaleHitting).ticks(6).tickSize(-height);
+		var yAxisHitting = d3.axisLeft(yScaleHitting).tickValues([.100,.200,.300,.400]).tickSize(-width).tickFormat(function(d) {return hittingFormat(d);});
+
+
+
+		////////////////////////////////////////////////////////////////////////
+		///// SCALES AND AXIS FOR PITCHERS /////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////
+
+		// SCALES FOR THE PITCHING CHART
+
+		var xScalePitching = d3.scaleLinear()
+				.domain ([d3.min(allPitchingData, function(d){return d.lc_inning_pitched;}), d3.max(allPitchingData, function(d) {return d.lc_inning_pitched;})])
+				.range([0, width]);
+
+		var yScalePitching = d3.scaleLinear()
+			.domain ([0, d3.max(allPitchingData, function(d) {
+				return d.lc_era;
+			})])
+			.range([height, 0]);
+
+
+		// AXIS FOR THE PITCHING CHART
+
+		var xAxisPitching = d3.axisBottom(xScalePitching).ticks(6).tickSize(-height);
+		var yAxisPitching = d3.axisLeft(yScalePitching).tickValues([1.00,2.00,3.00,4.00,5.00,6.00,7.00,8.00,9.00,10.00]).tickSize(-width).tickFormat(function(d) {console.log(d); return pitchingFormat(d);});
+
+
+
+		////////////////////////////////////////////////////////////////////////
+		///// DRAWING THE SVG ELEMENTS FOR HITTERS /////////////////////////////
+		////////////////////////////////////////////////////////////////////////
+
+		// CREATING SVG ELEMENTS FOR THE HITTING CHART
+
+		var hittingSVG = d3.select(hittingTarget).append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		hittingSVG.append("g")
+			.attr("class", "x axis")
+			.attr("id", "axis-x")
+			.attr("transform", "translate(0," + height +")")
+			.call(xAxisHitting);
+
+		hittingSVG.append("g")
+			.attr("class", "y axis")
+			.attr("id", "axis-y")
+			.call(yAxisHitting);
+
+		var leagueHitters = hittingSVG.selectAll(".dot")
+			.data(leagueHittingData)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) {
+				return xScaleHitting(d.lc_plate_app);
+			})
+			.attr("cy", function(d) {
+				return yScaleHitting(d.lc_batting_average);
+			})
+			.attr("class", "dot")
+			.attr("r", 5);
+
+		var rangersHitters = hittingSVG.selectAll(".ranger")
+			.data(rangersHittingData)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) {
+				return xScaleHitting(d.lc_plate_app);
+			})
+			.attr("cy", function(d) {
+				return yScaleHitting(d.lc_batting_average);
+			})
+			.attr("class", "ranger")
+			.attr("r", 5);
+
+		var rangersLabels = hittingSVG.selectAll(".ranger-label")
+			.data(rangersHittingData)
+			.enter()
+			.filter(function(d) {
+				if (d.lc_plate_app > 100) {
+					return true;
+				} else {
+					return false;
+				}
+			})
+			.append("text")
+			.attr("text-anchor", "start")
+			.attr("x", function(d) {
+				return xScaleHitting(d.lc_plate_app) + 7;
+			})
+			.attr("y", function(d) {
+				return yScaleHitting(d.lc_batting_average) + 3;
+			})
+			.attr("class", "ranger-label")
+			.text(function(d) {
+				return d.player;
+			});
+
+		// DRAWING THE HITTING CHART LABELS
+
+		hittingSVG.append("text")
+		  .attr("text-anchor", "middle")
+		  .attr("x", height / 2 * -1)
+		  .attr("y", -40)
+		  .attr("transform", "rotate(-90)")
+		  .attr("class", "axis-label")
+		  .text("Late and Close Batting Avg.");
+
+		hittingSVG.append("text")
+		  .attr("text-anchor", "middle")
+		  .attr("y", height + 30)
+		  .attr("x", width / 2)
+		  .attr("class", "axis-label")
+		  .text("Late and Close Plate App. (Min: 50)");
+
+
+		// DRAWING THE AVERAGE LINES FOR THE HITTING CHART
+
+		hittingSVG.append("line")
+			.attr("x1", xScaleHitting(hittingAverages[0]))
+			.attr("y1", 0)
+			.attr("x2", xScaleHitting(hittingAverages[0]))
+			.attr("y2", height)
+			.attr("stroke-width", 2)
+			.attr("class", "avgPAs")
+			.attr("stroke", "black");
+
+		hittingSVG.append("line")
+			.attr("x1", 0)
+			.attr("y1", yScaleHitting(hittingAverages[1]))
+			.attr("x2", width)
+			.attr("y2", yScaleHitting(hittingAverages[1]))
+			.attr("stroke-width", 2)
+			.attr("class", "avgPAs")
+			.attr("stroke", "black");
+
+
+		////////////////////////////////////////////////////////////////////////
+		///// DRAWING THE SVG ELEMENTS FOR PITCHERS ////////////////////////////
+		////////////////////////////////////////////////////////////////////////
+
+		// CREATING SVG ELEMENTS FOR THE PITCHING CHART
+
+		var pitchingSVG = d3.select(pitchingTarget).append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		pitchingSVG.append("g")
+			.attr("class", "x axis")
+			.attr("id", "axis-x")
+			.attr("transform", "translate(0," + height +")")
+			.call(xAxisPitching);
+
+		pitchingSVG.append("g")
+			.attr("class", "y axis")
+			.attr("id", "axis-y")
+			.call(yAxisPitching);
+
+		var leaguePitchers = pitchingSVG.selectAll(".dot")
+			.data(leaguePitchingData)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) {
+				return xScalePitching(d.lc_inning_pitched);
+			})
+			.attr("cy", function(d) {
+				return yScalePitching(d.lc_era);
+			})
+			.attr("class", "dot")
+			.attr("r", 5);
+
+		var rangersPitchers = pitchingSVG.selectAll(".ranger")
+			.data(rangersPitchingData)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d) {
+				return xScalePitching(d.lc_inning_pitched);
+			})
+			.attr("cy", function(d) {
+				return yScalePitching(d.lc_era);
+			})
+			.attr("class", "ranger")
+			.attr("r", 5);
+
+		var rangersLabels = pitchingSVG.selectAll(".ranger-label")
+			.data(rangersPitchingData)
+			.enter()
+			.filter(function(d) {
+				if (d.lc_inning_pitched > 30) {
+					return true;
+				} else {
+					return false;
+				}
+			})
+			.append("text")
+			.attr("text-anchor", "start")
+			.attr("x", function(d) {
+				return xScalePitching(d.lc_inning_pitched) + 7;
+			})
+			.attr("y", function(d) {
+				return yScalePitching(d.lc_era) + 3;
+			})
+			.attr("class", "ranger-label")
+			.text(function(d) {
+				return d.player;
+			});
+
+
+		// CREATING LABELS FOR THE PITCHING CHART
+
+		pitchingSVG.append("text")
+		  .attr("text-anchor", "middle")
+		  .attr("x", height / 2 * -1)
+		  .attr("y", -40)
+		  .attr("transform", "rotate(-90)")
+		  .attr("class", "axis-label")
+		  .text("Late and Close ERA");
+
+		pitchingSVG.append("text")
+		  .attr("text-anchor", "middle")
+		  .attr("y", height + 30)
+		  .attr("x", width / 2)
+		  .attr("class", "axis-label")
+		  .text("Late and Close Inn. Pitched (Min: 10)");
+
+
+	  	// CREATING AVERAGE LINES FOR THE PITCHING CHART
+
+		pitchingSVG.append("line")
+			.attr("x1", xScalePitching(pitchingAverages[0]))
+			.attr("y1", 0)
+			.attr("x2", xScalePitching(pitchingAverages[0]))
+			.attr("y2", height)
+			.attr("stroke-width", 2)
+			.attr("class", "avgPAs")
+			.attr("stroke", "black");
+
+		pitchingSVG.append("line")
+			.attr("x1", 0)
+			.attr("y1", yScalePitching(pitchingAverages[1]))
+			.attr("x2", width)
+			.attr("y2", yScalePitching(pitchingAverages[1]))
+			.attr("stroke-width", 2)
+			.attr("class", "avgPAs")
+			.attr("stroke", "black");
+
+
+
+		////////////////////////////////////////////////////////////////////////
+		///// UPDATING THE CHARTS WITH THE DROPDOWN ////////////////////////////
+		////////////////////////////////////////////////////////////////////////
+
+		d3.select("#late-selector")
+			.on("change", function() {
+
+				// dumping out our filtered data and starting from scratch
+				var filteredHitters = [];
+				var filteredPitchers = [];
+
+				// grab the selected option element, then drill down to it's data-team attribute
+				var selectedTeam = d3.select(this).selectAll("option").filter(function(d,i) { return this.selected;});
+				selectedTeam = selectedTeam.attr("data-team");
+
+				// checking to see if we've selected "all teams". If we have, set the
+				// filtered data arrays to the entire data set
+				if (selectedTeam === "ALL") {
+					filteredHitters = leagueHittingData;
+					filteredPitchers = leaguePitchingData;
+				} else {
+
+					// go through the hitting and pitching data and populate the
+					// filtered data arrays with players that match the selected team
+					$.each(leagueHittingData, function(k,v) {
+						if (v.team === selectedTeam) {
+							filteredHitters.push(v);
+						}
+					});
+
+					$.each(leaguePitchingData, function(k,v) {
+						if (v.team === selectedTeam) {
+							filteredPitchers.push(v);
+						}
+					});
+
+				}
+
+				// rebind the new hitting data to the dots
+				hittingSVG.selectAll(".dot")
+					.data(filteredHitters)
+					.transition()
+					.duration(500)
+					.attr("cx", function(d) {
+						return xScaleHitting(d.lc_plate_app);
+					})
+					.attr("cy", function(d) {
+						return yScaleHitting(d.lc_batting_average);
+					})
+					.attr("class", function(d) {
+						return "dot";
+					});
+
+				// enter any new circles for hitters that do not currently exist
+				hittingSVG.selectAll(".dot")
+					.data(filteredHitters)
+					.enter()
+					.append("circle")
+					.attr("class", "dot")
+					.attr("cx", function(d) {
+						return xScaleHitting(d.lc_plate_app);
+					})
+					.attr("cy", function(d) {
+						return yScaleHitting(d.lc_batting_average);
+					})
+					.attr("class", function(d) {
+						return "dot";
+					})
+					.attr("r", 5)
+					.attr("fill", "red");
+
+				// remove any circles for hitters that are no longer needed
+				hittingSVG.selectAll(".dot")
+					.data(filteredHitters)
+					.exit().remove();
+
+
+				// rebind the new pitching data to the dots
+				pitchingSVG.selectAll(".dot")
+					.data(filteredPitchers)
+					.transition()
+					.duration(500)
+					.attr("cx", function(d) {
+						return xScalePitching(d.lc_inning_pitched);
+					})
+					.attr("cy", function(d) {
+						return yScalePitching(d.lc_era);
+					})
+					.attr("class", function(d) {
+						if (d.team === "TEX") {
+							return "dot ranger";
+						} else {
+							return "dot";
+						}
+					});
+
+				// enter any new circles for pitchers that don't exist yet
+				pitchingSVG.selectAll(".dot")
+					.data(filteredPitchers)
+					.enter()
+					.append("circle")
+					.attr("class", "dot")
+					.attr("cx", function(d) {
+						return xScalePitching(d.lc_inning_pitched);
+					})
+					.attr("cy", function(d) {
+						return yScalePitching(d.lc_era);
+					})
+					.attr("class", function(d) {
+						if (d.team === "TEX") {
+							return "dot ranger";
+						} else {
+							return "dot";
+						}
+					})
+					.attr("r", 5)
+					.attr("fill", "red");
+
+
+				// remove any circles for pitchers that are no longer needed
+				pitchingSVG.selectAll(".dot")
+					.data(filteredPitchers)
+					.exit().remove();
+
+			});
+
+	}
+
+
+	var lateHitters = [];
+	var latePitchers = [];
+
+	var leagueHitters = [];
+	var rangersHitters = [];
+
+	var leaguePitchers = [];
+	var rangersPitchers = [];
+
+	var hittingAverages = [];
+	var pitchingAverages = [];
+
+
+	var lcQueue = 0;
+
+	$.getJSON("/assets/python-scripts/json/hitters-late-and-close.json", function(data) {
+
+		lateHitters = data;
+
+		var totalHits = 0;
+		var totalABs = 0;
+		var totalPAs = 0;
+
+		$.each(data, function(k,v) {
+			if (v.team !== "TEX") {
+				leagueHitters.push(v);
+			} else {
+				rangersHitters.push(v);
+			}
+
+			totalHits += v.lc_hits;
+			totalABs += v.lc_ab;
+			totalPAs += v.lc_plate_app;
+
+		});
+
+		var avgPAs = totalPAs / data.length;
+		var avgAvg = totalHits / totalABs;
+
+		hittingAverages[0] = avgPAs;
+		hittingAverages[1] = avgAvg;
+
+		lcQueue++;
+
+
+		if (lcQueue === 2) {
+			drawLC(leagueHitters, rangersHitters, lateHitters, hittingAverages, "#late-and-close-hitting", leaguePitchers, rangersPitchers, latePitchers, pitchingAverages, "#late-and-close-pitching");
+		}
+
+	});
+
+	$.getJSON("/assets/python-scripts/json/pitchers-late-and-close.json", function(data) {
+		latePitchers = data;
+
+		var totalERs = 0;
+		var wholeInns = 0;
+		var partialInns = 0;
+
+		$.each(data, function(k,v) {
+			if (v.team !== "TEX") {
+				leaguePitchers.push(v);
+			} else {
+				rangersPitchers.push(v);
+			}
+
+			var wholeIPs = Math.floor(v.lc_inning_pitched);
+			var partialIPs = Math.floor((v.lc_inning_pitched - wholeIPs) * 10);
+
+			totalERs += v.lc_earned_runs;
+
+			wholeInns += wholeIPs;
+			partialInns += partialIPs;
+
+		});
+
+
+		var totalOuts = (wholeInns * 3) + partialInns;
+		var totalIPs = totalOuts / 3;
+
+		var avgERA = (9 * (totalERs / totalIPs));
+		avgERA = Math.round(avgERA * 100) / 100;
+
+		var avgIPs = totalIPs / data.length;
+
+		pitchingAverages[0] = avgIPs;
+		pitchingAverages[1] = avgERA;
+
+		lcQueue++;
+
+		if (lcQueue === 2) {
+			drawLC(leagueHitters, rangersHitters, lateHitters, hittingAverages, "#late-and-close-hitting", leaguePitchers, rangersPitchers, latePitchers, pitchingAverages, "#late-and-close-pitching");
+		}
+	});
 
 });

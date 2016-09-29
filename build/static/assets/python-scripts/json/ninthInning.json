@@ -1,180 +1,180 @@
 [
     {
-        "behindLoss": "51", 
-        "behindPct": "0.121", 
-        "behindWins": "7", 
+        "behindLoss": "56", 
+        "behindPct": "0.125", 
+        "behindWins": "8", 
         "id": "TEX"
     }, 
     {
-        "behindLoss": "47", 
-        "behindPct": "0.113", 
-        "behindWins": "6", 
+        "behindLoss": "51", 
+        "behindPct": "0.121", 
+        "behindWins": "7", 
         "id": "CHC"
     }, 
     {
-        "behindLoss": "58", 
-        "behindPct": "0.079", 
-        "behindWins": "5", 
+        "behindLoss": "64", 
+        "behindPct": "0.086", 
+        "behindWins": "6", 
         "id": "STL"
     }, 
     {
-        "behindLoss": "53", 
-        "behindPct": "0.070", 
+        "behindLoss": "56", 
+        "behindPct": "0.082", 
+        "behindWins": "5", 
+        "id": "LAD"
+    }, 
+    {
+        "behindLoss": "55", 
+        "behindPct": "0.068", 
+        "behindWins": "4", 
+        "id": "BOS"
+    }, 
+    {
+        "behindLoss": "69", 
+        "behindPct": "0.068", 
+        "behindWins": "5", 
+        "id": "KCR"
+    }, 
+    {
+        "behindLoss": "56", 
+        "behindPct": "0.067", 
         "behindWins": "4", 
         "id": "CLE"
     }, 
     {
-        "behindLoss": "53", 
-        "behindPct": "0.070", 
+        "behindLoss": "58", 
+        "behindPct": "0.065", 
         "behindWins": "4", 
         "id": "SEA"
     }, 
     {
-        "behindLoss": "54", 
-        "behindPct": "0.069", 
-        "behindWins": "4", 
-        "id": "LAD"
+        "behindLoss": "77", 
+        "behindPct": "0.061", 
+        "behindWins": "5", 
+        "id": "LAA"
     }, 
     {
-        "behindLoss": "64", 
-        "behindPct": "0.059", 
-        "behindWins": "4", 
-        "id": "KCR"
-    }, 
-    {
-        "behindLoss": "64", 
-        "behindPct": "0.059", 
+        "behindLoss": "70", 
+        "behindPct": "0.054", 
         "behindWins": "4", 
         "id": "CHW"
     }, 
     {
-        "behindLoss": "73", 
-        "behindPct": "0.052", 
-        "behindWins": "4", 
-        "id": "ANA"
-    }, 
-    {
-        "behindLoss": "55", 
-        "behindPct": "0.052", 
-        "behindWins": "3", 
-        "id": "BOS"
-    }, 
-    {
-        "behindLoss": "75", 
-        "behindPct": "0.051", 
+        "behindLoss": "79", 
+        "behindPct": "0.048", 
         "behindWins": "4", 
         "id": "SDP"
     }, 
     {
-        "behindLoss": "58", 
-        "behindPct": "0.049", 
+        "behindLoss": "62", 
+        "behindPct": "0.046", 
         "behindWins": "3", 
         "id": "DET"
     }, 
     {
-        "behindLoss": "73", 
-        "behindPct": "0.039", 
+        "behindLoss": "67", 
+        "behindPct": "0.043", 
+        "behindWins": "3", 
+        "id": "BAL"
+    }, 
+    {
+        "behindLoss": "67", 
+        "behindPct": "0.043", 
+        "behindWins": "3", 
+        "id": "COL"
+    }, 
+    {
+        "behindLoss": "77", 
+        "behindPct": "0.037", 
         "behindWins": "3", 
         "id": "OAK"
     }, 
     {
-        "behindLoss": "74", 
-        "behindPct": "0.039", 
+        "behindLoss": "80", 
+        "behindPct": "0.036", 
         "behindWins": "3", 
         "id": "ARI"
     }, 
     {
-        "behindLoss": "49", 
-        "behindPct": "0.039", 
+        "behindLoss": "53", 
+        "behindPct": "0.036", 
         "behindWins": "2", 
         "id": "WSN"
-    }, 
-    {
-        "behindLoss": "61", 
-        "behindPct": "0.032", 
-        "behindWins": "2", 
-        "id": "BAL"
-    }, 
-    {
-        "behindLoss": "63", 
-        "behindPct": "0.031", 
-        "behindWins": "2", 
-        "id": "HOU"
-    }, 
-    {
-        "behindLoss": "62", 
-        "behindPct": "0.031", 
-        "behindWins": "2", 
-        "id": "COL"
     }, 
     {
         "behindLoss": "67", 
         "behindPct": "0.029", 
         "behindWins": "2", 
+        "id": "HOU"
+    }, 
+    {
+        "behindLoss": "70", 
+        "behindPct": "0.028", 
+        "behindWins": "2", 
         "id": "FLA"
     }, 
     {
-        "behindLoss": "76", 
-        "behindPct": "0.026", 
+        "behindLoss": "69", 
+        "behindPct": "0.028", 
         "behindWins": "2", 
-        "id": "CIN"
+        "id": "NYY"
     }, 
     {
-        "behindLoss": "77", 
+        "behindLoss": "71", 
+        "behindPct": "0.027", 
+        "behindWins": "2", 
+        "id": "PIT"
+    }, 
+    {
+        "behindLoss": "79", 
         "behindPct": "0.025", 
         "behindWins": "2", 
         "id": "ATL"
     }, 
     {
-        "behindLoss": "58", 
-        "behindPct": "0.017", 
+        "behindLoss": "82", 
+        "behindPct": "0.024", 
+        "behindWins": "2", 
+        "id": "CIN"
+    }, 
+    {
+        "behindLoss": "61", 
+        "behindPct": "0.016", 
         "behindWins": "1", 
         "id": "TOR"
     }, 
     {
-        "behindLoss": "62", 
-        "behindPct": "0.016", 
+        "behindLoss": "65", 
+        "behindPct": "0.015", 
         "behindWins": "1", 
-        "id": "NYY"
+        "id": "NYM"
     }, 
     {
-        "behindLoss": "67", 
-        "behindPct": "0.015", 
+        "behindLoss": "71", 
+        "behindPct": "0.014", 
         "behindWins": "1", 
         "id": "MIL"
     }, 
     {
-        "behindLoss": "66", 
-        "behindPct": "0.015", 
-        "behindWins": "1", 
-        "id": "PIT"
-    }, 
-    {
-        "behindLoss": "69", 
+        "behindLoss": "73", 
         "behindPct": "0.014", 
         "behindWins": "1", 
         "id": "PHI"
     }, 
     {
-        "behindLoss": "57", 
+        "behindLoss": "61", 
         "behindPct": "0.000", 
         "behindWins": "0", 
         "id": "SFG"
     }, 
     {
-        "behindLoss": "61", 
-        "behindPct": "0.000", 
-        "behindWins": "0", 
-        "id": "NYM"
-    }, 
-    {
-        "behindLoss": "73", 
+        "behindLoss": "80", 
         "behindPct": "0.000", 
         "behindWins": "0", 
         "id": "TBD"
     }, 
     {
-        "behindLoss": "78", 
+        "behindLoss": "85", 
         "behindPct": "0.000", 
         "behindWins": "0", 
         "id": "MIN"

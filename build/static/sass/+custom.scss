@@ -13,7 +13,7 @@
 .game-log-chart {
     float: left;
     width: 48%;
-    &:last-of-type {
+    &:nth-of-type(even) {
         float: right;
     }
 }
@@ -21,6 +21,8 @@
 .chart {
     max-width: 900px;
     margin: 0 auto;
+    padding: 4.8rem 0;
+    border-bottom: 1px solid $black215;
     font-family: $sans;
     h4, h5, h6 {
         font-weight: bold;
@@ -35,12 +37,11 @@
     h6 {
         @include type(1.4rem, 1.8rem, .6rem);
         text-transform: uppercase;
-        margin-top: 1.2rem;
     }
 }
 
 .key {
-    @include type(1.3rem, 1.8rem, 0);
+    @include type(1.3rem, 1.7rem, 0);
     div {
         display: inline-block;
         margin-left: 20px;
@@ -53,8 +54,8 @@
         margin-right: 0;
     }
     &:before {
-        @include psuedoElement(1.3rem, 1.3rem);
-        top: .2rem;
+        @include psuedoElement(17px, 17px);
+        text-align: center;
         display: inline-block;
         background-color: $black215;
         margin-right: 5px;
@@ -63,9 +64,17 @@
 
 #one-run-win:before {
     background-color: $chartRed;
+    content: "W";
+    font-size: .9rem;
+    color: white;
+    font-weight: bold;
 }
 #one-run-loss:before {
     background-color: $chartBlue;
+    content: "L";
+    font-size: .9rem;
+    color: white;
+    font-weight: bold;
 }
 
 #opponents-selector:before {
@@ -73,13 +82,17 @@
     content: "Choose opponent: "
 }
 
+#ninth-inning-wins {
+    clear: both;
+}
+
 .charts {
     margin-top: 2.4rem;
 }
 
 .game-log {
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     margin-right: 5px;
     margin-bottom: 5px;
     display: block;
@@ -88,10 +101,10 @@
     text-align: center;
     font-family: $sans;
     color: white;
-    line-height: 15px;
+    line-height: 17px;
     color: $black50;
     font-weight: bold;
-
+    font-size: .9rem;
 }
 
 .one-run-win {
@@ -106,6 +119,10 @@
 
 .source {
     clear: both;
+}
+
+.chart-block {
+    margin-bottom: 2.4rem;
 }
 
 #sim-chart {
@@ -229,5 +246,48 @@
     margin-left: -8px;
     @include transition(all, .1s, ease-out);
     margin-bottom: 1.2rem;
+}
 
+
+#late-and-close-hitting {
+    width: 48%;
+    max-width: 700px;
+    display: block;
+    float: left;
+}
+
+#late-and-close-pitching {
+    width: 48%;
+    max-width: 700px;
+    display: block;
+    float: right;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: $black215;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: $sans;
+    font-size: 11px;
+}
+
+.dot {
+    fill: $black121;
+    opacity: .3;
+}
+.ranger {
+    fill: $chartBlue;
+    opacity: .75;
+}
+.axis-label {
+    font-family: $sans;
+    text-transform: uppercase;
+}
+.ranger-label {
+    font-weight: bold;
+    font-family: $sans;
+    font-size: 1.1rem;
 }

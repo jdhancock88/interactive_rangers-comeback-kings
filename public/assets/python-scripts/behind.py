@@ -5,6 +5,7 @@ import re
 import json
 from operator import itemgetter
 
+
 teams = ["ANA", "HOU", "OAK", "TOR", "ATL", "MIL", "STL", "CHC", "ARI", "LAD", "SFG", "CLE", "SEA", "FLA", "NYM", "WSN", "BAL", "SDP", "PHI", "PIT", "TEX", "TBD", "BOS", "CIN", "COL", "KCR", "DET", "MIN", "CHW", "NYY"]
 
 #going to hold each teams data object
@@ -36,7 +37,10 @@ for team in teams:
     behindPct = cells[9].text
 
     #assign to teamObj
-    teamObj["id"] = team
+    if team == "ANA":
+        teamObj["id"] = "LAA"
+    else:
+        teamObj["id"] = team
     teamObj["behindWins"] = behindWins
     teamObj["behindLoss"] = behindLoss
     teamObj["behindPct"] = behindPct
@@ -47,7 +51,7 @@ for team in teams:
 team_comeback_wins = sorted(teamStats, key=itemgetter("behindPct"), reverse=True)
 
 #declare files, w+ create if don't exist
-j = open( "json/ninthInning.json","w+")
+j = open( "/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/json/ninthInning.json","w+")
 
 #minified
 #json.dump(d, j, sort_keys=True, separators=(',',':'))
