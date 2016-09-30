@@ -110,11 +110,11 @@ body {
       line-height: 13px; } }
 
 .one-run-win {
-  background-color: #e34e36;
+  background-color: #329ce8;
   color: white; }
 
 .one-run-loss {
-  background-color: #329ce8;
+  background-color: #e34e36;
   color: white; }
 
 .source {
@@ -371,7 +371,8 @@ body {
   max-height: 300px;
   overflow-y: scroll;
   background-color: white;
-  padding: 10px 10px 10px 10px; }
+  padding: 10px 10px 10px 10px;
+  z-index: 20; }
   .custom-list li {
     font-size: 2rem;
     line-height: 2.4rem;
@@ -386,7 +387,7 @@ body {
   float: left;
   font-size: 1.6rem !important;
   line-height: 2rem !important;
-  color: #e34e36;
+  color: #329ce8;
   margin-right: 5px; }
 
 #late-selector {

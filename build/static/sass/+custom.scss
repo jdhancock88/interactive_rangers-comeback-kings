@@ -128,12 +128,12 @@ body {
 }
 
 .one-run-win {
-    background-color: $chartRed;
+    background-color: $chartBlue;
     color: white;
 }
 
 .one-run-loss {
-    background-color: $chartBlue;
+    background-color: $chartRed;
     color: white;
 }
 
@@ -416,6 +416,7 @@ body {
     overflow-y: scroll;
     background-color: white;
     padding: 10px 10px 10px 10px;
+    z-index: 20;
     li {
         font-size: 2rem;
         line-height: 2.4rem;
@@ -432,7 +433,7 @@ body {
     float: left;
     font-size: 1.6rem !important;
     line-height: 2rem !important;
-    color: $chartRed;
+    color: $chartBlue;
     margin-right: 5px;
 }
 

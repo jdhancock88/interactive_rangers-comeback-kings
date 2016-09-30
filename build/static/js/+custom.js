@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 	$('.copyright').text(year);
 
-	var sliderValue = 50;
+	var sliderValue = 77;
 
 	var ninthData;
 
@@ -426,7 +426,7 @@ $(document).ready(function() {
 	var slider = document.getElementById("slider");
 
 	noUiSlider.create(slider, {
-		start: [50],
+		start: [77],
 		range: {
 			"min": [0],
 			"max": [100]
@@ -637,7 +637,7 @@ $(document).ready(function() {
 		  .attr("y", -40)
 		  .attr("transform", "rotate(-90)")
 		  .attr("class", "axis-label")
-		  .text("Late and Close Runs Prod.");
+		  .text("Late and Close Runs Produced");
 
 		hittingSVG.append("text")
 		  .attr("text-anchor", "middle")
