@@ -16,8 +16,9 @@ body {
 
 .chart {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 4.8rem 0;
+  margin: 4.8rem auto 0;
+  padding: 2.4rem 0;
+  border-top: 1px solid #d7d7d7;
   border-bottom: 1px solid #d7d7d7;
   font-family: "Gotham A", "Gotham B", Arial, sans-serif; }
   .chart h4, .chart h5, .chart h6 {
@@ -165,8 +166,6 @@ body {
     transition: all 0.5s ease-out; }
     #standings tr:first-of-type {
       position: relative; }
-    #standings tr:last-of-type {
-      border-bottom: none; }
   #standings #rangers-row {
     top: 29px;
     background-color: #efebde; }
@@ -257,7 +256,9 @@ body {
   width: 48%;
   max-width: 700px;
   display: block;
-  float: left; }
+  float: left;
+  padding-top: 20px;
+  position: relative; }
   #late-and-close-hitting:before {
     content: "Hitters";
     font-family: "Gotham A", "Gotham B", Arial, sans-serif;
@@ -265,13 +266,21 @@ body {
     font-size: 1.4rem;
     line-height: 1.8rem;
     margin-bottom: 0.6rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -75px;
+    text-align: center; }
 
 #late-and-close-pitching {
   width: 48%;
   max-width: 700px;
   display: block;
-  float: right; }
+  float: right;
+  position: relative;
+  padding-top: 20px; }
   #late-and-close-pitching:before {
     content: "Pitchers";
     font-family: "Gotham A", "Gotham B", Arial, sans-serif;
@@ -279,7 +288,13 @@ body {
     font-size: 1.4rem;
     line-height: 1.8rem;
     margin-bottom: 0.6rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -75px;
+    text-align: center; }
 
 @media (max-width: 800px) {
   #late-and-close-pitching, #late-and-close-hitting {

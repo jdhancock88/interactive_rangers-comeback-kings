@@ -54,6 +54,7 @@ $(document).ready(function() {
 			"losses": 0
 		};
 
+
 		$.each(data, function(k, v) {
 			if (v.one_run_win === true) {
 				oppWL.wins ++;
@@ -61,6 +62,9 @@ $(document).ready(function() {
 				oppWL.losses ++;
 			}
 		});
+
+		$("#opp-total").text(oppWL.wins + "-" + oppWL.losses);
+
 
 		drawGameLogs(data, "#opp-game-log-chart");
 		drawWinsLosses(oppWL, "#opp-wins-losses");
@@ -80,6 +84,7 @@ $(document).ready(function() {
 	////////////////////////////////////////////////////////////////////////////
 
 	function drawGameLogs(data, target) {
+
 		d3.select(target).html("");
 
 		var gameLogs = d3.select(target).selectAll(".game-log")
@@ -383,7 +388,7 @@ $(document).ready(function() {
 
 		$(this).parents("ul").addClass("no-show");
 
-		$("#opponents-selector .team").text(mascot);
+		$("#opponents-selector .team").text(mascot + ": ");
 
 		$.getJSON("assets/python-scripts/json/team-skeds/"+selectedTeam+"-game-logs.json", function(data) {
 
@@ -399,6 +404,9 @@ $(document).ready(function() {
 					oppWL.losses ++;
 				}
 			});
+
+			$("#opp-total").text(oppWL.wins + "-" + oppWL.losses);
+
 			drawGameLogs(data, "#opp-game-log-chart");
 			drawWinsLosses(oppWL, "#opp-wins-losses");
 
@@ -469,20 +477,20 @@ $(document).ready(function() {
 		// SCALES FOR HITTING CHART
 
 		var xScaleHitting = d3.scaleLinear()
-			.domain ([d3.min(allHittingData, function(d){return d.lc_plate_app;}), d3.max(allHittingData, function(d) {return d.lc_plate_app;})])
+			.domain ([0, d3.max(allHittingData, function(d) {return d.lc_batting_average;})])
 			.range([0, width]);
 
 		var yScaleHitting = d3.scaleLinear()
 			.domain ([0, d3.max(allHittingData, function(d) {
-				return d.lc_batting_average;
+				return d.lc_runs_produced;
 			})])
 			.range([height, 0]);
 
 
 		// AXIS FOR HITTERS
 
-		var xAxisHitting = d3.axisBottom(xScaleHitting).ticks(6).tickSize(-height);
-		var yAxisHitting = d3.axisLeft(yScaleHitting).tickValues([.100,.200,.300,.400]).tickSize(-width).tickFormat(function(d) {return hittingFormat(d).slice(1);});
+		var xAxisHitting = d3.axisBottom(xScaleHitting).tickValues([.100,.200,.300,.400]).tickFormat(function(d) {return hittingFormat(d).slice(1);}).tickSize(-height);
+		var yAxisHitting = d3.axisLeft(yScaleHitting).ticks(6).tickSize(-width);
 
 
 
@@ -493,7 +501,7 @@ $(document).ready(function() {
 		// SCALES FOR THE PITCHING CHART
 
 		var xScalePitching = d3.scaleLinear()
-				.domain ([d3.min(allPitchingData, function(d){return d.lc_inning_pitched;}), d3.max(allPitchingData, function(d) {return d.lc_inning_pitched;})])
+				.domain ([0, d3.max(allPitchingData, function(d) {return d.lc_inning_pitched;})])
 				.range([0, width]);
 
 		var yScalePitching = d3.scaleLinear()
@@ -559,7 +567,7 @@ $(document).ready(function() {
 			.attr("x2", width)
 			.attr("y2", yScaleHitting(hittingAverages[1]))
 			.attr("stroke-width", 2)
-			.attr("class", "avgPAs")
+			.attr("class", "avgRunsProd")
 			.attr("stroke", "#424242");
 
 
@@ -569,10 +577,10 @@ $(document).ready(function() {
 			.enter()
 			.append("circle")
 			.attr("cx", function(d) {
-				return xScaleHitting(d.lc_plate_app);
+				return xScaleHitting(d.lc_batting_average);
 			})
 			.attr("cy", function(d) {
-				return yScaleHitting(d.lc_batting_average);
+				return yScaleHitting(d.lc_runs_produced);
 			})
 			.attr("class", "dot")
 			.attr("r", 6);
@@ -582,10 +590,10 @@ $(document).ready(function() {
 			.enter()
 			.append("circle")
 			.attr("cx", function(d) {
-				return xScaleHitting(d.lc_plate_app);
+				return xScaleHitting(d.lc_batting_average);
 			})
 			.attr("cy", function(d) {
-				return yScaleHitting(d.lc_batting_average);
+				return yScaleHitting(d.lc_runs_produced);
 			})
 			.attr("class", "ranger")
 			.attr("r", 6);
@@ -595,21 +603,25 @@ $(document).ready(function() {
 			.enter()
 			.append("text")
 			.attr("text-anchor", function(d) {
-				if (d.player === "Nomar Mazara") {
-					return "end";
-				} else {
+				if (d.player === "Jurickson Profar") {
 					return "start";
+				} else {
+					return "end";
 				}
 			})
 			.attr("x", function(d) {
-				if (d.player === "Nomar Mazara") {
-					return xScaleHitting(d.lc_plate_app) + -10;
+				if (d.player==="Jurickson Profar") {
+					return xScaleHitting(d.lc_batting_average) + 8;
 				} else {
-					return xScaleHitting(d.lc_plate_app) + 9;
+					return xScaleHitting(d.lc_batting_average) - 8;
 				}
 			})
 			.attr("y", function(d) {
-				return yScaleHitting(d.lc_batting_average) + 4;
+				if (d.player === "Mitch Moreland" || d.player === "Jurickson Profar") {
+					return yScaleHitting(d.lc_runs_produced) - 4;
+				} else {
+					return yScaleHitting(d.lc_runs_produced) + 4;
+				}
 			})
 			.attr("class", "ranger-label")
 			.text(function(d) {
@@ -625,14 +637,14 @@ $(document).ready(function() {
 		  .attr("y", -40)
 		  .attr("transform", "rotate(-90)")
 		  .attr("class", "axis-label")
-		  .text("Late and Close Batting Avg.");
+		  .text("Late and Close Runs Prod.");
 
 		hittingSVG.append("text")
 		  .attr("text-anchor", "middle")
 		  .attr("y", height + 30)
 		  .attr("x", width / 2)
 		  .attr("class", "axis-label")
-		  .text("Late and Close Plate App. (Min: 50)");
+		  .text("Late and Close Batting Avg.");
 
 
 
@@ -676,7 +688,7 @@ $(document).ready(function() {
 			.attr("x2", xScalePitching(pitchingAverages[0]))
 			.attr("y2", height)
 			.attr("stroke-width", 2)
-			.attr("class", "avgPAs")
+			.attr("class", "avgIPs")
 			.attr("stroke", "#424242");
 
 		pitchingSVG.append("line")
@@ -685,7 +697,7 @@ $(document).ready(function() {
 			.attr("x2", width)
 			.attr("y2", yScalePitching(pitchingAverages[1]))
 			.attr("stroke-width", 2)
-			.attr("class", "avgPAs")
+			.attr("class", "avgERA")
 			.attr("stroke", "#424242");
 
 		var leaguePitchers = pitchingSVG.selectAll(".dot")
@@ -718,9 +730,19 @@ $(document).ready(function() {
 			.data(rangersPitchingData)
 			.enter()
 			.append("text")
-			.attr("text-anchor", "start")
+			.attr("text-anchor", function(d) {
+				if (d.player === "Tony Barnette") {
+					return "end";
+				} else {
+					return "start";
+				}
+			})
 			.attr("x", function(d) {
-				return xScalePitching(d.lc_inning_pitched) + 7;
+				if (d.player==="Tony Barnette") {
+					return xScalePitching(d.lc_inning_pitched) - 8;
+				} else {
+					return xScalePitching(d.lc_inning_pitched) + 8;
+				}
 			})
 			.attr("y", function(d) {
 				return yScalePitching(d.lc_era) + 4;
@@ -799,10 +821,10 @@ $(document).ready(function() {
 					.transition()
 					.duration(500)
 					.attr("cx", function(d) {
-						return xScaleHitting(d.lc_plate_app);
+						return xScaleHitting(d.lc_batting_average);
 					})
 					.attr("cy", function(d) {
-						return yScaleHitting(d.lc_batting_average);
+						return yScaleHitting(d.lc_runs_produced);
 					})
 					.attr("class", function(d) {
 						return "dot";
@@ -815,10 +837,10 @@ $(document).ready(function() {
 					.append("circle")
 					.attr("class", "dot")
 					.attr("cx", function(d) {
-						return xScaleHitting(d.lc_plate_app);
+						return xScaleHitting(d.lc_batting_average);
 					})
 					.attr("cy", function(d) {
-						return yScaleHitting(d.lc_batting_average);
+						return yScaleHitting(d.lc_runs_produced);
 					})
 					.attr("class", function(d) {
 						return "dot";
@@ -908,13 +930,14 @@ $(document).ready(function() {
 
 	var lcQueue = 0;
 
-	$.getJSON("assets/python-scripts/json/hitters-late-and-close.json", function(data) {
+	$.getJSON("assets/python-scripts/json/runs-late-and-close.json", function(data) {
 
 		lateHitters = data;
 
 		var totalHits = 0;
 		var totalABs = 0;
-		var totalPAs = 0;
+		var totalRunsProd = 0;
+		// var totalPAs = 0;
 
 		$.each(data, function(k,v) {
 			if (v.team !== "TEX") {
@@ -925,19 +948,23 @@ $(document).ready(function() {
 
 			totalHits += v.lc_hits;
 			totalABs += v.lc_ab;
-			totalPAs += v.lc_plate_app;
+			totalRunsProd += v.lc_runs_produced;
+			// totalPAs += v.lc_plate_app;
 
 		});
 
-		var avgPAs = totalPAs / data.length;
+		console.log(totalRunsProd, data.length);
+		// var avgPAs = totalPAs / data.length;
+		var avgRunsProd = totalRunsProd / data.length;
 		var avgAvg = totalHits / totalABs;
 
-		hittingAverages[0] = avgPAs;
-		hittingAverages[1] = avgAvg;
+		// hittingAverages[0] = avgPAs;
+		hittingAverages[1] = avgRunsProd;
+		hittingAverages[0] = avgAvg;
 
+		console.log(hittingAverages);
 		lcQueue++;
 
-		console.log(avgAvg);
 		if (lcQueue === 2) {
 			drawLC(leagueHitters, rangersHitters, lateHitters, hittingAverages, "#late-and-close-hitting", leaguePitchers, rangersPitchers, latePitchers, pitchingAverages, "#late-and-close-pitching");
 		}

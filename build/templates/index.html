@@ -95,7 +95,7 @@ googletag.enableServices();
 
 {%block content%}
 <section id="content-header">
-	<img src="images/_defaultImage.jpg" alt="#" />
+	{{img.jpg("rangertest", "This is a test image")}}
 	<p class="cutline">Cutline goes here. You can remove this tag if you don't feel the lead image needs a cutline</p>
 </section>
 <!-- end contentHeader -->
@@ -110,8 +110,9 @@ googletag.enableServices();
 		<!-- end storyHead -->
 
     <div class="byline-block">
-        <p>By <a target="_blank" href="mailto:emailaddresshere">Writer Name</a> | Staff Writer</p>
-        <p>Published Month Date, Year</p>
+        <p>By <a target="_blank" href="mailto:gfraley@dallasnews.com">Gerry Fraley</a> | Staff Writer</p>
+        <p>Graphics by <a target="_blank" href="mailto:jhancock@dallasnews.com">John Hancock</a> | Interactives Editor</p>
+        <p>Published Oct. 2, 2016</p>
         <!-- <p>Updated Month, Date, Year</p> -->
     </div>
     <!-- end bylineBlock -->
@@ -121,29 +122,16 @@ googletag.enableServices();
 	</div>
 	<!-- end shareComments -->
 
-    <p class="intro"><span class="dropcap">A</span>n opening paragraph goes here. I love the Weather & Opera section plagiarism Julian Assange syndicated process vs. product curmudgeon, attracting young readers cognitive surplus the audience knows more than I do discuss anonymity WikiLeaks hyperhyperlocal Arianna future scoop, Twitter topples dictators the medium is the message information overload natural-born blogger metered model Colbert bump Julian Assange CTR.</p>
+    <p class="intro"><span class="dropcap">A</span>t 36-11, the Rangers have the best record for one-run games in the modern era of baseball. The record makes two statements about the Rangers. They have a stout bullpen at the end of games. They are relentless.</p>
 
-    <p>column-inch trolls copyboy data visualization AOL afternoon paper shoot a photo attracting young readers, MinnPost but what's the business model Instagram fair use fourth estate morgue writing, The Work of Art in the Age of Mechanical Reproduction audience atomization overcome free as in beer Pictures of Goats section kitchen table of the future masthead.</p>
+    <p>“It says a lot about the different elements of our games and our players,” manager Jeff Banister said. “The physical part of it … the resolve and resilience of our players and that belief they have in each other.”</p>
 
-    {%include "adblock1.html" %}
-
-    <!--
-      use the above include with adblock2.html and adblock3.html to place adblocks 2 and 3, then delete this comment.
-      it won't self-destruct, but it is cleaner
-    -->
-
-    <p>horse-race coverage copyboy the power of the press belongs to the person who owns one data visualization tweet Jeff Jarvis Patch Like button explainer, TechCrunch should isn't a business model copyright Romenesko WordPress Arianna Kindle Single Pictures of Goats section got drudged, gamification put the paper to bed the other longer Book Review The Work of Art in the Age of Mechanical Reproduction open newsroom Foursquare A.J. Liebling.</p>
-
-    <p>In the bottom of the ninth inning, trailing 6-5 to the Oakland Athletics in game XXX of a season, with Delino DeShields standing on second base, Adrian Beltre did what he's done XX times this season: he drew a walk. And with that walk, the Rangers were on their way to another one-run victory, a feat they accomplished at a historical rate this season.</p>
-
-    <p>Beltre would be replaced by pinch-runner Joey Gallo. Two batters later, after a Roughned Odor strikeout, DeShields and Gallo would score on a Jonathan Lucroy single to left field, giving the Rangers their XX one-run win of the season.</p>
-
-    <p>This year, the Rangers are 34-10 in one-run games, seven games better than the next two best teams, Philadelphia (27-21) and San Francisco (27-25). Their winning percentage in those games is .773, nearly 90 points better than the New York Yankees (.686).</p>
+    <p>A look at how the Rangers have brought about their historic success in one-run games:</p>
 
     <section id="game-log-charts" class="clearFix chart">
 
         <h4>One-run wins by team</h4>
-        <p class="chatter"> The Rangers lead the league in one-run wins this season with XX, and wins when trailing at the beginning of the ninth innin with 8. In the chart below, each square represents one game in a team’s season. Compare the Rangers record of one-run games in 2016 to any other team in the league. <span class="non-mobile-text">Mouse over the squares to see the date and score of each game: </span></p>
+        <p class="chatter"> The Rangers lead the league in one-run wins this season with 36, and wins when trailing at the beginning of the ninth inning with eight. In the chart below, each square represents one game in a team’s season. Compare the Rangers record of one-run games in 2016 to any other team in the league by clicking on the team name. <span class="non-mobile-text">Mouse over the squares to see the date and score of each game: </span></p>
 
         <div class="key">
             <span class="key-label" id="one-run-win">One-run win</span>
@@ -152,7 +140,7 @@ googletag.enableServices();
 
         <div class="charts clearfix">
             <div id="tex-game-logs" class="game-log-chart">
-                <h5>Rangers</h5>
+                <h5>Rangers: <span id="rang-total">36-11</span></h5>
                 <h6>Entire season</h6>
                 <div id="tex-game-log-chart" class="clearfix chart-block"></div>
                 <h6>Only one-run wins/losses</h6>
@@ -164,7 +152,7 @@ googletag.enableServices();
 
             <div id="opp-game-logs" class="game-log-chart">
                 <div class="custom-list-block">
-                    <h5 class="list-selection" id="opponents-selector"><i class="fa fa-chevron-down"></i><span class="team">Angels</span></h5>
+                    <h5 class="list-selection" id="opponents-selector"><i class="fa fa-chevron-down"></i><span class="team">Angels:  </span><span id="opp-total"></span></h5>
                     <ul class="custom-list no-show">
                         <li data-team="LAA">Angels</li>
                         <li data-team="HOU">Astros</li>
@@ -211,76 +199,31 @@ googletag.enableServices();
         <p class="source">Source: <a href="http://www.baseball-reference.com/" target="_blank">Baseball-Reference.com</a></p>
     </section>
 
+    <p class="subhead">The bullpen</p>
 
-    <section id="simulation" class="chart clearfix">
-        <h4>What if?</h4>
-        <p class="chatter">The Rangers won 77% of the one-run games they participated in, but what if they hadn't been so good in those clutch situations? Adjust the Rangers chance to win those one-run-games with the slider below and run the simulation to see how the A.L. West standings would have changed:</p>
+    <p>The Rangers have the second-highest bullpen ERA in the American League at 4.46. That is deceiving, Los Angeles Angels manager Mike Scioscia said.</p>
 
-        <div id="sim-chart" class="clearfix">
-            <h6>Win-probability in one-run games</h6>
-            <div id="slider"></div>
-            <span id="slider-value">50%</span>
-            <div class="chart-body clearfix"></div>
-            <button id="sim-button">Run simulation</button>
-        </div>
+    <p>“You look at that and think it’s not happening,” Scioscia said. “But Jeff Banister has done a great job of blending it together and finding the combinations that are going to hold a lead late in a game.</p>
 
+    <p>“For me, winning one-run games directly correlates to the back of the bullpen and the ability to hold a lead in the late innings. They’ve lost very few games there.”</p>
 
+    <p>In all one-run games, the Rangers’ bullpen is 27-6 with a 1.69 ERA and 27 saves in 33 chances. The bullpen has been close to air-tight when asked to protect a one-run lead.</p>
 
-        <table id="standings">
-            <tr><th>Team</th><th>W</th><th>L</th><th>W-L%</th><th>GB</th></tr>
-            <tr data-team="Rangers" id="rangers-row"><td>Texas Rangers</td><td>88</td><td>62</td><td>.587</td><td>--</td></tr>
-            <tr data-team="Mariners" id="mariners-row"><td>Seattle Mariners</td><td>79</td><td>70</td><td>.530</td><td>8.5</td></tr>
-            <tr data-team="Astros" id="astros-row"><td>Houston Astros</td><td>78</td><td>71</td><td>.523</td><td>9.5</td></tr>
-            <tr data-team="Athletics" id="athletics-row"><td>Oakland Athletics</td><td>66</td><td>83</td><td>.443</td><td>21.5</td></tr>
-            <tr data-team="Angels" id="angels-row"><td>LA Angels</td><td>65</td><td>84</td><td>.436</td><td>22.5</td></tr>
-        </table>
+    <p>The bullpen has carried a one-run lead through the final three innings in 12 one-run wins. The bullpen has also done that for four innings in eight wins and five innings in five wins.</p>
 
-    </section>
+    <p>Through June 1, the bullpen was only 4-4 with eight saves and a 3.16 ERA in one-run games. Banister had to shift through the possibilities before finding the right endgame set of relievers.</p>
+
+    <p> His best combination has been closer Sam Dyson set up by Matt Bush and Jake Diekman. They have a combined ERA of 1.76 for 71 2/3 innings in one-run games.</p>
 
     <section id="late-and-close-charts" class="chart clearfix">
 
         <h4>Good in the clutch</h4>
-        <p class="chatter">One reason the Rangers have been so good in one-run games lies in the fact they have players that excel in late-game situations when the score is close. The two charts below plot how players across the league perform in these situations. Players that fall in the shaded area, such as Adrian Beltre, Roughned Odor, Matt Bush and Sam Dyson, are outperforming the group average.</p>
+        <p class="chatter">One reason the Rangers have been so good in one-run games lies in the fact they have players that excel in late-game situations when the score is close. The two charts below plot how players across the league perform in these situations. Players that fall in the shaded area, such as Ian Desmond, Adrian Beltre, Matt Bush and Sam Dyson, are outperforming the group average.</p>
 
         <div class="key">
             <span class="key-label" id="non-ranger-player">Non Ranger</span>
             <span class="key-label" id="ranger-player">Ranger</span>
             <span class="key-label" id="group-average">Group average</span>
-
-            <!-- <div id="late-selector">
-                <select>
-                    <option data-team="ALL">All teams</option>
-                    <option data-team="LAA">Angels</option>
-                    <option data-team="HOU">Astros</option>
-                    <option data-team="OAK">Athletics</option>
-                    <option data-team="TOR">Blue Jays</option>
-                    <option data-team="ATL">Braves</option>
-                    <option data-team="MIL">Brewers</option>
-                    <option data-team="STL">Cardinals</option>
-                    <option data-team="CHC">Cubs</option>
-                    <option data-team="ARI">Diamondbacks</option>
-                    <option data-team="LAD">Dodgers</option>
-                    <option data-team="SFG">Giants</option>
-                    <option data-team="CLE">Indians</option>
-                    <option data-team="SEA">Mariners</option>
-                    <option data-team="MIA">Marlins</option>
-                    <option data-team="NYM">Mets</option>
-                    <option data-team="WSN">Nationals</option>
-                    <option data-team="BAL">Orioles</option>
-                    <option data-team="SDP">Padres</option>
-                    <option data-team="PHI">Phillies</option>
-                    <option data-team="PIT">Pirates</option>
-                    <option data-team="TBR">Rays</option>
-                    <option data-team="BOS">Red Sox</option>
-                    <option data-team="CIN">Reds</option>
-                    <option data-team="COL">Rockies</option>
-                    <option data-team="KCR">Royals</option>
-                    <option data-team="DET">Tigers</option>
-                    <option data-team="MIN">Twins</option>
-                    <option data-team="NYY">Yankees</option>
-                    <option data-team="CHW">White Sox</option>
-                </select>
-            </div> -->
         </div>
 
         <div class="custom-list-block">
@@ -324,11 +267,73 @@ googletag.enableServices();
 
         <p class="source">Source: <a href="http://www.baseball-reference.com/" target="_blank">Baseball-Reference.com</a></p>
 
-        <p class="nerd-box"><strong>Note: </strong>Baseball-Reference defines “late and close” situations as the batting team tied, leading by one, or having the tying run at least on deck in the seventh inning or later. To be included in the charts above, hitters must have a minimum of 200 plate appearances on the season and 50 “late and close” plate appearances. Pitchers must have a minimum of 30 innings pitched on the season and 10 “late and close” innings pitched. Group averages for batting average and earned run average are determined by calculating the group’s overall statistic in each category.</p>
+        <p class="nerd-box"><strong>Note: </strong>Baseball-Reference defines “late and close” situations as the batting team tied, leading by one, or having the tying run at least on deck in the seventh inning or later. Runs produced is a combination of runs and RBIs minus home runs. To be included in the charts above, hitters must have a minimum of 200 plate appearances on the season and 50 “late and close” plate appearances. Pitchers must have a minimum of 30 innings pitched on the season and 10 “late and close” innings pitched. Group averages for batting average and earned run average are determined by calculating the group’s overall statistic in each category.</p>
 
     </section>
 
-    <p class="twitter-tag">Follow writer name on Twitter at <a href="urlhere">@twittertag.</a></p>
+    {%include "adblock1.html" %}
+
+
+    <p class="subhead">The grinders</p>
+
+    <p>The Rangers became this season only the third team since 1974 to win eight games when trailing after eight innings.</p>
+
+    <p>The 2003 Cincinnati Reds did it, but the wins were not much help. The Reds finished at 69-93.</p>
+
+    <p>The 1997 Florida Marlins did it, and the comebacks became the springboard to a World Series championship.</p>
+
+    <p>“Any time you start winning one-run games, it builds on itself,” said Milwaukee manager Craig Counsell, with the 1997 Marlins. “That’s what you want. You want that type of feeling to build so that it becomes “This is how we do it. It’s who we are as a team.’</p>
+
+    <p>“That’s confidence and belief. You can use those things to your advantage”</p>
+
+    <p>The Rangers have come back in 24 of the one-run wins, overcoming a multi-run deficit 12 times. The Rangers have scored the game-winning run in the seventh inning of later in 19 wins.</p>
+
+    <p>STATS LLC defines the “close and late” statistic as a team leading by one run, tied or with the tying run on base, at bat or deck in the seventh inning or later. The Rangers lead the majors in close-and-late average (.273,) slugging percentage (.454) and are tied with St. Louis for the most homers with 34.</p>
+
+    <p>On the individual level, third baseman Adrian Beltre is second in the majors for close-and-late average (.394,) third in RBIs (21) and fifth in slugging percentage (.660.)</p>
+
+    <p>Ian Desmond, Mitch Moreland and Beltre have all driven in the game-winning run in the seventh or later in three one-run victories. Rougned Odor leads the club with five RBIs in that situation on three homers, one double and one hit by pitch.</p>
+
+    <section id="simulation" class="chart clearfix">
+        <h4>What if?</h4>
+        <p class="chatter">The Rangers won 77% of the one-run games they participated in, but what if they hadn't been so good in those clutch situations? Adjust the Rangers chance to win those one-run-games with the slider below and run the simulation to see how the A.L. West standings would have changed:</p>
+
+        <div id="sim-chart" class="clearfix">
+            <h6>Win-probability in one-run games</h6>
+            <div id="slider"></div>
+            <span id="slider-value">50%</span>
+            <div class="chart-body clearfix"></div>
+            <button id="sim-button">Run simulation</button>
+        </div>
+
+
+
+        <table id="standings">
+            <tr><th>Team</th><th>W</th><th>L</th><th>W-L%</th><th>GB</th></tr>
+            <tr data-team="Rangers" id="rangers-row"><td>Texas Rangers</td><td>94</td><td>65</td><td>.591</td><td>--</td></tr>
+            <tr data-team="Mariners" id="mariners-row"><td>Seattle Mariners</td><td>85</td><td>74</td><td>.535</td><td>9</td></tr>
+            <tr data-team="Astros" id="astros-row"><td>Houston Astros</td><td>83</td><td>76</td><td>.522</td><td>11</td></tr>
+            <tr data-team="Angels" id="angels-row"><td>LA Angels</td><td>72</td><td>87</td><td>.453</td><td>22</td></tr>
+            <tr data-team="Athletics" id="athletics-row"><td>Oakland Athletics</td><td>67</td><td>92</td><td>.421</td><td>27</td></tr>
+        </table>
+
+    </section>
+
+    <p class="subhead">The significance</p>
+
+    <p>Bill James, who helped trigger the increased use of analytics in the game, is not overly impressed with an abundance of one-run wins</p>
+
+    <p>James’ long-standing theory is that top-shelf teams tend to win by multiple runs because they are capable of blowing out lesser opponents, but weak clubs have a chance in close games. The 2003 Detroit Tigers finished at 43-119, but they were 19-18 in one-run games.</p>
+
+    <p>That does not doom clubs like the Rangers. Of the teams with the top 10 records for one-run games before this season, five reached the World Series and two won: Pittsburgh in 1909 and Baltimore in 1970.</p>
+
+    <p>Of the 16 teams to win a World Series in this century, 10 had a winning record for one-run games in the regular season. A year ago, World Series champion Kansas City went 23-17 for one-run games in the regular season and 2-0 for the postseason.</p>
+
+    <p>column-inch trolls copyboy data visualization AOL afternoon paper shoot a photo attracting young readers, MinnPost but what's the business model Instagram fair use fourth estate morgue writing, The Work of Art in the Age of Mechanical Reproduction audience atomization overcome free as in beer Pictures of Goats section kitchen table of the future masthead.</p>
+
+    <p class="twitter-tag">Follow Gerry Fraley on Twitter at <a href="http://www.twitter.com/gfraley">@gfraley.</a></p>
+
+    {% include "adblock2.html" %}
 
 
 	<section class="credits clearfix">

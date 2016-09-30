@@ -29,8 +29,9 @@ body {
 
 .chart {
     max-width: 900px;
-    margin: 0 auto;
-    padding: 4.8rem 0;
+    margin: 4.8rem auto 0;
+    padding: 2.4rem 0;
+    border-top: 1px solid $black215;
     border-bottom: 1px solid $black215;
     font-family: $sans;
     h4, h5, h6 {
@@ -296,12 +297,20 @@ body {
     max-width: 700px;
     display: block;
     float: left;
+    padding-top: 20px;
+    position: relative;
     &:before {
         content: "Hitters";
         font-family: $sans;
         font-weight: bold;
         @include type(1.4rem, 1.8rem, 0.6rem);
         text-transform: uppercase;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -75px;
+        text-align: center;
     }
 }
 
@@ -310,12 +319,20 @@ body {
     max-width: 700px;
     display: block;
     float: right;
+    position: relative;
+    padding-top: 20px;
     &:before {
         content: "Pitchers";
         font-family: $sans;
         font-weight: bold;
         @include type(1.4rem, 1.8rem, 0.6rem);
         text-transform: uppercase;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -75px;
+        text-align: center;
     }
 }
 
