@@ -1,54 +1,54 @@
 [
     {
-        "lc_ab": 90, 
-        "lc_batting_average": 0.289, 
+        "lc_ab": 92, 
+        "lc_batting_average": 0.283, 
         "lc_hits": 26, 
-        "lc_plate_app": 95, 
+        "lc_plate_app": 97, 
         "lc_runs_produced": 28, 
         "player": "Mookie Betts", 
         "team": "BOS"
     }, 
     {
-        "lc_ab": 86, 
-        "lc_batting_average": 0.326, 
+        "lc_ab": 87, 
+        "lc_batting_average": 0.322, 
         "lc_hits": 28, 
-        "lc_plate_app": 94, 
+        "lc_plate_app": 95, 
         "lc_runs_produced": 23, 
         "player": "Dustin Pedroia", 
         "team": "BOS"
     }, 
     {
-        "lc_ab": 75, 
-        "lc_batting_average": 0.267, 
+        "lc_ab": 77, 
+        "lc_batting_average": 0.26, 
         "lc_hits": 20, 
-        "lc_plate_app": 85, 
+        "lc_plate_app": 87, 
         "lc_runs_produced": 20, 
         "player": "David Ortiz", 
         "team": "BOS"
     }, 
     {
-        "lc_ab": 96, 
-        "lc_batting_average": 0.292, 
-        "lc_hits": 28, 
-        "lc_plate_app": 101, 
+        "lc_ab": 77, 
+        "lc_batting_average": 0.26, 
+        "lc_hits": 20, 
+        "lc_plate_app": 88, 
+        "lc_runs_produced": 17, 
+        "player": "Hanley Ramirez", 
+        "team": "BOS"
+    }, 
+    {
+        "lc_ab": 98, 
+        "lc_batting_average": 0.306, 
+        "lc_hits": 30, 
+        "lc_plate_app": 103, 
         "lc_runs_produced": 17, 
         "player": "Xander Bogaerts", 
         "team": "BOS"
     }, 
     {
-        "lc_ab": 76, 
-        "lc_batting_average": 0.25, 
+        "lc_ab": 78, 
+        "lc_batting_average": 0.244, 
         "lc_hits": 19, 
-        "lc_plate_app": 86, 
-        "lc_runs_produced": 16, 
-        "player": "Hanley Ramirez", 
-        "team": "BOS"
-    }, 
-    {
-        "lc_ab": 76, 
-        "lc_batting_average": 0.25, 
-        "lc_hits": 19, 
-        "lc_plate_app": 88, 
+        "lc_plate_app": 90, 
         "lc_runs_produced": 16, 
         "player": "Jackie Bradley", 
         "team": "BOS"
@@ -144,19 +144,19 @@
         "team": "BAL"
     }, 
     {
-        "lc_ab": 80, 
-        "lc_batting_average": 0.263, 
-        "lc_hits": 21, 
-        "lc_plate_app": 98, 
+        "lc_ab": 82, 
+        "lc_batting_average": 0.268, 
+        "lc_hits": 22, 
+        "lc_plate_app": 100, 
         "lc_runs_produced": 23, 
         "player": "Josh Donaldson", 
         "team": "TOR"
     }, 
     {
-        "lc_ab": 95, 
-        "lc_batting_average": 0.274, 
-        "lc_hits": 26, 
-        "lc_plate_app": 105, 
+        "lc_ab": 97, 
+        "lc_batting_average": 0.278, 
+        "lc_hits": 27, 
+        "lc_plate_app": 107, 
         "lc_runs_produced": 20, 
         "player": "Kevin Pillar", 
         "team": "TOR"
@@ -165,52 +165,52 @@
         "lc_ab": 90, 
         "lc_batting_average": 0.211, 
         "lc_hits": 19, 
-        "lc_plate_app": 99, 
-        "lc_runs_produced": 19, 
+        "lc_plate_app": 100, 
+        "lc_runs_produced": 20, 
         "player": "Edwin Encarnacion", 
         "team": "TOR"
     }, 
     {
-        "lc_ab": 60, 
-        "lc_batting_average": 0.183, 
+        "lc_ab": 61, 
+        "lc_batting_average": 0.18, 
         "lc_hits": 11, 
-        "lc_plate_app": 75, 
+        "lc_plate_app": 76, 
         "lc_runs_produced": 18, 
         "player": "Jose Bautista", 
         "team": "TOR"
     }, 
     {
-        "lc_ab": 84, 
-        "lc_batting_average": 0.179, 
-        "lc_hits": 15, 
-        "lc_plate_app": 98, 
+        "lc_ab": 85, 
+        "lc_batting_average": 0.188, 
+        "lc_hits": 16, 
+        "lc_plate_app": 99, 
         "lc_runs_produced": 18, 
         "player": "Russell Martin", 
         "team": "TOR"
     }, 
     {
-        "lc_ab": 68, 
-        "lc_batting_average": 0.279, 
+        "lc_ab": 70, 
+        "lc_batting_average": 0.271, 
         "lc_hits": 19, 
-        "lc_plate_app": 73, 
+        "lc_plate_app": 75, 
         "lc_runs_produced": 16, 
         "player": "Devon Travis", 
         "team": "TOR"
     }, 
     {
-        "lc_ab": 79, 
-        "lc_batting_average": 0.241, 
-        "lc_hits": 19, 
-        "lc_plate_app": 93, 
-        "lc_runs_produced": 15, 
+        "lc_ab": 80, 
+        "lc_batting_average": 0.25, 
+        "lc_hits": 20, 
+        "lc_plate_app": 94, 
+        "lc_runs_produced": 16, 
         "player": "Troy Tulowitzki", 
         "team": "TOR"
     }, 
     {
-        "lc_ab": 78, 
-        "lc_batting_average": 0.282, 
+        "lc_ab": 80, 
+        "lc_batting_average": 0.275, 
         "lc_hits": 22, 
-        "lc_plate_app": 90, 
+        "lc_plate_app": 92, 
         "lc_runs_produced": 15, 
         "player": "Michael Saunders", 
         "team": "TOR"
@@ -225,6 +225,15 @@
         "team": "TOR"
     }, 
     {
+        "lc_ab": 42, 
+        "lc_batting_average": 0.167, 
+        "lc_hits": 7, 
+        "lc_plate_app": 51, 
+        "lc_runs_produced": 10, 
+        "player": "Ezequiel Carrera", 
+        "team": "TOR"
+    }, 
+    {
         "lc_ab": 76, 
         "lc_batting_average": 0.211, 
         "lc_hits": 16, 
@@ -234,11 +243,11 @@
         "team": "NYY"
     }, 
     {
-        "lc_ab": 84, 
-        "lc_batting_average": 0.202, 
-        "lc_hits": 17, 
-        "lc_plate_app": 89, 
-        "lc_runs_produced": 20, 
+        "lc_ab": 85, 
+        "lc_batting_average": 0.212, 
+        "lc_hits": 18, 
+        "lc_plate_app": 90, 
+        "lc_runs_produced": 21, 
         "player": "Didi Gregorius", 
         "team": "NYY"
     }, 
@@ -279,10 +288,10 @@
         "team": "NYY"
     }, 
     {
-        "lc_ab": 47, 
-        "lc_batting_average": 0.213, 
+        "lc_ab": 48, 
+        "lc_batting_average": 0.208, 
         "lc_hits": 10, 
-        "lc_plate_app": 52, 
+        "lc_plate_app": 53, 
         "lc_runs_produced": 14, 
         "player": "Aaron Hicks", 
         "team": "NYY"
@@ -306,10 +315,10 @@
         "team": "NYY"
     }, 
     {
-        "lc_ab": 72, 
-        "lc_batting_average": 0.319, 
-        "lc_hits": 23, 
-        "lc_plate_app": 84, 
+        "lc_ab": 73, 
+        "lc_batting_average": 0.329, 
+        "lc_hits": 24, 
+        "lc_plate_app": 85, 
         "lc_runs_produced": 19, 
         "player": "Logan Forsythe", 
         "team": "TBR"
@@ -324,21 +333,21 @@
         "team": "TBR"
     }, 
     {
+        "lc_ab": 90, 
+        "lc_batting_average": 0.2, 
+        "lc_hits": 18, 
+        "lc_plate_app": 98, 
+        "lc_runs_produced": 12, 
+        "player": "Evan Longoria", 
+        "team": "TBR"
+    }, 
+    {
         "lc_ab": 57, 
         "lc_batting_average": 0.298, 
         "lc_hits": 17, 
         "lc_plate_app": 68, 
         "lc_runs_produced": 12, 
         "player": "Kevin Kiermaier", 
-        "team": "TBR"
-    }, 
-    {
-        "lc_ab": 88, 
-        "lc_batting_average": 0.205, 
-        "lc_hits": 18, 
-        "lc_plate_app": 96, 
-        "lc_runs_produced": 12, 
-        "player": "Evan Longoria", 
         "team": "TBR"
     }, 
     {
@@ -351,6 +360,15 @@
         "team": "TBR"
     }, 
     {
+        "lc_ab": 83, 
+        "lc_batting_average": 0.157, 
+        "lc_hits": 13, 
+        "lc_plate_app": 89, 
+        "lc_runs_produced": 7, 
+        "player": "Corey Dickerson", 
+        "team": "TBR"
+    }, 
+    {
         "lc_ab": 47, 
         "lc_batting_average": 0.106, 
         "lc_hits": 5, 
@@ -360,19 +378,10 @@
         "team": "TBR"
     }, 
     {
-        "lc_ab": 81, 
-        "lc_batting_average": 0.16, 
-        "lc_hits": 13, 
-        "lc_plate_app": 87, 
-        "lc_runs_produced": 6, 
-        "player": "Corey Dickerson", 
-        "team": "TBR"
-    }, 
-    {
-        "lc_ab": 72, 
-        "lc_batting_average": 0.306, 
+        "lc_ab": 73, 
+        "lc_batting_average": 0.301, 
         "lc_hits": 22, 
-        "lc_plate_app": 80, 
+        "lc_plate_app": 81, 
         "lc_runs_produced": 24, 
         "player": "Jose Ramirez", 
         "team": "CLE"
@@ -381,133 +390,133 @@
         "lc_ab": 69, 
         "lc_batting_average": 0.261, 
         "lc_hits": 18, 
-        "lc_plate_app": 82, 
+        "lc_plate_app": 83, 
         "lc_runs_produced": 16, 
         "player": "Mike Napoli", 
         "team": "CLE"
     }, 
     {
-        "lc_ab": 73, 
-        "lc_batting_average": 0.247, 
-        "lc_hits": 18, 
-        "lc_plate_app": 81, 
-        "lc_runs_produced": 15, 
-        "player": "Rajai Davis", 
-        "team": "CLE"
-    }, 
-    {
-        "lc_ab": 52, 
-        "lc_batting_average": 0.288, 
+        "lc_ab": 54, 
+        "lc_batting_average": 0.278, 
         "lc_hits": 15, 
-        "lc_plate_app": 58, 
+        "lc_plate_app": 60, 
         "lc_runs_produced": 15, 
         "player": "Tyler Naquin", 
-        "team": "CLE"
-    }, 
-    {
-        "lc_ab": 86, 
-        "lc_batting_average": 0.221, 
-        "lc_hits": 19, 
-        "lc_plate_app": 98, 
-        "lc_runs_produced": 14, 
-        "player": "Jason Kipnis", 
         "team": "CLE"
     }, 
     {
         "lc_ab": 76, 
         "lc_batting_average": 0.303, 
         "lc_hits": 23, 
-        "lc_plate_app": 87, 
-        "lc_runs_produced": 14, 
+        "lc_plate_app": 88, 
+        "lc_runs_produced": 15, 
         "player": "Francisco Lindor", 
+        "team": "CLE"
+    }, 
+    {
+        "lc_ab": 75, 
+        "lc_batting_average": 0.24, 
+        "lc_hits": 18, 
+        "lc_plate_app": 83, 
+        "lc_runs_produced": 15, 
+        "player": "Rajai Davis", 
+        "team": "CLE"
+    }, 
+    {
+        "lc_ab": 87, 
+        "lc_batting_average": 0.23, 
+        "lc_hits": 20, 
+        "lc_plate_app": 99, 
+        "lc_runs_produced": 14, 
+        "player": "Jason Kipnis", 
         "team": "CLE"
     }, 
     {
         "lc_ab": 71, 
         "lc_batting_average": 0.211, 
         "lc_hits": 15, 
-        "lc_plate_app": 87, 
-        "lc_runs_produced": 13, 
+        "lc_plate_app": 88, 
+        "lc_runs_produced": 14, 
         "player": "Carlos Santana", 
         "team": "CLE"
     }, 
     {
-        "lc_ab": 57, 
-        "lc_batting_average": 0.298, 
+        "lc_ab": 59, 
+        "lc_batting_average": 0.288, 
         "lc_hits": 17, 
-        "lc_plate_app": 62, 
+        "lc_plate_app": 64, 
         "lc_runs_produced": 8, 
         "player": "Lonnie Chisenhall", 
         "team": "CLE"
     }, 
     {
-        "lc_ab": 83, 
-        "lc_batting_average": 0.277, 
+        "lc_ab": 84, 
+        "lc_batting_average": 0.274, 
         "lc_hits": 23, 
-        "lc_plate_app": 91, 
+        "lc_plate_app": 92, 
         "lc_runs_produced": 26, 
         "player": "Ian Kinsler", 
         "team": "DET"
     }, 
     {
-        "lc_ab": 78, 
-        "lc_batting_average": 0.321, 
-        "lc_hits": 25, 
-        "lc_plate_app": 86, 
+        "lc_ab": 79, 
+        "lc_batting_average": 0.329, 
+        "lc_hits": 26, 
+        "lc_plate_app": 87, 
         "lc_runs_produced": 25, 
         "player": "Miguel Cabrera", 
         "team": "DET"
     }, 
     {
-        "lc_ab": 86, 
-        "lc_batting_average": 0.279, 
+        "lc_ab": 88, 
+        "lc_batting_average": 0.273, 
         "lc_hits": 24, 
-        "lc_plate_app": 98, 
+        "lc_plate_app": 100, 
         "lc_runs_produced": 25, 
         "player": "Justin Upton", 
         "team": "DET"
     }, 
     {
-        "lc_ab": 77, 
-        "lc_batting_average": 0.221, 
-        "lc_hits": 17, 
-        "lc_plate_app": 90, 
+        "lc_ab": 78, 
+        "lc_batting_average": 0.231, 
+        "lc_hits": 18, 
+        "lc_plate_app": 91, 
         "lc_runs_produced": 20, 
         "player": "Jose Iglesias", 
         "team": "DET"
     }, 
     {
-        "lc_ab": 75, 
-        "lc_batting_average": 0.28, 
+        "lc_ab": 76, 
+        "lc_batting_average": 0.276, 
         "lc_hits": 21, 
-        "lc_plate_app": 86, 
+        "lc_plate_app": 87, 
         "lc_runs_produced": 15, 
         "player": "Victor Martinez", 
         "team": "DET"
     }, 
     {
-        "lc_ab": 62, 
-        "lc_batting_average": 0.29, 
-        "lc_hits": 18, 
-        "lc_plate_app": 75, 
-        "lc_runs_produced": 14, 
-        "player": "J.D. Martinez", 
-        "team": "DET"
-    }, 
-    {
-        "lc_ab": 43, 
-        "lc_batting_average": 0.163, 
+        "lc_ab": 44, 
+        "lc_batting_average": 0.159, 
         "lc_hits": 7, 
-        "lc_plate_app": 53, 
+        "lc_plate_app": 54, 
         "lc_runs_produced": 14, 
         "player": "Cameron Maybin", 
         "team": "DET"
     }, 
     {
-        "lc_ab": 60, 
-        "lc_batting_average": 0.15, 
+        "lc_ab": 63, 
+        "lc_batting_average": 0.286, 
+        "lc_hits": 18, 
+        "lc_plate_app": 76, 
+        "lc_runs_produced": 14, 
+        "player": "J.D. Martinez", 
+        "team": "DET"
+    }, 
+    {
+        "lc_ab": 61, 
+        "lc_batting_average": 0.148, 
         "lc_hits": 9, 
-        "lc_plate_app": 65, 
+        "lc_plate_app": 66, 
         "lc_runs_produced": 10, 
         "player": "James McCann", 
         "team": "DET"
@@ -522,10 +531,10 @@
         "team": "DET"
     }, 
     {
-        "lc_ab": 53, 
-        "lc_batting_average": 0.283, 
+        "lc_ab": 54, 
+        "lc_batting_average": 0.278, 
         "lc_hits": 15, 
-        "lc_plate_app": 57, 
+        "lc_plate_app": 58, 
         "lc_runs_produced": 8, 
         "player": "Nick Castellanos", 
         "team": "DET"
@@ -552,45 +561,36 @@
         "lc_ab": 81, 
         "lc_batting_average": 0.309, 
         "lc_hits": 25, 
-        "lc_plate_app": 87, 
+        "lc_plate_app": 88, 
         "lc_runs_produced": 22, 
         "player": "Salvador Perez", 
         "team": "KCR"
     }, 
     {
-        "lc_ab": 46, 
-        "lc_batting_average": 0.283, 
-        "lc_hits": 13, 
-        "lc_plate_app": 53, 
-        "lc_runs_produced": 20, 
-        "player": "Whit Merrifield", 
-        "team": "KCR"
-    }, 
-    {
-        "lc_ab": 100, 
-        "lc_batting_average": 0.29, 
+        "lc_ab": 101, 
+        "lc_batting_average": 0.287, 
         "lc_hits": 29, 
-        "lc_plate_app": 107, 
+        "lc_plate_app": 108, 
         "lc_runs_produced": 20, 
         "player": "Alcides Escobar", 
         "team": "KCR"
     }, 
     {
-        "lc_ab": 79, 
-        "lc_batting_average": 0.291, 
-        "lc_hits": 23, 
-        "lc_plate_app": 83, 
-        "lc_runs_produced": 18, 
-        "player": "Paulo Orlando", 
+        "lc_ab": 47, 
+        "lc_batting_average": 0.277, 
+        "lc_hits": 13, 
+        "lc_plate_app": 54, 
+        "lc_runs_produced": 20, 
+        "player": "Whit Merrifield", 
         "team": "KCR"
     }, 
     {
-        "lc_ab": 75, 
-        "lc_batting_average": 0.213, 
-        "lc_hits": 16, 
+        "lc_ab": 80, 
+        "lc_batting_average": 0.288, 
+        "lc_hits": 23, 
         "lc_plate_app": 84, 
-        "lc_runs_produced": 15, 
-        "player": "Kendrys Morales", 
+        "lc_runs_produced": 18, 
+        "player": "Paulo Orlando", 
         "team": "KCR"
     }, 
     {
@@ -603,19 +603,28 @@
         "team": "KCR"
     }, 
     {
-        "lc_ab": 74, 
-        "lc_batting_average": 0.27, 
+        "lc_ab": 75, 
+        "lc_batting_average": 0.213, 
+        "lc_hits": 16, 
+        "lc_plate_app": 84, 
+        "lc_runs_produced": 15, 
+        "player": "Kendrys Morales", 
+        "team": "KCR"
+    }, 
+    {
+        "lc_ab": 75, 
+        "lc_batting_average": 0.267, 
         "lc_hits": 20, 
-        "lc_plate_app": 85, 
+        "lc_plate_app": 86, 
         "lc_runs_produced": 14, 
         "player": "Cheslor Cuthbert", 
         "team": "KCR"
     }, 
     {
-        "lc_ab": 69, 
-        "lc_batting_average": 0.203, 
+        "lc_ab": 70, 
+        "lc_batting_average": 0.2, 
         "lc_hits": 14, 
-        "lc_plate_app": 81, 
+        "lc_plate_app": 82, 
         "lc_runs_produced": 12, 
         "player": "Alex Gordon", 
         "team": "KCR"
@@ -684,21 +693,21 @@
         "team": "CHW"
     }, 
     {
-        "lc_ab": 61, 
-        "lc_batting_average": 0.213, 
-        "lc_hits": 13, 
-        "lc_plate_app": 67, 
-        "lc_runs_produced": 11, 
-        "player": "Brett Lawrie", 
-        "team": "CHW"
-    }, 
-    {
         "lc_ab": 62, 
         "lc_batting_average": 0.226, 
         "lc_hits": 14, 
         "lc_plate_app": 68, 
         "lc_runs_produced": 11, 
         "player": "Tyler Saladino", 
+        "team": "CHW"
+    }, 
+    {
+        "lc_ab": 61, 
+        "lc_batting_average": 0.213, 
+        "lc_hits": 13, 
+        "lc_plate_app": 67, 
+        "lc_runs_produced": 11, 
+        "player": "Brett Lawrie", 
         "team": "CHW"
     }, 
     {
@@ -828,10 +837,10 @@
         "team": "SEA"
     }, 
     {
-        "lc_ab": 97, 
-        "lc_batting_average": 0.278, 
+        "lc_ab": 98, 
+        "lc_batting_average": 0.276, 
         "lc_hits": 27, 
-        "lc_plate_app": 113, 
+        "lc_plate_app": 114, 
         "lc_runs_produced": 24, 
         "player": "Kyle Seager", 
         "team": "SEA"
@@ -873,10 +882,10 @@
         "team": "SEA"
     }, 
     {
-        "lc_ab": 54, 
-        "lc_batting_average": 0.185, 
+        "lc_ab": 55, 
+        "lc_batting_average": 0.182, 
         "lc_hits": 10, 
-        "lc_plate_app": 58, 
+        "lc_plate_app": 59, 
         "lc_runs_produced": 12, 
         "player": "Dae-ho Lee", 
         "team": "SEA"
@@ -891,10 +900,10 @@
         "team": "SEA"
     }, 
     {
-        "lc_ab": 50, 
-        "lc_batting_average": 0.2, 
+        "lc_ab": 51, 
+        "lc_batting_average": 0.196, 
         "lc_hits": 10, 
-        "lc_plate_app": 56, 
+        "lc_plate_app": 57, 
         "lc_runs_produced": 4, 
         "player": "Chris Iannetta", 
         "team": "SEA"
@@ -999,19 +1008,19 @@
         "team": "OAK"
     }, 
     {
-        "lc_ab": 84, 
-        "lc_batting_average": 0.274, 
+        "lc_ab": 85, 
+        "lc_batting_average": 0.271, 
         "lc_hits": 23, 
-        "lc_plate_app": 93, 
+        "lc_plate_app": 94, 
         "lc_runs_produced": 21, 
         "player": "Yonder Alonso", 
         "team": "OAK"
     }, 
     {
-        "lc_ab": 85, 
-        "lc_batting_average": 0.212, 
+        "lc_ab": 86, 
+        "lc_batting_average": 0.209, 
         "lc_hits": 18, 
-        "lc_plate_app": 98, 
+        "lc_plate_app": 99, 
         "lc_runs_produced": 18, 
         "player": "Marcus Semien", 
         "team": "OAK"
@@ -1035,10 +1044,10 @@
         "team": "OAK"
     }, 
     {
-        "lc_ab": 48, 
-        "lc_batting_average": 0.354, 
+        "lc_ab": 49, 
+        "lc_batting_average": 0.347, 
         "lc_hits": 17, 
-        "lc_plate_app": 50, 
+        "lc_plate_app": 51, 
         "lc_runs_produced": 13, 
         "player": "Ryon Healy", 
         "team": "OAK"
@@ -1053,10 +1062,10 @@
         "team": "OAK"
     }, 
     {
-        "lc_ab": 48, 
-        "lc_batting_average": 0.25, 
-        "lc_hits": 12, 
-        "lc_plate_app": 54, 
+        "lc_ab": 49, 
+        "lc_batting_average": 0.265, 
+        "lc_hits": 13, 
+        "lc_plate_app": 55, 
         "lc_runs_produced": 10, 
         "player": "Jake Smolinski", 
         "team": "OAK"
@@ -1242,21 +1251,21 @@
         "team": "NYM"
     }, 
     {
-        "lc_ab": 57, 
-        "lc_batting_average": 0.14, 
-        "lc_hits": 8, 
-        "lc_plate_app": 69, 
-        "lc_runs_produced": 10, 
-        "player": "Alejandro De Aza", 
-        "team": "NYM"
-    }, 
-    {
         "lc_ab": 71, 
         "lc_batting_average": 0.197, 
         "lc_hits": 14, 
         "lc_plate_app": 82, 
         "lc_runs_produced": 10, 
         "player": "Asdrubal Cabrera", 
+        "team": "NYM"
+    }, 
+    {
+        "lc_ab": 58, 
+        "lc_batting_average": 0.138, 
+        "lc_hits": 8, 
+        "lc_plate_app": 70, 
+        "lc_runs_produced": 10, 
+        "player": "Alejandro De Aza", 
         "team": "NYM"
     }, 
     {
@@ -1278,10 +1287,10 @@
         "team": "NYM"
     }, 
     {
-        "lc_ab": 53, 
-        "lc_batting_average": 0.113, 
-        "lc_hits": 6, 
-        "lc_plate_app": 59, 
+        "lc_ab": 55, 
+        "lc_batting_average": 0.127, 
+        "lc_hits": 7, 
+        "lc_plate_app": 61, 
         "lc_runs_produced": 8, 
         "player": "Michael Conforto", 
         "team": "NYM"
@@ -1314,10 +1323,10 @@
         "team": "MIA"
     }, 
     {
-        "lc_ab": 91, 
-        "lc_batting_average": 0.253, 
+        "lc_ab": 92, 
+        "lc_batting_average": 0.25, 
         "lc_hits": 23, 
-        "lc_plate_app": 99, 
+        "lc_plate_app": 100, 
         "lc_runs_produced": 21, 
         "player": "Adeiny Hechavarria", 
         "team": "MIA"
@@ -1326,7 +1335,7 @@
         "lc_ab": 70, 
         "lc_batting_average": 0.186, 
         "lc_hits": 13, 
-        "lc_plate_app": 77, 
+        "lc_plate_app": 78, 
         "lc_runs_produced": 16, 
         "player": "Giancarlo Stanton", 
         "team": "MIA"
@@ -1404,11 +1413,20 @@
         "team": "PHI"
     }, 
     {
-        "lc_ab": 80, 
-        "lc_batting_average": 0.313, 
-        "lc_hits": 25, 
-        "lc_plate_app": 91, 
-        "lc_runs_produced": 16, 
+        "lc_ab": 47, 
+        "lc_batting_average": 0.234, 
+        "lc_hits": 11, 
+        "lc_plate_app": 50, 
+        "lc_runs_produced": 18, 
+        "player": "Andres Blanco", 
+        "team": "PHI"
+    }, 
+    {
+        "lc_ab": 81, 
+        "lc_batting_average": 0.321, 
+        "lc_hits": 26, 
+        "lc_plate_app": 92, 
+        "lc_runs_produced": 17, 
         "player": "Cesar Hernandez", 
         "team": "PHI"
     }, 
@@ -1458,28 +1476,28 @@
         "team": "PHI"
     }, 
     {
-        "lc_ab": 82, 
-        "lc_batting_average": 0.329, 
+        "lc_ab": 83, 
+        "lc_batting_average": 0.325, 
         "lc_hits": 27, 
-        "lc_plate_app": 90, 
+        "lc_plate_app": 91, 
         "lc_runs_produced": 25, 
         "player": "Adonis Garcia", 
         "team": "ATL"
     }, 
     {
-        "lc_ab": 89, 
-        "lc_batting_average": 0.258, 
+        "lc_ab": 90, 
+        "lc_batting_average": 0.256, 
         "lc_hits": 23, 
-        "lc_plate_app": 102, 
+        "lc_plate_app": 103, 
         "lc_runs_produced": 23, 
         "player": "Ender Inciarte", 
         "team": "ATL"
     }, 
     {
-        "lc_ab": 91, 
-        "lc_batting_average": 0.242, 
+        "lc_ab": 92, 
+        "lc_batting_average": 0.239, 
         "lc_hits": 22, 
-        "lc_plate_app": 113, 
+        "lc_plate_app": 114, 
         "lc_runs_produced": 22, 
         "player": "Freddie Freeman", 
         "team": "ATL"
@@ -1494,10 +1512,10 @@
         "team": "ATL"
     }, 
     {
-        "lc_ab": 66, 
-        "lc_batting_average": 0.242, 
+        "lc_ab": 67, 
+        "lc_batting_average": 0.239, 
         "lc_hits": 16, 
-        "lc_plate_app": 75, 
+        "lc_plate_app": 76, 
         "lc_runs_produced": 16, 
         "player": "Jace Peterson", 
         "team": "ATL"
@@ -1566,21 +1584,21 @@
         "team": "CHC"
     }, 
     {
-        "lc_ab": 79, 
-        "lc_batting_average": 0.253, 
-        "lc_hits": 20, 
-        "lc_plate_app": 93, 
-        "lc_runs_produced": 20, 
-        "player": "Kris Bryant", 
-        "team": "CHC"
-    }, 
-    {
         "lc_ab": 62, 
         "lc_batting_average": 0.29, 
         "lc_hits": 18, 
         "lc_plate_app": 86, 
         "lc_runs_produced": 20, 
         "player": "Anthony Rizzo", 
+        "team": "CHC"
+    }, 
+    {
+        "lc_ab": 79, 
+        "lc_batting_average": 0.253, 
+        "lc_hits": 20, 
+        "lc_plate_app": 93, 
+        "lc_runs_produced": 20, 
+        "player": "Kris Bryant", 
         "team": "CHC"
     }, 
     {
@@ -1593,15 +1611,6 @@
         "team": "CHC"
     }, 
     {
-        "lc_ab": 75, 
-        "lc_batting_average": 0.253, 
-        "lc_hits": 19, 
-        "lc_plate_app": 88, 
-        "lc_runs_produced": 16, 
-        "player": "Jason Heyward", 
-        "team": "CHC"
-    }, 
-    {
         "lc_ab": 56, 
         "lc_batting_average": 0.214, 
         "lc_hits": 12, 
@@ -1611,19 +1620,28 @@
         "team": "CHC"
     }, 
     {
-        "lc_ab": 50, 
-        "lc_batting_average": 0.28, 
-        "lc_hits": 14, 
-        "lc_plate_app": 52, 
-        "lc_runs_produced": 12, 
+        "lc_ab": 75, 
+        "lc_batting_average": 0.253, 
+        "lc_hits": 19, 
+        "lc_plate_app": 88, 
+        "lc_runs_produced": 16, 
+        "player": "Jason Heyward", 
+        "team": "CHC"
+    }, 
+    {
+        "lc_ab": 51, 
+        "lc_batting_average": 0.294, 
+        "lc_hits": 15, 
+        "lc_plate_app": 53, 
+        "lc_runs_produced": 13, 
         "player": "Willson Contreras", 
         "team": "CHC"
     }, 
     {
-        "lc_ab": 75, 
-        "lc_batting_average": 0.16, 
-        "lc_hits": 12, 
-        "lc_plate_app": 79, 
+        "lc_ab": 77, 
+        "lc_batting_average": 0.169, 
+        "lc_hits": 13, 
+        "lc_plate_app": 81, 
         "lc_runs_produced": 11, 
         "player": "Javier Baez", 
         "team": "CHC"
@@ -1638,11 +1656,11 @@
         "team": "STL"
     }, 
     {
-        "lc_ab": 67, 
-        "lc_batting_average": 0.254, 
-        "lc_hits": 17, 
-        "lc_plate_app": 82, 
-        "lc_runs_produced": 20, 
+        "lc_ab": 68, 
+        "lc_batting_average": 0.265, 
+        "lc_hits": 18, 
+        "lc_plate_app": 83, 
+        "lc_runs_produced": 22, 
         "player": "Stephen Piscotty", 
         "team": "STL"
     }, 
@@ -1656,11 +1674,11 @@
         "team": "STL"
     }, 
     {
-        "lc_ab": 80, 
-        "lc_batting_average": 0.35, 
-        "lc_hits": 28, 
-        "lc_plate_app": 89, 
-        "lc_runs_produced": 17, 
+        "lc_ab": 81, 
+        "lc_batting_average": 0.358, 
+        "lc_hits": 29, 
+        "lc_plate_app": 90, 
+        "lc_runs_produced": 18, 
         "player": "Yadier Molina", 
         "team": "STL"
     }, 
@@ -1674,39 +1692,12 @@
         "team": "STL"
     }, 
     {
-        "lc_ab": 77, 
-        "lc_batting_average": 0.221, 
+        "lc_ab": 78, 
+        "lc_batting_average": 0.218, 
         "lc_hits": 17, 
-        "lc_plate_app": 86, 
-        "lc_runs_produced": 11, 
+        "lc_plate_app": 87, 
+        "lc_runs_produced": 12, 
         "player": "Jedd Gyorko", 
-        "team": "STL"
-    }, 
-    {
-        "lc_ab": 49, 
-        "lc_batting_average": 0.224, 
-        "lc_hits": 11, 
-        "lc_plate_app": 62, 
-        "lc_runs_produced": 10, 
-        "player": "Kolten Wong", 
-        "team": "STL"
-    }, 
-    {
-        "lc_ab": 50, 
-        "lc_batting_average": 0.24, 
-        "lc_hits": 12, 
-        "lc_plate_app": 60, 
-        "lc_runs_produced": 10, 
-        "player": "Greg Garcia", 
-        "team": "STL"
-    }, 
-    {
-        "lc_ab": 56, 
-        "lc_batting_average": 0.179, 
-        "lc_hits": 10, 
-        "lc_plate_app": 64, 
-        "lc_runs_produced": 10, 
-        "player": "Brandon Moss", 
         "team": "STL"
     }, 
     {
@@ -1719,12 +1710,30 @@
         "team": "STL"
     }, 
     {
-        "lc_ab": 46, 
-        "lc_batting_average": 0.261, 
+        "lc_ab": 50, 
+        "lc_batting_average": 0.24, 
         "lc_hits": 12, 
-        "lc_plate_app": 51, 
-        "lc_runs_produced": 8, 
-        "player": "Jhonny Peralta", 
+        "lc_plate_app": 60, 
+        "lc_runs_produced": 10, 
+        "player": "Greg Garcia", 
+        "team": "STL"
+    }, 
+    {
+        "lc_ab": 57, 
+        "lc_batting_average": 0.193, 
+        "lc_hits": 11, 
+        "lc_plate_app": 65, 
+        "lc_runs_produced": 10, 
+        "player": "Brandon Moss", 
+        "team": "STL"
+    }, 
+    {
+        "lc_ab": 49, 
+        "lc_batting_average": 0.224, 
+        "lc_hits": 11, 
+        "lc_plate_app": 62, 
+        "lc_runs_produced": 10, 
+        "player": "Kolten Wong", 
         "team": "STL"
     }, 
     {
@@ -1737,6 +1746,15 @@
         "team": "STL"
     }, 
     {
+        "lc_ab": 47, 
+        "lc_batting_average": 0.277, 
+        "lc_hits": 13, 
+        "lc_plate_app": 52, 
+        "lc_runs_produced": 8, 
+        "player": "Jhonny Peralta", 
+        "team": "STL"
+    }, 
+    {
         "lc_ab": 81, 
         "lc_batting_average": 0.309, 
         "lc_hits": 25, 
@@ -1746,10 +1764,10 @@
         "team": "PIT"
     }, 
     {
-        "lc_ab": 52, 
-        "lc_batting_average": 0.404, 
+        "lc_ab": 53, 
+        "lc_batting_average": 0.396, 
         "lc_hits": 21, 
-        "lc_plate_app": 61, 
+        "lc_plate_app": 62, 
         "lc_runs_produced": 19, 
         "player": "Jung Ho Kang", 
         "team": "PIT"
@@ -1764,10 +1782,10 @@
         "team": "PIT"
     }, 
     {
-        "lc_ab": 69, 
-        "lc_batting_average": 0.275, 
+        "lc_ab": 70, 
+        "lc_batting_average": 0.271, 
         "lc_hits": 19, 
-        "lc_plate_app": 85, 
+        "lc_plate_app": 86, 
         "lc_runs_produced": 18, 
         "player": "Andrew McCutchen", 
         "team": "PIT"
@@ -1791,12 +1809,21 @@
         "team": "PIT"
     }, 
     {
-        "lc_ab": 70, 
-        "lc_batting_average": 0.171, 
+        "lc_ab": 71, 
+        "lc_batting_average": 0.169, 
         "lc_hits": 12, 
-        "lc_plate_app": 83, 
+        "lc_plate_app": 84, 
         "lc_runs_produced": 14, 
         "player": "Gregory Polanco", 
+        "team": "PIT"
+    }, 
+    {
+        "lc_ab": 51, 
+        "lc_batting_average": 0.294, 
+        "lc_hits": 15, 
+        "lc_plate_app": 56, 
+        "lc_runs_produced": 13, 
+        "player": "John Jaso", 
         "team": "PIT"
     }, 
     {
@@ -1818,15 +1845,6 @@
         "team": "PIT"
     }, 
     {
-        "lc_ab": 50, 
-        "lc_batting_average": 0.28, 
-        "lc_hits": 14, 
-        "lc_plate_app": 55, 
-        "lc_runs_produced": 11, 
-        "player": "John Jaso", 
-        "team": "PIT"
-    }, 
-    {
         "lc_ab": 39, 
         "lc_batting_average": 0.282, 
         "lc_hits": 11, 
@@ -1845,19 +1863,19 @@
         "team": "MIL"
     }, 
     {
-        "lc_ab": 79, 
-        "lc_batting_average": 0.278, 
+        "lc_ab": 80, 
+        "lc_batting_average": 0.275, 
         "lc_hits": 22, 
-        "lc_plate_app": 87, 
+        "lc_plate_app": 88, 
         "lc_runs_produced": 21, 
         "player": "Scooter Gennett", 
         "team": "MIL"
     }, 
     {
-        "lc_ab": 92, 
-        "lc_batting_average": 0.239, 
+        "lc_ab": 93, 
+        "lc_batting_average": 0.237, 
         "lc_hits": 22, 
-        "lc_plate_app": 105, 
+        "lc_plate_app": 107, 
         "lc_runs_produced": 20, 
         "player": "Jonathan Villar", 
         "team": "MIL"
@@ -1872,21 +1890,21 @@
         "team": "MIL"
     }, 
     {
-        "lc_ab": 66, 
-        "lc_batting_average": 0.182, 
-        "lc_hits": 12, 
-        "lc_plate_app": 70, 
-        "lc_runs_produced": 14, 
-        "player": "Hernan Perez", 
+        "lc_ab": 86, 
+        "lc_batting_average": 0.186, 
+        "lc_hits": 16, 
+        "lc_plate_app": 101, 
+        "lc_runs_produced": 15, 
+        "player": "Chris Carter", 
         "team": "MIL"
     }, 
     {
-        "lc_ab": 84, 
+        "lc_ab": 67, 
         "lc_batting_average": 0.179, 
-        "lc_hits": 15, 
-        "lc_plate_app": 99, 
+        "lc_hits": 12, 
+        "lc_plate_app": 72, 
         "lc_runs_produced": 14, 
-        "player": "Chris Carter", 
+        "player": "Hernan Perez", 
         "team": "MIL"
     }, 
     {
@@ -1911,25 +1929,25 @@
         "lc_ab": 87, 
         "lc_batting_average": 0.207, 
         "lc_hits": 18, 
-        "lc_plate_app": 96, 
+        "lc_plate_app": 97, 
         "lc_runs_produced": 25, 
         "player": "Adam Duvall", 
         "team": "CIN"
     }, 
     {
-        "lc_ab": 80, 
-        "lc_batting_average": 0.338, 
+        "lc_ab": 81, 
+        "lc_batting_average": 0.333, 
         "lc_hits": 27, 
-        "lc_plate_app": 99, 
+        "lc_plate_app": 100, 
         "lc_runs_produced": 21, 
         "player": "Joey Votto", 
         "team": "CIN"
     }, 
     {
-        "lc_ab": 81, 
-        "lc_batting_average": 0.222, 
+        "lc_ab": 82, 
+        "lc_batting_average": 0.22, 
         "lc_hits": 18, 
-        "lc_plate_app": 90, 
+        "lc_plate_app": 91, 
         "lc_runs_produced": 18, 
         "player": "Eugenio Suarez", 
         "team": "CIN"
@@ -1953,21 +1971,21 @@
         "team": "CIN"
     }, 
     {
-        "lc_ab": 82, 
-        "lc_batting_average": 0.207, 
-        "lc_hits": 17, 
-        "lc_plate_app": 88, 
-        "lc_runs_produced": 11, 
-        "player": "Brandon Phillips", 
-        "team": "CIN"
-    }, 
-    {
         "lc_ab": 71, 
         "lc_batting_average": 0.225, 
         "lc_hits": 16, 
         "lc_plate_app": 78, 
         "lc_runs_produced": 11, 
         "player": "Billy Hamilton", 
+        "team": "CIN"
+    }, 
+    {
+        "lc_ab": 82, 
+        "lc_batting_average": 0.207, 
+        "lc_hits": 17, 
+        "lc_plate_app": 88, 
+        "lc_runs_produced": 11, 
+        "player": "Brandon Phillips", 
         "team": "CIN"
     }, 
     {
@@ -1998,15 +2016,6 @@
         "team": "LAD"
     }, 
     {
-        "lc_ab": 79, 
-        "lc_batting_average": 0.278, 
-        "lc_hits": 22, 
-        "lc_plate_app": 90, 
-        "lc_runs_produced": 20, 
-        "player": "Justin Turner", 
-        "team": "LAD"
-    }, 
-    {
         "lc_ab": 61, 
         "lc_batting_average": 0.197, 
         "lc_hits": 12, 
@@ -2016,12 +2025,12 @@
         "team": "LAD"
     }, 
     {
-        "lc_ab": 74, 
-        "lc_batting_average": 0.216, 
-        "lc_hits": 16, 
-        "lc_plate_app": 82, 
-        "lc_runs_produced": 17, 
-        "player": "Howie Kendrick", 
+        "lc_ab": 79, 
+        "lc_batting_average": 0.278, 
+        "lc_hits": 22, 
+        "lc_plate_app": 90, 
+        "lc_runs_produced": 20, 
+        "player": "Justin Turner", 
         "team": "LAD"
     }, 
     {
@@ -2031,6 +2040,15 @@
         "lc_plate_app": 101, 
         "lc_runs_produced": 17, 
         "player": "Chase Utley", 
+        "team": "LAD"
+    }, 
+    {
+        "lc_ab": 74, 
+        "lc_batting_average": 0.216, 
+        "lc_hits": 16, 
+        "lc_plate_app": 82, 
+        "lc_runs_produced": 17, 
+        "player": "Howie Kendrick", 
         "team": "LAD"
     }, 
     {
@@ -2097,21 +2115,21 @@
         "team": "SFG"
     }, 
     {
-        "lc_ab": 76, 
-        "lc_batting_average": 0.263, 
-        "lc_hits": 20, 
-        "lc_plate_app": 88, 
-        "lc_runs_produced": 16, 
-        "player": "Angel Pagan", 
-        "team": "SFG"
-    }, 
-    {
         "lc_ab": 80, 
         "lc_batting_average": 0.163, 
         "lc_hits": 13, 
         "lc_plate_app": 97, 
         "lc_runs_produced": 16, 
         "player": "Joe Panik", 
+        "team": "SFG"
+    }, 
+    {
+        "lc_ab": 76, 
+        "lc_batting_average": 0.263, 
+        "lc_hits": 20, 
+        "lc_plate_app": 88, 
+        "lc_runs_produced": 16, 
+        "player": "Angel Pagan", 
         "team": "SFG"
     }, 
     {
@@ -2151,11 +2169,11 @@
         "team": "SFG"
     }, 
     {
-        "lc_ab": 75, 
-        "lc_batting_average": 0.28, 
-        "lc_hits": 21, 
-        "lc_plate_app": 93, 
-        "lc_runs_produced": 31, 
+        "lc_ab": 77, 
+        "lc_batting_average": 0.299, 
+        "lc_hits": 23, 
+        "lc_plate_app": 95, 
+        "lc_runs_produced": 32, 
         "player": "Nolan Arenado", 
         "team": "COL"
     }, 
@@ -2178,19 +2196,19 @@
         "team": "COL"
     }, 
     {
-        "lc_ab": 78, 
-        "lc_batting_average": 0.269, 
+        "lc_ab": 80, 
+        "lc_batting_average": 0.263, 
         "lc_hits": 21, 
-        "lc_plate_app": 83, 
+        "lc_plate_app": 85, 
         "lc_runs_produced": 19, 
         "player": "Carlos Gonzalez", 
         "team": "COL"
     }, 
     {
-        "lc_ab": 63, 
-        "lc_batting_average": 0.286, 
-        "lc_hits": 18, 
-        "lc_plate_app": 79, 
+        "lc_ab": 65, 
+        "lc_batting_average": 0.292, 
+        "lc_hits": 19, 
+        "lc_plate_app": 81, 
         "lc_runs_produced": 17, 
         "player": "Charlie Blackmon", 
         "team": "COL"
@@ -2223,30 +2241,21 @@
         "team": "COL"
     }, 
     {
-        "lc_ab": 93, 
-        "lc_batting_average": 0.226, 
+        "lc_ab": 94, 
+        "lc_batting_average": 0.223, 
         "lc_hits": 21, 
-        "lc_plate_app": 106, 
+        "lc_plate_app": 107, 
         "lc_runs_produced": 23, 
         "player": "Wil Myers", 
         "team": "SDP"
     }, 
     {
-        "lc_ab": 56, 
-        "lc_batting_average": 0.179, 
+        "lc_ab": 57, 
+        "lc_batting_average": 0.175, 
         "lc_hits": 10, 
-        "lc_plate_app": 63, 
+        "lc_plate_app": 64, 
         "lc_runs_produced": 16, 
         "player": "Yangervis Solarte", 
-        "team": "SDP"
-    }, 
-    {
-        "lc_ab": 43, 
-        "lc_batting_average": 0.209, 
-        "lc_hits": 9, 
-        "lc_plate_app": 52, 
-        "lc_runs_produced": 13, 
-        "player": "Ryan Schimpf", 
         "team": "SDP"
     }, 
     {
@@ -2265,6 +2274,15 @@
         "lc_plate_app": 69, 
         "lc_runs_produced": 13, 
         "player": "Melvin Upton", 
+        "team": "SDP"
+    }, 
+    {
+        "lc_ab": 45, 
+        "lc_batting_average": 0.2, 
+        "lc_hits": 9, 
+        "lc_plate_app": 54, 
+        "lc_runs_produced": 13, 
+        "player": "Ryan Schimpf", 
         "team": "SDP"
     }, 
     {
@@ -2313,19 +2331,19 @@
         "team": "SDP"
     }, 
     {
-        "lc_ab": 77, 
-        "lc_batting_average": 0.299, 
+        "lc_ab": 78, 
+        "lc_batting_average": 0.295, 
         "lc_hits": 23, 
-        "lc_plate_app": 106, 
+        "lc_plate_app": 107, 
         "lc_runs_produced": 26, 
         "player": "Paul Goldschmidt", 
         "team": "ARI"
     }, 
     {
-        "lc_ab": 88, 
-        "lc_batting_average": 0.216, 
+        "lc_ab": 89, 
+        "lc_batting_average": 0.213, 
         "lc_hits": 19, 
-        "lc_plate_app": 104, 
+        "lc_plate_app": 105, 
         "lc_runs_produced": 24, 
         "player": "Jake Lamb", 
         "team": "ARI"
@@ -2340,10 +2358,10 @@
         "team": "ARI"
     }, 
     {
-        "lc_ab": 108, 
-        "lc_batting_average": 0.25, 
+        "lc_ab": 109, 
+        "lc_batting_average": 0.248, 
         "lc_hits": 27, 
-        "lc_plate_app": 113, 
+        "lc_plate_app": 114, 
         "lc_runs_produced": 18, 
         "player": "Jean Segura", 
         "team": "ARI"
@@ -2358,29 +2376,29 @@
         "team": "ARI"
     }, 
     {
-        "lc_ab": 102, 
-        "lc_batting_average": 0.265, 
+        "lc_ab": 103, 
+        "lc_batting_average": 0.262, 
         "lc_hits": 27, 
-        "lc_plate_app": 108, 
+        "lc_plate_app": 109, 
         "lc_runs_produced": 17, 
         "player": "Yasmany Tomas", 
         "team": "ARI"
     }, 
     {
-        "lc_ab": 70, 
-        "lc_batting_average": 0.286, 
+        "lc_ab": 71, 
+        "lc_batting_average": 0.282, 
         "lc_hits": 20, 
-        "lc_plate_app": 76, 
+        "lc_plate_app": 77, 
         "lc_runs_produced": 17, 
         "player": "Chris Owings", 
         "team": "ARI"
     }, 
     {
-        "lc_ab": 79, 
-        "lc_batting_average": 0.266, 
-        "lc_hits": 21, 
-        "lc_plate_app": 87, 
-        "lc_runs_produced": 12, 
+        "lc_ab": 80, 
+        "lc_batting_average": 0.275, 
+        "lc_hits": 22, 
+        "lc_plate_app": 88, 
+        "lc_runs_produced": 13, 
         "player": "Brandon Drury", 
         "team": "ARI"
     }, 
@@ -2394,21 +2412,21 @@
         "team": "ARI"
     }, 
     {
+        "lc_ab": 51, 
+        "lc_batting_average": 0.294, 
+        "lc_hits": 15, 
+        "lc_plate_app": 61, 
+        "lc_runs_produced": 10, 
+        "player": "Philip Gosselin", 
+        "team": "ARI"
+    }, 
+    {
         "lc_ab": 49, 
         "lc_batting_average": 0.204, 
         "lc_hits": 10, 
         "lc_plate_app": 58, 
         "lc_runs_produced": 10, 
         "player": "Rickie Weeks", 
-        "team": "ARI"
-    }, 
-    {
-        "lc_ab": 50, 
-        "lc_batting_average": 0.28, 
-        "lc_hits": 14, 
-        "lc_plate_app": 60, 
-        "lc_runs_produced": 9, 
-        "player": "Philip Gosselin", 
         "team": "ARI"
     }, 
     {
@@ -2448,11 +2466,11 @@
         "team": "TEX"
     }, 
     {
-        "lc_ab": 48, 
-        "lc_batting_average": 0.292, 
+        "lc_ab": 49, 
+        "lc_batting_average": 0.286, 
         "lc_hits": 14, 
-        "lc_plate_app": 58, 
-        "lc_runs_produced": 16, 
+        "lc_plate_app": 61, 
+        "lc_runs_produced": 17, 
         "player": "Jurickson Profar", 
         "team": "TEX"
     }, 
@@ -2466,11 +2484,11 @@
         "team": "TEX"
     }, 
     {
-        "lc_ab": 85, 
-        "lc_batting_average": 0.259, 
+        "lc_ab": 86, 
+        "lc_batting_average": 0.256, 
         "lc_hits": 22, 
-        "lc_plate_app": 88, 
-        "lc_runs_produced": 8, 
+        "lc_plate_app": 90, 
+        "lc_runs_produced": 9, 
         "player": "Nomar Mazara", 
         "team": "TEX"
     }, 

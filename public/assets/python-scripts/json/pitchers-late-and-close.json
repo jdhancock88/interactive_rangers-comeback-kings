@@ -10,23 +10,23 @@
         "team": "BOS"
     }, 
     {
-        "lc_batters_faced": 72, 
+        "lc_batters_faced": 64, 
         "lc_earned_runs": 5, 
-        "lc_era": 2.76, 
-        "lc_hits": 17, 
-        "lc_inning_pitched": 16.1, 
-        "lc_strikeouts": 20, 
-        "player": "Brad Ziegler", 
+        "lc_era": 2.93, 
+        "lc_hits": 10, 
+        "lc_inning_pitched": 15.1, 
+        "lc_strikeouts": 16, 
+        "player": "Robbie Ross", 
         "team": "BOS"
     }, 
     {
-        "lc_batters_faced": 61, 
-        "lc_earned_runs": 5, 
-        "lc_era": 3.07, 
-        "lc_hits": 9, 
-        "lc_inning_pitched": 14.2, 
-        "lc_strikeouts": 16, 
-        "player": "Robbie Ross", 
+        "lc_batters_faced": 77, 
+        "lc_earned_runs": 6, 
+        "lc_era": 3.18, 
+        "lc_hits": 20, 
+        "lc_inning_pitched": 17.0, 
+        "lc_strikeouts": 20, 
+        "player": "Brad Ziegler", 
         "team": "BOS"
     }, 
     {
@@ -60,22 +60,22 @@
         "team": "BOS"
     }, 
     {
-        "lc_batters_faced": 70, 
+        "lc_batters_faced": 71, 
         "lc_earned_runs": 9, 
-        "lc_era": 5.28, 
+        "lc_era": 5.17, 
         "lc_hits": 15, 
-        "lc_inning_pitched": 15.1, 
+        "lc_inning_pitched": 15.2, 
         "lc_strikeouts": 21, 
         "player": "Matt Barnes", 
         "team": "BOS"
     }, 
     {
-        "lc_batters_faced": 189, 
+        "lc_batters_faced": 192, 
         "lc_earned_runs": 2, 
-        "lc_era": 0.36, 
-        "lc_hits": 26, 
-        "lc_inning_pitched": 50.2, 
-        "lc_strikeouts": 56, 
+        "lc_era": 0.35, 
+        "lc_hits": 27, 
+        "lc_inning_pitched": 51.1, 
+        "lc_strikeouts": 57, 
         "player": "Zach Britton", 
         "team": "BAL"
     }, 
@@ -120,22 +120,22 @@
         "team": "TOR"
     }, 
     {
-        "lc_batters_faced": 198, 
+        "lc_batters_faced": 203, 
         "lc_earned_runs": 10, 
-        "lc_era": 1.69, 
-        "lc_hits": 31, 
-        "lc_inning_pitched": 53.1, 
+        "lc_era": 1.66, 
+        "lc_hits": 32, 
+        "lc_inning_pitched": 54.1, 
         "lc_strikeouts": 60, 
         "player": "Roberto Osuna", 
         "team": "TOR"
     }, 
     {
-        "lc_batters_faced": 91, 
+        "lc_batters_faced": 93, 
         "lc_earned_runs": 6, 
-        "lc_era": 2.53, 
+        "lc_era": 2.45, 
         "lc_hits": 23, 
-        "lc_inning_pitched": 21.1, 
-        "lc_strikeouts": 19, 
+        "lc_inning_pitched": 22.0, 
+        "lc_strikeouts": 20, 
         "player": "Joe Biagini", 
         "team": "TOR"
     }, 
@@ -170,12 +170,12 @@
         "team": "TOR"
     }, 
     {
-        "lc_batters_faced": 89, 
+        "lc_batters_faced": 91, 
         "lc_earned_runs": 11, 
-        "lc_era": 5.3, 
-        "lc_hits": 26, 
-        "lc_inning_pitched": 18.2, 
-        "lc_strikeouts": 20, 
+        "lc_era": 5.21, 
+        "lc_hits": 27, 
+        "lc_inning_pitched": 19.0, 
+        "lc_strikeouts": 21, 
         "player": "Brett Cecil", 
         "team": "TOR"
     }, 
@@ -240,23 +240,13 @@
         "team": "NYY"
     }, 
     {
-        "lc_batters_faced": 181, 
-        "lc_earned_runs": 11, 
-        "lc_era": 2.18, 
-        "lc_hits": 34, 
-        "lc_inning_pitched": 45.1, 
-        "lc_strikeouts": 52, 
+        "lc_batters_faced": 187, 
+        "lc_earned_runs": 12, 
+        "lc_era": 2.33, 
+        "lc_hits": 37, 
+        "lc_inning_pitched": 46.1, 
+        "lc_strikeouts": 54, 
         "player": "Alex Colome", 
-        "team": "TBR"
-    }, 
-    {
-        "lc_batters_faced": 70, 
-        "lc_earned_runs": 8, 
-        "lc_era": 4.6, 
-        "lc_hits": 15, 
-        "lc_inning_pitched": 15.2, 
-        "lc_strikeouts": 15, 
-        "player": "Brad Boxberger", 
         "team": "TBR"
     }, 
     {
@@ -270,12 +260,22 @@
         "team": "TBR"
     }, 
     {
-        "lc_batters_faced": 209, 
+        "lc_batters_faced": 76, 
+        "lc_earned_runs": 9, 
+        "lc_era": 4.96, 
+        "lc_hits": 15, 
+        "lc_inning_pitched": 16.1, 
+        "lc_strikeouts": 16, 
+        "player": "Brad Boxberger", 
+        "team": "TBR"
+    }, 
+    {
+        "lc_batters_faced": 212, 
         "lc_earned_runs": 28, 
-        "lc_era": 5.18, 
+        "lc_era": 5.07, 
         "lc_hits": 57, 
-        "lc_inning_pitched": 48.2, 
-        "lc_strikeouts": 30, 
+        "lc_inning_pitched": 49.2, 
+        "lc_strikeouts": 31, 
         "player": "Erasmo Ramirez", 
         "team": "TBR"
     }, 
@@ -290,22 +290,22 @@
         "team": "CLE"
     }, 
     {
-        "lc_batters_faced": 69, 
+        "lc_batters_faced": 71, 
         "lc_earned_runs": 4, 
-        "lc_era": 1.86, 
+        "lc_era": 1.8, 
         "lc_hits": 11, 
-        "lc_inning_pitched": 19.1, 
-        "lc_strikeouts": 28, 
+        "lc_inning_pitched": 20.0, 
+        "lc_strikeouts": 29, 
         "player": "Andrew Miller", 
         "team": "CLE"
     }, 
     {
-        "lc_batters_faced": 172, 
+        "lc_batters_faced": 175, 
         "lc_earned_runs": 15, 
-        "lc_era": 3.21, 
+        "lc_era": 3.14, 
         "lc_hits": 31, 
-        "lc_inning_pitched": 42.0, 
-        "lc_strikeouts": 59, 
+        "lc_inning_pitched": 43.0, 
+        "lc_strikeouts": 60, 
         "player": "Cody Allen", 
         "team": "CLE"
     }, 
@@ -340,12 +340,12 @@
         "team": "CLE"
     }, 
     {
-        "lc_batters_faced": 61, 
+        "lc_batters_faced": 64, 
         "lc_earned_runs": 5, 
-        "lc_era": 2.81, 
+        "lc_era": 2.65, 
         "lc_hits": 6, 
-        "lc_inning_pitched": 16.0, 
-        "lc_strikeouts": 21, 
+        "lc_inning_pitched": 17.0, 
+        "lc_strikeouts": 23, 
         "player": "Bruce Rondon", 
         "team": "DET"
     }, 
@@ -410,12 +410,12 @@
         "team": "KCR"
     }, 
     {
-        "lc_batters_faced": 126, 
+        "lc_batters_faced": 129, 
         "lc_earned_runs": 6, 
-        "lc_era": 1.72, 
+        "lc_era": 1.67, 
         "lc_hits": 22, 
-        "lc_inning_pitched": 31.1, 
-        "lc_strikeouts": 36, 
+        "lc_inning_pitched": 32.1, 
+        "lc_strikeouts": 38, 
         "player": "Wade Davis", 
         "team": "KCR"
     }, 
@@ -430,12 +430,12 @@
         "team": "KCR"
     }, 
     {
-        "lc_batters_faced": 186, 
+        "lc_batters_faced": 187, 
         "lc_earned_runs": 19, 
-        "lc_era": 4.17, 
+        "lc_era": 4.14, 
         "lc_hits": 47, 
-        "lc_inning_pitched": 41.0, 
-        "lc_strikeouts": 37, 
+        "lc_inning_pitched": 41.1, 
+        "lc_strikeouts": 38, 
         "player": "Joakim Soria", 
         "team": "KCR"
     }, 
@@ -740,6 +740,16 @@
         "team": "OAK"
     }, 
     {
+        "lc_batters_faced": 159, 
+        "lc_earned_runs": 15, 
+        "lc_era": 3.58, 
+        "lc_hits": 33, 
+        "lc_inning_pitched": 37.2, 
+        "lc_strikeouts": 40, 
+        "player": "John Axford", 
+        "team": "OAK"
+    }, 
+    {
         "lc_batters_faced": 41, 
         "lc_earned_runs": 4, 
         "lc_era": 3.6, 
@@ -750,22 +760,12 @@
         "team": "OAK"
     }, 
     {
-        "lc_batters_faced": 156, 
-        "lc_earned_runs": 15, 
-        "lc_era": 3.68, 
-        "lc_hits": 33, 
-        "lc_inning_pitched": 36.2, 
-        "lc_strikeouts": 38, 
-        "player": "John Axford", 
-        "team": "OAK"
-    }, 
-    {
-        "lc_batters_faced": 86, 
+        "lc_batters_faced": 89, 
         "lc_earned_runs": 8, 
-        "lc_era": 3.86, 
+        "lc_era": 3.66, 
         "lc_hits": 20, 
-        "lc_inning_pitched": 18.2, 
-        "lc_strikeouts": 16, 
+        "lc_inning_pitched": 19.2, 
+        "lc_strikeouts": 18, 
         "player": "Liam Hendriks", 
         "team": "OAK"
     }, 
@@ -870,11 +870,11 @@
         "team": "WSN"
     }, 
     {
-        "lc_batters_faced": 66, 
+        "lc_batters_faced": 67, 
         "lc_earned_runs": 3, 
-        "lc_era": 1.47, 
+        "lc_era": 1.42, 
         "lc_hits": 13, 
-        "lc_inning_pitched": 18.1, 
+        "lc_inning_pitched": 19.0, 
         "lc_strikeouts": 15, 
         "player": "Mark Melancon", 
         "team": "WSN"
@@ -900,12 +900,12 @@
         "team": "WSN"
     }, 
     {
-        "lc_batters_faced": 68, 
+        "lc_batters_faced": 69, 
         "lc_earned_runs": 8, 
-        "lc_era": 4.5, 
+        "lc_era": 4.41, 
         "lc_hits": 15, 
-        "lc_inning_pitched": 16.0, 
-        "lc_strikeouts": 15, 
+        "lc_inning_pitched": 16.1, 
+        "lc_strikeouts": 16, 
         "player": "Sammy Solis", 
         "team": "WSN"
     }, 
@@ -1070,11 +1070,11 @@
         "team": "MIA"
     }, 
     {
-        "lc_batters_faced": 211, 
+        "lc_batters_faced": 214, 
         "lc_earned_runs": 14, 
-        "lc_era": 2.41, 
-        "lc_hits": 35, 
-        "lc_inning_pitched": 52.1, 
+        "lc_era": 2.38, 
+        "lc_hits": 36, 
+        "lc_inning_pitched": 53.0, 
         "lc_strikeouts": 64, 
         "player": "Hector Neris", 
         "team": "PHI"
@@ -1150,13 +1150,23 @@
         "team": "ATL"
     }, 
     {
-        "lc_batters_faced": 180, 
+        "lc_batters_faced": 184, 
         "lc_earned_runs": 14, 
-        "lc_era": 2.76, 
-        "lc_hits": 36, 
-        "lc_inning_pitched": 45.2, 
-        "lc_strikeouts": 46, 
+        "lc_era": 2.7, 
+        "lc_hits": 37, 
+        "lc_inning_pitched": 46.2, 
+        "lc_strikeouts": 48, 
         "player": "Jim Johnson", 
+        "team": "ATL"
+    }, 
+    {
+        "lc_batters_faced": 79, 
+        "lc_earned_runs": 8, 
+        "lc_era": 4.08, 
+        "lc_hits": 17, 
+        "lc_inning_pitched": 17.2, 
+        "lc_strikeouts": 15, 
+        "player": "Jose Ramirez", 
         "team": "ATL"
     }, 
     {
@@ -1167,16 +1177,6 @@
         "lc_inning_pitched": 27.1, 
         "lc_strikeouts": 39, 
         "player": "Arodys Vizcaino", 
-        "team": "ATL"
-    }, 
-    {
-        "lc_batters_faced": 76, 
-        "lc_earned_runs": 8, 
-        "lc_era": 4.32, 
-        "lc_hits": 16, 
-        "lc_inning_pitched": 16.2, 
-        "lc_strikeouts": 14, 
-        "player": "Jose Ramirez", 
         "team": "ATL"
     }, 
     {
@@ -1200,11 +1200,11 @@
         "team": "CHC"
     }, 
     {
-        "lc_batters_faced": 86, 
+        "lc_batters_faced": 87, 
         "lc_earned_runs": 4, 
-        "lc_era": 1.64, 
+        "lc_era": 1.61, 
         "lc_hits": 14, 
-        "lc_inning_pitched": 22.0, 
+        "lc_inning_pitched": 22.1, 
         "lc_strikeouts": 31, 
         "player": "Justin Grimm", 
         "team": "CHC"
@@ -1220,11 +1220,11 @@
         "team": "CHC"
     }, 
     {
-        "lc_batters_faced": 98, 
+        "lc_batters_faced": 101, 
         "lc_earned_runs": 7, 
-        "lc_era": 2.74, 
+        "lc_era": 2.66, 
         "lc_hits": 18, 
-        "lc_inning_pitched": 23.0, 
+        "lc_inning_pitched": 23.2, 
         "lc_strikeouts": 18, 
         "player": "Travis Wood", 
         "team": "CHC"
@@ -1300,12 +1300,12 @@
         "team": "STL"
     }, 
     {
-        "lc_batters_faced": 93, 
-        "lc_earned_runs": 9, 
-        "lc_era": 3.74, 
-        "lc_hits": 18, 
-        "lc_inning_pitched": 21.2, 
-        "lc_strikeouts": 22, 
+        "lc_batters_faced": 98, 
+        "lc_earned_runs": 11, 
+        "lc_era": 4.37, 
+        "lc_hits": 20, 
+        "lc_inning_pitched": 22.2, 
+        "lc_strikeouts": 24, 
         "player": "Jonathan Broxton", 
         "team": "STL"
     }, 
@@ -1400,22 +1400,22 @@
         "team": "MIL"
     }, 
     {
-        "lc_batters_faced": 197, 
-        "lc_earned_runs": 11, 
-        "lc_era": 1.98, 
-        "lc_hits": 27, 
-        "lc_inning_pitched": 50.0, 
-        "lc_strikeouts": 62, 
+        "lc_batters_faced": 202, 
+        "lc_earned_runs": 12, 
+        "lc_era": 2.12, 
+        "lc_hits": 29, 
+        "lc_inning_pitched": 51.0, 
+        "lc_strikeouts": 64, 
         "player": "Tyler Thornburg", 
         "team": "MIL"
     }, 
     {
-        "lc_batters_faced": 129, 
+        "lc_batters_faced": 134, 
         "lc_earned_runs": 9, 
-        "lc_era": 2.59, 
-        "lc_hits": 21, 
-        "lc_inning_pitched": 31.1, 
-        "lc_strikeouts": 22, 
+        "lc_era": 2.51, 
+        "lc_hits": 23, 
+        "lc_inning_pitched": 32.1, 
+        "lc_strikeouts": 24, 
         "player": "Carlos Torres", 
         "team": "MIL"
     }, 
@@ -1430,12 +1430,12 @@
         "team": "MIL"
     }, 
     {
-        "lc_batters_faced": 88, 
+        "lc_batters_faced": 91, 
         "lc_earned_runs": 10, 
-        "lc_era": 4.66, 
+        "lc_era": 4.43, 
         "lc_hits": 22, 
-        "lc_inning_pitched": 19.1, 
-        "lc_strikeouts": 19, 
+        "lc_inning_pitched": 20.1, 
+        "lc_strikeouts": 21, 
         "player": "Corey Knebel", 
         "team": "MIL"
     }, 
@@ -1450,12 +1450,12 @@
         "team": "MIL"
     }, 
     {
-        "lc_batters_faced": 65, 
+        "lc_batters_faced": 70, 
         "lc_earned_runs": 9, 
-        "lc_era": 5.52, 
-        "lc_hits": 23, 
-        "lc_inning_pitched": 14.2, 
-        "lc_strikeouts": 7, 
+        "lc_era": 5.17, 
+        "lc_hits": 25, 
+        "lc_inning_pitched": 15.2, 
+        "lc_strikeouts": 8, 
         "player": "Blaine Boyer", 
         "team": "MIL"
     }, 
@@ -1470,12 +1470,12 @@
         "team": "CIN"
     }, 
     {
-        "lc_batters_faced": 167, 
-        "lc_earned_runs": 21, 
-        "lc_era": 4.89, 
-        "lc_hits": 36, 
-        "lc_inning_pitched": 38.2, 
-        "lc_strikeouts": 39, 
+        "lc_batters_faced": 171, 
+        "lc_earned_runs": 22, 
+        "lc_era": 4.99, 
+        "lc_hits": 37, 
+        "lc_inning_pitched": 39.2, 
+        "lc_strikeouts": 41, 
         "player": "Blake Wood", 
         "team": "CIN"
     }, 
@@ -1490,12 +1490,12 @@
         "team": "CIN"
     }, 
     {
-        "lc_batters_faced": 104, 
+        "lc_batters_faced": 107, 
         "lc_earned_runs": 15, 
-        "lc_era": 5.96, 
+        "lc_era": 5.79, 
         "lc_hits": 23, 
-        "lc_inning_pitched": 22.2, 
-        "lc_strikeouts": 26, 
+        "lc_inning_pitched": 23.1, 
+        "lc_strikeouts": 27, 
         "player": "Ross Ohlendorf", 
         "team": "CIN"
     }, 
@@ -1680,12 +1680,12 @@
         "team": "COL"
     }, 
     {
-        "lc_batters_faced": 118, 
-        "lc_earned_runs": 19, 
-        "lc_era": 6.66, 
-        "lc_hits": 27, 
-        "lc_inning_pitched": 25.2, 
-        "lc_strikeouts": 31, 
+        "lc_batters_faced": 124, 
+        "lc_earned_runs": 21, 
+        "lc_era": 7.18, 
+        "lc_hits": 29, 
+        "lc_inning_pitched": 26.1, 
+        "lc_strikeouts": 32, 
         "player": "Carlos Estevez", 
         "team": "COL"
     }, 
@@ -1710,12 +1710,12 @@
         "team": "SDP"
     }, 
     {
-        "lc_batters_faced": 172, 
-        "lc_earned_runs": 12, 
-        "lc_era": 2.55, 
-        "lc_hits": 25, 
-        "lc_inning_pitched": 42.1, 
-        "lc_strikeouts": 61, 
+        "lc_batters_faced": 180, 
+        "lc_earned_runs": 14, 
+        "lc_era": 2.86, 
+        "lc_hits": 28, 
+        "lc_inning_pitched": 44.0, 
+        "lc_strikeouts": 63, 
         "player": "Brad Hand", 
         "team": "SDP"
     }, 
@@ -1760,12 +1760,12 @@
         "team": "ARI"
     }, 
     {
-        "lc_batters_faced": 155, 
+        "lc_batters_faced": 158, 
         "lc_earned_runs": 16, 
-        "lc_era": 4.04, 
+        "lc_era": 3.93, 
         "lc_hits": 28, 
-        "lc_inning_pitched": 35.2, 
-        "lc_strikeouts": 30, 
+        "lc_inning_pitched": 36.2, 
+        "lc_strikeouts": 32, 
         "player": "Daniel Hudson", 
         "team": "ARI"
     }, 
@@ -1790,12 +1790,12 @@
         "team": "ARI"
     }, 
     {
-        "lc_batters_faced": 70, 
+        "lc_batters_faced": 73, 
         "lc_earned_runs": 11, 
-        "lc_era": 7.07, 
+        "lc_era": 6.6, 
         "lc_hits": 20, 
-        "lc_inning_pitched": 14.0, 
-        "lc_strikeouts": 14, 
+        "lc_inning_pitched": 15.0, 
+        "lc_strikeouts": 15, 
         "player": "Randall Delgado", 
         "team": "ARI"
     }, 
@@ -1840,12 +1840,12 @@
         "team": "TEX"
     }, 
     {
-        "lc_batters_faced": 134, 
-        "lc_earned_runs": 10, 
-        "lc_era": 2.76, 
-        "lc_hits": 18, 
-        "lc_inning_pitched": 32.2, 
-        "lc_strikeouts": 38, 
+        "lc_batters_faced": 139, 
+        "lc_earned_runs": 11, 
+        "lc_era": 2.97, 
+        "lc_hits": 19, 
+        "lc_inning_pitched": 33.1, 
+        "lc_strikeouts": 39, 
         "player": "Jake Diekman", 
         "team": "TEX"
     }, 
@@ -1860,12 +1860,12 @@
         "team": "TEX"
     }, 
     {
-        "lc_batters_faced": 71, 
+        "lc_batters_faced": 75, 
         "lc_earned_runs": 15, 
-        "lc_era": 9.2, 
-        "lc_hits": 20, 
-        "lc_inning_pitched": 14.2, 
-        "lc_strikeouts": 16, 
+        "lc_era": 8.62, 
+        "lc_hits": 21, 
+        "lc_inning_pitched": 15.2, 
+        "lc_strikeouts": 17, 
         "player": "Keone Kela", 
         "team": "TEX"
     }

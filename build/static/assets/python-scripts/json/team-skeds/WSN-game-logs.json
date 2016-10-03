@@ -1930,5 +1930,17 @@
         "team": "WSN", 
         "walk_off": false, 
         "win_loss": "W"
+    }, 
+    {
+        "game-number": "162", 
+        "game_date": "Sunday, Oct 2", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "MIA", 
+        "runs": "10", 
+        "runs_against": "7", 
+        "team": "WSN", 
+        "walk_off": false, 
+        "win_loss": "W"
     }
 ]

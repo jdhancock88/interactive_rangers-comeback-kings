@@ -1930,5 +1930,17 @@
         "team": "SFG", 
         "walk_off": false, 
         "win_loss": "W"
+    }, 
+    {
+        "game-number": "162", 
+        "game_date": "Sunday, Oct 2", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "LAD", 
+        "runs": "7", 
+        "runs_against": "1", 
+        "team": "SFG", 
+        "walk_off": false, 
+        "win_loss": "W"
     }
 ]

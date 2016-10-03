@@ -1918,5 +1918,17 @@
         "team": "ATL", 
         "walk_off": false, 
         "win_loss": "W"
+    }, 
+    {
+        "game-number": "161", 
+        "game_date": "Sunday, Oct 2", 
+        "one_run_loss": false, 
+        "one_run_win": true, 
+        "opponent": "DET", 
+        "runs": "1", 
+        "runs_against": "0", 
+        "team": "ATL", 
+        "walk_off": false, 
+        "win_loss": "W"
     }
 ]

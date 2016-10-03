@@ -2091,5 +2091,18 @@
         "team": "TEX", 
         "walk_off": false, 
         "win_loss": "L"
+    }, 
+    {
+        "comeback": false, 
+        "game-number": "162", 
+        "game_date": "Sunday Oct 2", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "TBR", 
+        "runs": "4", 
+        "runs_against": "6", 
+        "team": "TEX", 
+        "walk_off": false, 
+        "win_loss": "L"
     }
 ]

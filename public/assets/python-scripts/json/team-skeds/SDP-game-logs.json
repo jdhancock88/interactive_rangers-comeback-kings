@@ -1930,5 +1930,17 @@
         "team": "SDP", 
         "walk_off": false, 
         "win_loss": "L"
+    }, 
+    {
+        "game-number": "162", 
+        "game_date": "Sunday, Oct 2", 
+        "one_run_loss": true, 
+        "one_run_win": false, 
+        "opponent": "ARI", 
+        "runs": "2", 
+        "runs_against": "3", 
+        "team": "SDP", 
+        "walk_off": false, 
+        "win_loss": "L"
     }
 ]
