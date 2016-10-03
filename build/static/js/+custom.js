@@ -525,7 +525,7 @@ $(document).ready(function() {
 		// our target divs for our charts are the same dimentions, so we can just
 		// use one of them to set width, height and halfpoints for both
 		var width = $(hittingTarget).width() - margin.left - margin.right;
-		var height = 400;
+		var height = width;
 
 		var halfpoint = (width - margin.left - margin.right) / 2;
 
@@ -549,7 +549,7 @@ $(document).ready(function() {
 
 		// AXIS FOR HITTERS
 
-		var xAxisHitting = d3.axisBottom(xScaleHitting).tickValues([.100,.200,.300,.400]).tickFormat(function(d) {return hittingFormat(d).slice(1);}).tickSize(-height);
+		var xAxisHitting = d3.axisBottom(xScaleHitting).tickValues([.100,.200,.300]).tickFormat(function(d) {return hittingFormat(d).slice(1);}).tickSize(-height);
 		var yAxisHitting = d3.axisLeft(yScaleHitting).ticks(6).tickSize(-width);
 
 
