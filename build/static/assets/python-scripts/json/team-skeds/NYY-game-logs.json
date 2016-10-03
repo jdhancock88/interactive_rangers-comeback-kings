@@ -1894,5 +1894,41 @@
         "team": "NYY", 
         "walk_off": true, 
         "win_loss": "W"
+    }, 
+    {
+        "game-number": "159", 
+        "game_date": "Thursday, Sep 29", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "BOS", 
+        "runs": "5", 
+        "runs_against": "1", 
+        "team": "NYY", 
+        "walk_off": false, 
+        "win_loss": "W"
+    }, 
+    {
+        "game-number": "160", 
+        "game_date": "Friday, Sep 30", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "BAL", 
+        "runs": "1", 
+        "runs_against": "8", 
+        "team": "NYY", 
+        "walk_off": false, 
+        "win_loss": "L"
+    }, 
+    {
+        "game-number": "161", 
+        "game_date": "Saturday, Oct 1", 
+        "one_run_loss": false, 
+        "one_run_win": false, 
+        "opponent": "BAL", 
+        "runs": "7", 
+        "runs_against": "3", 
+        "team": "NYY", 
+        "walk_off": false, 
+        "win_loss": "W"
     }
 ]

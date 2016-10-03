@@ -77,7 +77,7 @@ for team in teams:
 
 
 #declare files, w+create if don't exist
-j = open( "/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/json/pitchers-late-and-close.json","w+")
+j = open( "/Users/johnhancock/Desktop/interactives/working/rangers-one-run-wins/build/static/assets/python-scripts/json/pitchers-late-and-close.json","w+")
 
 #prettified
 json.dump(players, j, sort_keys=True, indent=4)

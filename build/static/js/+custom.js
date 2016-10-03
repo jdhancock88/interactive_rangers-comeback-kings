@@ -208,11 +208,11 @@ $(document).ready(function() {
 
 		// resets standings to actual finish
 		var standings = [
-			{"team": "rangers","abbr": "TEX","wins": 88,"losses": 62},
-			{"team": "mariners","abbr": "SEA","wins": 79,"losses": 70},
-			{"team": "astros","abbr": "HOU","wins": 78,"losses": 71},
-			{"team": "athletics","abbr": "OAK","wins": 66,"losses": 83},
-			{"team": "angels","abbr": "LAA","wins": 65,"losses": 84}
+			{"team": "rangers","abbr": "TEX","wins": 95,"losses": 67},
+			{"team": "mariners","abbr": "SEA","wins": 86,"losses": 76},
+			{"team": "astros","abbr": "HOU","wins": 84,"losses": 78},
+			{"team": "angels","abbr": "LAA","wins": 74,"losses": 88},
+			{"team": "athletics","abbr": "OAK","wins": 69,"losses": 93},
 		];
 
 		$("#sim-button").hide();
@@ -246,10 +246,12 @@ $(document).ready(function() {
 
 				// find the opponent
 				opponent = v.opponent;
-
+				console.log(opponent);
 				// checking if the opponent is in the division. if so, update their loss total
-				teamIndex = _.findIndex(standings, function(o) {return o.team == opponent;});
+				teamIndex = _.findIndex(standings, function(o) {return o.abbr == opponent;});
+				console.log(teamIndex);
 				if (teamIndex !== -1) {
+					console.log(standings[teamIndex]);
 					standings[teamIndex].losses--;
 				}
 			}
@@ -264,12 +266,14 @@ $(document).ready(function() {
 				opponent = v.opponent;
 
 				// check if the opponent is a divisional oppennt, and if so, update their win total
-				teamIndex = _.findIndex(standings, function(o) {return o.team == opponent;});
+				teamIndex = _.findIndex(standings, function(o) {return o.abbr == opponent;});
 				if (teamIndex !== -1) {
+					console.log("opp win", standings[teamIndex]);
 					standings[teamIndex].wins--;
 				}
 			}
 		});
+
 
 
 		// ****** RUNNING THE SIMULATION ******
@@ -297,11 +301,11 @@ $(document).ready(function() {
 			// opponent, and if so, update their loss total in the standings
 			if (n <= rate) {
 				winsLosses.push("win");
-				standings[0].wins++;
+				standings[0].wins +=1;
 				opponent = v.opponent;
 				teamIndex = _.findIndex(standings, function(o) {return o.abbr == opponent;});
 				if (teamIndex !== -1) {
-					standings[teamIndex].losses++;
+					standings[teamIndex].losses += 1;
 				}
 
 				// $("#simChart").append("<span class='game-log one-run-win'></span>");
@@ -311,11 +315,11 @@ $(document).ready(function() {
 			// if the opponent is a divisonal opponent, and if so, update their win total
 			} else {
 				winsLosses.push("loss");
-				standings[0].losses++;
+				standings[0].losses+= 1;
 				opponent = v.opponent;
 				teamIndex = _.findIndex(standings, function(o) {return o.abbr == opponent;});
 				if (teamIndex !== -1) {
-					standings[teamIndex].wins++;
+					standings[teamIndex].wins+=1;
 				}
 
 				// $("#simChart").append("<span class='game-log one-run-loss'></span>");
@@ -358,7 +362,7 @@ $(document).ready(function() {
 							// each table row is absolutely positioned within the table so we can
 							// animate the change in position after the simulation runs. We know each
 							// table row is 29px tall, so we just multiply that by the key of that particular
-							// team in the standings array.
+							// team in the `standings` array.
 							$("#" + v.team + "-row").css("top", "calc(29px * " + (k + 1) + ")");
 
 						});

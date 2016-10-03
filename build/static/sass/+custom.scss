@@ -82,14 +82,14 @@ body {
 }
 
 #one-run-win:before {
-    background-color: $chartRed;
+    background-color: $chartBlue;
     content: "W";
     font-size: .9rem;
     color: white;
     font-weight: bold;
 }
 #one-run-loss:before {
-    background-color: $chartBlue;
+    background-color: $chartRed;
     content: "L";
     font-size: .9rem;
     color: white;

@@ -64,7 +64,7 @@ for team in teams:
         team_sked.append(current_game)
 
         # open up the file we'll dump our data into
-        game_log_dict = open("/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/json/team-skeds/" + team + "-game-logs.json", "w")
+        game_log_dict = open("/Users/johnhancock/Desktop/interactives/working/rangers-one-run-wins/build/static/assets/python-scripts/json/team-skeds/" + team + "-game-logs.json", "w")
 
         # dump our data, with some prettified parameters
         json.dump(team_sked, game_log_dict, sort_keys=True, indent=4)

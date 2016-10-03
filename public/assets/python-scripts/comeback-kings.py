@@ -8,7 +8,7 @@ import json
 # game logs are supplied via csv by baseball-reference: http://www.baseball-reference.com/teams/TEX/2016-schedule-scores.shtml
 
 # opening up the csv and saving the contents into a DictReader
-game_log_csv = open('/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/csv/game-log.csv', 'rb')
+game_log_csv = open('/Users/johnhancock/Desktop/interactives/working/rangers-one-run-wins/build/static/assets/python-scripts/csv/game-log.csv', 'rb')
 game_logs = csv.DictReader(game_log_csv)
 
 # placeholder list that will hold our formatted data
@@ -76,7 +76,7 @@ for game in game_logs:
 
 
 # open up the file we'll dump our data into
-game_log_dict = open("/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/json/rangers-game-logs.json", "w")
+game_log_dict = open("/Users/johnhancock/Desktop/interactives/working/rangers-one-run-wins/build/static/assets/python-scripts/json/rangers-game-logs.json", "w")
 
 # dump our data, with some prettified parameters
 json.dump(rang_game_log, game_log_dict, sort_keys=True, indent=4)
@@ -93,7 +93,7 @@ game_log_dict.close()
 
 # opening up the player_batting csv and saving it to a dict reader. Note: this
 # data was gathered by hand
-player_batting_csv = open("/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/csv/ninth-comebacks.csv", "rb")
+player_batting_csv = open("/Users/johnhancock/Desktop/interactives/working/rangers-one-run-wins/build/static/assets/python-scripts/csv/ninth-comebacks.csv", "rb")
 player_batting = csv.DictReader(player_batting_csv)
 
 # placeholder lists for our final batting data and player names. We'll use the player
@@ -146,7 +146,7 @@ for player in player_batting:
 
 
 # open up the file we'll dump our data into
-player_batting_dict = open("/Users/johnhancock/Desktop/interactives/working/rangers-comeback-kings/build/static/assets/python-scripts/json/player-batting.json", "w")
+player_batting_dict = open("/Users/johnhancock/Desktop/interactives/working/rangers-one-run-wins/build/static/assets/python-scripts/json/player-batting.json", "w")
 
 # dump our data
 json.dump(batting_data, player_batting_dict, sort_keys=True, indent=4)

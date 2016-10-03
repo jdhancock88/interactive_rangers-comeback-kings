@@ -2775,14 +2775,14 @@ body {
     margin-right: 3px; }
 
 #one-run-win:before {
-  background-color: #e34e36;
+  background-color: #329ce8;
   content: "W";
   font-size: .9rem;
   color: white;
   font-weight: bold; }
 
 #one-run-loss:before {
-  background-color: #329ce8;
+  background-color: #e34e36;
   content: "L";
   font-size: .9rem;
   color: white;
