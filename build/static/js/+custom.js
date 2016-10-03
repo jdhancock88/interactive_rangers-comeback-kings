@@ -906,7 +906,7 @@ $(document).ready(function() {
 					.attr("class", function(d) {
 						return "dot";
 					})
-					.attr("r", 5)
+					.attr("r", 6)
 					.attr("fill", "red");
 
 				// remove any circles for hitters that are no longer needed
@@ -953,7 +953,7 @@ $(document).ready(function() {
 							return "dot";
 						}
 					})
-					.attr("r", 5)
+					.attr("r", 6)
 					.attr("fill", "red");
 
 
@@ -1097,7 +1097,7 @@ $(document).ready(function() {
 		// increment our queue variable
 		lcQueue++;
 
-		// draw the scatter plots if both json calls have completed 
+		// draw the scatter plots if both json calls have completed
 		if (lcQueue === 2) {
 			drawLC(leagueHitters, rangersHitters, lateHitters, hittingAverages, "#late-and-close-hitting", leaguePitchers, rangersPitchers, latePitchers, pitchingAverages, "#late-and-close-pitching");
 		}
