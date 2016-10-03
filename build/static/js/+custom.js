@@ -16,9 +16,15 @@ $(document).ready(function() {
 
 	var ninthData;
 
+
+	// clicking anywher in the document outside the dropdown will close the dropdown
+	// for the game logs and late and close charts
+
 	$(document).click(function() {
 		$(".custom-list").addClass("no-show");
 	});
+
+
 
 	////////////////////////////////////////////////////////////////////////////
 	///// INITIAL DATA DRAW AND FORMATTING /////////////////////////////////////
@@ -26,11 +32,13 @@ $(document).ready(function() {
 
 	$.getJSON("assets/python-scripts/json/rangers-game-logs.json", function(data) {
 
+		// setting up a wins/loss object for Texas
 		var texWL = {
 			"wins": 0,
 			"losses": 0
 		};
 
+		// populating that win loss object
 		$.each(data, function(k, v) {
 			if (v.one_run_win === true) {
 				texWL.wins ++;
@@ -39,22 +47,27 @@ $(document).ready(function() {
 			}
 		});
 
+		// handing toff the data to simData
 		simData = data;
 
+		// hand off the data to the function that draws the game logs and the
+		// logs of just the wins and losses
 		drawGameLogs(data, "#tex-game-log-chart");
 		drawWinsLosses(texWL, "#tex-wins-losses");
 
 
 	});
 
+
 	$.getJSON("assets/python-scripts/json/team-skeds/LAA-game-logs.json", function(data) {
 
+		// setting up a wins/loss object for the other teams
 		var oppWL = {
 			"wins": 0,
 			"losses": 0
 		};
 
-
+		// populating that win loss object
 		$.each(data, function(k, v) {
 			if (v.one_run_win === true) {
 				oppWL.wins ++;
@@ -63,17 +76,22 @@ $(document).ready(function() {
 			}
 		});
 
+		// populating the record in wins and losses in one run games of the opponent chosen
 		$("#opp-total").text(oppWL.wins + "-" + oppWL.losses);
 
-
+		// hand off the data to the function that draws the game logs and the
+		// logs of just the wins and losses
 		drawGameLogs(data, "#opp-game-log-chart");
 		drawWinsLosses(oppWL, "#opp-wins-losses");
 
 	});
 
+
 	$.getJSON("assets/python-scripts/json/ninthInning.json", function(data) {
+
 		ninthData = data;
 
+		// drawing the logs of ninth-inning comeback wins for texas and the opponent chosen
 		drawNinthWins("LAA", "#opp-ninth-wins");
 		drawNinthWins("TEX", "#tex-ninth-wins");
 	});
@@ -85,11 +103,15 @@ $(document).ready(function() {
 
 	function drawGameLogs(data, target) {
 
+		// empty out the target html element where the chart will be drawn
 		d3.select(target).html("");
 
+		// bind the data to to the target to the game-log class in the target using d3
 		var gameLogs = d3.select(target).selectAll(".game-log")
 			.data(data);
 
+			// draw out a span with the class game-log for each game in the team's
+			// game log, adding a one-run-win or one-run-loss class if applicable
 			gameLogs.enter().append("span")
 				.attr("class", function(d) {
 					if (d.one_run_win === true) {
@@ -106,6 +128,7 @@ $(document).ready(function() {
 					}
 				});
 
+		// call the tooltip function
 		createToolTip(data, target);
 	}
 
@@ -115,13 +138,20 @@ $(document).ready(function() {
 
 	function createToolTip(data, target) {
 
+		// add an event listener that listens for mouse enter to each game-log span
 		$(target + " .game-log").on("mouseenter", function() {
+
+			// grab the index number of that span
 			var index = $(this).index();
 
+			// find it's top and left offsets to the window, and the width of the window
 			var top = $(this).offset().top;
 			var left = $(this).offset().left;
 			var winWidth = $(window).width();
-			console.log(data);
+
+			// use those offsets to set the position of the tooltip. based on if the
+			// left position is greater than half the window width, we'll position the
+			// tooltip to the left or the right of the target span
 			$("#tool-tip").css("top", $(this).offset().top - 10);
 
 			if (left > winWidth / 2) {
@@ -135,12 +165,15 @@ $(document).ready(function() {
 				});
 			}
 
+			// populate the tooltip with the appropriate game data
 			$("#game-date").text(data[index].game_date);
 			$("#game-score").text(data[index].team + " " + data[index].runs + ", " + data[index].opponent + " " + data[index].runs_against);
 
+			// display the tooltip
 			$("#tool-tip").removeClass("no-show");
 		});
 
+		// then the game-log span is moused out, hide the tooltip again
 		$(target + " .game-log").on("mouseout", function() {
 			$("#tool-tip").addClass("no-show");
 		});
@@ -151,6 +184,9 @@ $(document).ready(function() {
 	////////////////////////////////////////////////////////////////////////////
 	///// DRAWING THE ONE-RUNS WINS AND LOSSES /////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////
+
+	// this is pretty simple. we take the win/loss object we created in the above
+	// json calls, and simply draw a win or loss span for each one
 
 	function drawWinsLosses(data, target) {
 
@@ -166,8 +202,10 @@ $(document).ready(function() {
 
 	}
 
+
+
 	////////////////////////////////////////////////////////////////////////////
-	///// DRAWING THE ONE-RUNS WINS AND LOSSES /////////////////////////////////
+	///// DRAWING THE NINTH INNING COMEBACKS /////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////
 
 	function drawNinthWins(team, target) {
@@ -215,7 +253,9 @@ $(document).ready(function() {
 			{"team": "athletics","abbr": "OAK","wins": 69,"losses": 93},
 		];
 
+		// hides the sim button while the simulation is running
 		$("#sim-button").hide();
+
 		// hands off the standigs, gamelogs, and threshold to the simulation
 		runSim(standings, simData, sliderValue);
 	});
@@ -225,6 +265,7 @@ $(document).ready(function() {
 
 	function runSim(standings, simData, rate) {
 
+		// empty the sim results div
 		$("#sim-chart .chart-body").html("");
 
 		// clear our oneRunners, opponent and teamIndex variables
@@ -301,28 +342,26 @@ $(document).ready(function() {
 			// opponent, and if so, update their loss total in the standings
 			if (n <= rate) {
 				winsLosses.push("win");
-				standings[0].wins +=1;
+				standings[0].wins ++;
 				opponent = v.opponent;
 				teamIndex = _.findIndex(standings, function(o) {return o.abbr == opponent;});
 				if (teamIndex !== -1) {
-					standings[teamIndex].losses += 1;
+					standings[teamIndex].losses ++;
 				}
 
-				// $("#simChart").append("<span class='game-log one-run-win'></span>");
 
 			// else, if the random number is greater than the win rate, it counts
 			// as a loss, so we update the rangers loss total in the standings, check
 			// if the opponent is a divisonal opponent, and if so, update their win total
 			} else {
 				winsLosses.push("loss");
-				standings[0].losses+= 1;
+				standings[0].losses ++;
 				opponent = v.opponent;
 				teamIndex = _.findIndex(standings, function(o) {return o.abbr == opponent;});
 				if (teamIndex !== -1) {
-					standings[teamIndex].wins+=1;
+					standings[teamIndex].wins ++;
 				}
 
-				// $("#simChart").append("<span class='game-log one-run-loss'></span>");
 			}
 
 		});
@@ -331,6 +370,8 @@ $(document).ready(function() {
 
 			setTimeout(function(x) {
 				return function() {
+
+					// append the win and losses spans to the simulation
 					if (winsLosses[x] === "win") {
 						$("#sim-chart .chart-body").append("<span class='game-log one-run-win'>W</span>");
 					} else {
@@ -367,6 +408,7 @@ $(document).ready(function() {
 
 						});
 
+						// update the text of the simulation button and redisplay it after the sim finishes
 						$("#sim-button").text("Re-run simulation").show();
 					}
 				};
@@ -385,15 +427,23 @@ $(document).ready(function() {
 
 	});
 
+
 	$("#opponents-selector").siblings("ul").children("li").on("click", function(event) {
 		event.stopPropagation();
+
+		// clicking on a team name in the dropdown selects the data-team attribute and the text
 		selectedTeam = $(this).attr("data-team");
 		mascot = $(this).text();
 
+		// oncde a team is clicked on, the list collapses again
 		$(this).parents("ul").addClass("no-show");
 
+		// update the text of the opponent with the mascot name
 		$("#opponents-selector .team").text(mascot + ": ");
 
+		// get the game log of the team selected, create their win/loss object,
+		// populate that object with data based on their bame log, then hand all that
+		// off to the drawing functions we set up above
 		$.getJSON("assets/python-scripts/json/team-skeds/"+selectedTeam+"-game-logs.json", function(data) {
 
 			var oppWL = {
@@ -426,6 +476,8 @@ $(document).ready(function() {
 	///// SETTING UP THE SLIDER ELEMENT ////////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////
 
+	// we use the No Ui Slider plugin to build our slider
+	// see the documentation here: https://refreshless.com/nouislider/
 
 	var slider = document.getElementById("slider");
 
@@ -440,6 +492,8 @@ $(document).ready(function() {
 		})
 	});
 
+	// when the slider changes, grab the new value, and change the position and text
+	// of the label based on that value
 	slider.noUiSlider.on("update", function(values, handle) {
 		sliderValue = values[handle];
 		$("#slider-value").text(sliderValue + "%").css("left", sliderValue + "%");
@@ -448,17 +502,19 @@ $(document).ready(function() {
 
 
 
-
 	////////////////////////////////////////////////////////////////////////////
 	///// DRAWING THE LATE AND CLOSE SCATTER PLOTS /////////////////////////////
 	////////////////////////////////////////////////////////////////////////////
 
+	// formatters for our axis
 	var hittingFormat = d3.format(".03f");
 	var pitchingFormat = d3.format(".02f");
 
-
+	// the actual draw functions takes in league and ranger data for hitting and pitching, along with averages for our data
+	// sets to draw the data lines. Also, we supply the target divs where the charts will be drawn
 	function drawLC(leagueHittingData, rangersHittingData, allHittingData, hittingAverages, hittingTarget, leaguePitchingData, rangersPitchingData, allPitchingData, pitchingAverages, pitchingTarget) {
 
+		// margin setup
 		var margin = {
 		  top: 10,
 		  right: 20,
@@ -554,8 +610,6 @@ $(document).ready(function() {
 
 		// DRAWING THE AVERAGE LINES FOR THE HITTING CHART
 
-
-
 		hittingSVG.append("line")
 			.attr("x1", xScaleHitting(hittingAverages[0]))
 			.attr("y1", 0)
@@ -574,7 +628,7 @@ $(document).ready(function() {
 			.attr("class", "avgRunsProd")
 			.attr("stroke", "#424242");
 
-
+		// DRAWING THE DOTS AND LABELS FOR THE HITTING CHART
 
 		var leagueHitters = hittingSVG.selectAll(".dot")
 			.data(leagueHittingData)
@@ -703,6 +757,9 @@ $(document).ready(function() {
 			.attr("stroke-width", 2)
 			.attr("class", "avgERA")
 			.attr("stroke", "#424242");
+
+
+		// DRAWING THE DOTS AND LABELS FOR THE PITCHING CHART
 
 		var leaguePitchers = pitchingSVG.selectAll(".dot")
 			.data(leaguePitchingData)
@@ -909,6 +966,8 @@ $(document).ready(function() {
 
 	}
 
+
+
 	$("#late-selector").click(function(event) {
 		event.stopPropagation();
 		$("#late-selector").siblings("ul").removeClass("no-show");
@@ -918,6 +977,9 @@ $(document).ready(function() {
 		$("#late-selector ul").addClass("no-show");
 	});
 
+
+	// setting up our placeholder arrays for the data that will be gathered by the
+	// json calls below
 
 	var lateHitters = [];
 	var latePitchers = [];
@@ -931,6 +993,10 @@ $(document).ready(function() {
 	var hittingAverages = [];
 	var pitchingAverages = [];
 
+	// this is our late and close queue. We don't want to run our drawing function until
+	// the data for both hitters and pitchers has been returned. We start at 0.
+	// Each json call below will increment this value by one, and once it equals 2,
+	// the drawing function will be called
 
 	var lcQueue = 0;
 
@@ -938,11 +1004,13 @@ $(document).ready(function() {
 
 		lateHitters = data;
 
+		// setting up the variables that will be used to figure out our group averages
 		var totalHits = 0;
 		var totalABs = 0;
 		var totalRunsProd = 0;
-		// var totalPAs = 0;
 
+		// run through the players in the data, and push them to either league or rangers
+		// data arrays based on what team they play for
 		$.each(data, function(k,v) {
 			if (v.team !== "TEX") {
 				leagueHitters.push(v);
@@ -950,25 +1018,25 @@ $(document).ready(function() {
 				rangersHitters.push(v);
 			}
 
+			// increment the average variables accordingly
 			totalHits += v.lc_hits;
 			totalABs += v.lc_ab;
 			totalRunsProd += v.lc_runs_produced;
-			// totalPAs += v.lc_plate_app;
 
 		});
 
-		console.log(totalRunsProd, data.length);
-		// var avgPAs = totalPAs / data.length;
+		// figure our averages
 		var avgRunsProd = totalRunsProd / data.length;
 		var avgAvg = totalHits / totalABs;
 
-		// hittingAverages[0] = avgPAs;
+		// populate our averages array with the average values
 		hittingAverages[1] = avgRunsProd;
 		hittingAverages[0] = avgAvg;
 
-		console.log(hittingAverages);
+		// increment our queue variable
 		lcQueue++;
 
+		// draw the scatter plots if both json calls have completed
 		if (lcQueue === 2) {
 			drawLC(leagueHitters, rangersHitters, lateHitters, hittingAverages, "#late-and-close-hitting", leaguePitchers, rangersPitchers, latePitchers, pitchingAverages, "#late-and-close-pitching");
 		}
@@ -978,10 +1046,13 @@ $(document).ready(function() {
 	$.getJSON("assets/python-scripts/json/pitchers-late-and-close.json", function(data) {
 		latePitchers = data;
 
+		// setting up the variables that will be used to figure out our group averages
 		var totalERs = 0;
 		var wholeInns = 0;
 		var partialInns = 0;
 
+		// run through the players in the data, and push them to either league or rangers
+		// data arrays based on what team they play for
 		$.each(data, function(k,v) {
 			if (v.team !== "TEX") {
 				leaguePitchers.push(v);
@@ -989,30 +1060,44 @@ $(document).ready(function() {
 				rangersPitchers.push(v);
 			}
 
+			// because innings pitched uses a weird .1, .2 system to record outs, we have to do some Math
+			// so, we round the innings pitched down to get the total number of whole innings
 			var wholeIPs = Math.floor(v.lc_inning_pitched);
+
+			// then we figure out how many outs those partial innings add up to.
 			var partialIPs = Math.floor((v.lc_inning_pitched - wholeIPs) * 10);
 
+			// sum our total earned runs
 			totalERs += v.lc_earned_runs;
 
+			// sum our total whole innings and partial innings
 			wholeInns += wholeIPs;
 			partialInns += partialIPs;
 
 		});
 
-
+		// calculate how many outs all the pitchers pitched combined by multiplying
+		// the whole innings by three then adding the partial innings (outs) in
 		var totalOuts = (wholeInns * 3) + partialInns;
+
+		// then convert that back to innings by dividing by three
 		var totalIPs = totalOuts / 3;
 
+		// calculate our group earned run average
 		var avgERA = (9 * (totalERs / totalIPs));
 		avgERA = Math.round(avgERA * 100) / 100;
 
+		// calculate the average innings pitched
 		var avgIPs = totalIPs / data.length;
 
+		// populate our averages array with the average values
 		pitchingAverages[0] = avgIPs;
 		pitchingAverages[1] = avgERA;
 
+		// increment our queue variable
 		lcQueue++;
 
+		// draw the scatter plots if both json calls have completed 
 		if (lcQueue === 2) {
 			drawLC(leagueHitters, rangersHitters, lateHitters, hittingAverages, "#late-and-close-hitting", leaguePitchers, rangersPitchers, latePitchers, pitchingAverages, "#late-and-close-pitching");
 		}
